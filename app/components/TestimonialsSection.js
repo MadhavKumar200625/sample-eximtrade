@@ -9,7 +9,7 @@ const testimonials = [
   {
     title: 'Outstanding',
     content:
-      "We've been using Exim Trade Data for updated Global import-export data, and the experience has been outstanding",
+      "We have been using Exim Trade Data for updated Global import-export data, and the experience has been outstanding",
     highlight: 'outstanding',
   },
   {
@@ -27,7 +27,7 @@ const testimonials = [
   {
     title: 'Highly Accurate',
     content:
-      "What sets Exim Trade Data apart is the accuracy and comprehensiveness of their data. We've found valuable leads and opportunities thanks to their insights.",
+      "What sets Exim Trade Data apart is the accuracy and comprehensiveness of their data. We haveve found valuable leads and opportunities thanks to their insights.",
     highlight: 'accuracy',
   },
   {
