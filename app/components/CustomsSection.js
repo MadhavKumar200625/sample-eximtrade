@@ -27,7 +27,7 @@ const CustomsSection = () => {
             Actionable Insights
           </h3>
           <p className="text-gray-600 text-center">
-Discover potential sales opportunities in the US market with our impressive US import export data reports. Get a wide overview of the USA market through Exim Global Trade Intelligence System. Find accurate analytics and forecasts of the USA's top product imports, exports, importer, and exporter companies through US trade intelligence reports based on US customs data. Plan a successful marketing strategy by utilizing US trade data 2023-24 and double your business revenue.          </p>
+Discover potential sales opportunities in the US market with our impressive US import export data reports. Get a wide overview of the USA market through Exim Global Trade Intelligence System. Find accurate analytics and forecasts of the USA&apos;s top product imports, exports, importer, and exporter companies through US trade intelligence reports based on US customs data. Plan a successful marketing strategy by utilizing US trade data 2023-24 and double your business revenue.          </p>
         </div>
 
         {/* Card 2 */}
