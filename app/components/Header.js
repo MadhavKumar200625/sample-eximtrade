@@ -84,7 +84,7 @@ const Header = () => {
     }, 200); // short delay allows smooth movement
   };
   return (
-    <header className="w-full bg-white shadow-xl fixed z-50 font-sans">
+    <header className="w-full bg-white shadow-xl fixed z-50 font-sans ">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 <img src="/logo.png" alt="Logo" className="h-10 w-auto flex-none" />
         {/* Desktop Nav */}

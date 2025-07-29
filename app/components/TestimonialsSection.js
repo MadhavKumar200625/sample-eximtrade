@@ -7,94 +7,95 @@ import 'swiper/css/pagination';
 
 const testimonials = [
   {
-    title: 'Outstanding',
+    name: 'Maya Sharma',
     content:
-      "We have been using Exim Trade Data for updated Global import-export data, and the experience has been outstanding",
-    highlight: 'outstanding',
+"We just started our new export business, and the guidance on the import-export trade reports of the Exim Trade Data is very helpful to get the buyers' insights.Their salespeople are also good in terms of knowledge, guidance, and services.",
+    rating: 4,
   },
   {
-    title: 'Reliable Partner',
+    name: 'Divya Varshney',
     content:
-      "Exim Trade Data has been a reliable partner in our international trade journey. The quality of insights they provide is unmatched. Their interface is easy to use, and the support team is just amazing.",
-    highlight: 'reliable partner',
+      "We've been using Exim Trade Data for updated Global import-export data, and the experience has been outstanding. Their data is accurate and up-to-date, which has significantly improved our decision-making. The team is professional, responsive, and always ready to assist with any queries. I highly recommend Exim Trade Data for reliable import export data and excellent customer service.",
+    rating: 5,
   },
   {
-    title: 'Exceptional Service',
+    name: 'Pepper Game',
     content:
-      "The support team at Exim Trade Data always goes the extra mile to resolve our concerns. They deliver beyond expectations. Highly recommended for businesses looking to grow with data.",
-    highlight: 'exceptional',
+      "Love the service. They are very helpful and nice. The owner is also very down to earth. Pushpmala is really helpful, patient and supportive too. She solved all my doubts through a Google meet. Would definitely recommend them.",
+    rating: 5,
   },
   {
-    title: 'Highly Accurate',
+    name: 'Harshit Saxena',
     content:
-      "What sets Exim Trade Data apart is the accuracy and comprehensiveness of their data. We haveve found valuable leads and opportunities thanks to their insights.",
-    highlight: 'accuracy',
+      "Global Import Export Data services are really good and offer the best pricing in the market. We are happy with their services. Exim Trade Data offers 100% genuine and reliable data, which has helped my business grow.",
+    rating: 5,
   },
   {
-    title: 'Professional Support',
+    name: 'Anjali Mishra',
     content:
-      "The professionalism of the Exim Trade Data team is commendable. Every query is answered promptly, and the support is always available when we need it.",
-    highlight: 'professional',
+      "I recently approached Exim Trade Data for global import export data related to electronic products for my business. They were very professional in their approach and swiftly provided the required data in a short span of time. I had a good experience getting service from them.I will surely approach them in the future as well.",
+    rating: 5,
   },
   {
-    title: 'Game Changer',
+    name: 'Bhavya Sri Nadella',
     content:
-      "Using Exim Trade Data has been a game changer for our business. Their timely data and insights have helped us identify trends and stay ahead of the competition.",
-    highlight: 'game changer',
+      "We had a great experience working with Goutam for the EXIM website data. He was incredibly helpful in guiding us through the portal, patiently explaining how to access and interpret the data effectively. His support made it easy for us to get started, and the information provided through the 6-month subscription has been clear, well-structured, and valuable for our analysis. A big thanks to Goutam for his proactive assistance and smooth onboarding experience!",
+    rating: 5,
   },
 ];
 
 const TestimonialsSection = () => {
   return (
-    <section className="bg-gradient-to-br from-sky-50 via-white to-gray-100 py-12 px-6">
-      <div className="max-w-5xl mx-auto text-center mb-12">
+    <section className="bg-gradient-to-br from-sky-50 via-white to-gray-100 py-12 px-4">
+      <div className="max-w-5xl mx-auto text-center mb-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
           ✨ Testimonials
         </h2>
-        <h3 className="text-2xl text-sky-700 mb-4">Our Client’s Testimonials</h3>
+        <h3 className="text-2xl text-sky-700 mb-4">Our Clients Speak</h3>
         <p className="text-gray-600 text-lg">
-          We are known to deliver quality services to our clients. See what they are saying?
+          We&apos;re proud of the work we do. See what our clients are saying about us.
         </p>
       </div>
 
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
-        autoplay={{ delay: 3000 }}
-        spaceBetween={30}
-        slidesPerView={3}
+        autoplay={{ delay: 4000 }}
+        spaceBetween={24}
         loop
-        className="max-w-6xl mx-auto"
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+        className="max-w-6xl mx-auto px-4"
       >
         {testimonials.map((t, i) => (
           <SwiperSlide key={i}>
-            <div className="relative p-8 md:p-10 min-h-[300px] mb-20  mx-2 rounded-3xl bg-white shadow-xl border border-gray-100 backdrop-blur-md">
-              <h6 className="text-lg font-bold text-sky-600 capitalize mb-2">
-                {t.title}
-              </h6>
-              <p className="text-gray-700 text-base leading-relaxed">
-                {t.content.split(t.highlight).map((part, idx, arr) => (
-                  <span key={idx}>
-                    {part}
-                    {idx !== arr.length - 1 && (
-                      <b className="text-sky-600">{t.highlight}</b>
-                    )}
-                  </span>
-                ))}
+            <div className="relative p-6 md:p-8 mb-16 bg-white rounded-3xl shadow-xl border border-gray-100 min-h-[320px] flex flex-col justify-between">
+              {/* Name at top */}
+              <div className="text-lg font-bold text-sky-800 mb-2">{t.name}</div>
+
+<p className="text-gray-700 text-base leading-relaxed mb-6 line-clamp-4 overflow-hidden text-ellipsis whitespace-pre-line">
+                {t.content}
               </p>
 
-              {/* Triangle Arrow */}
+              <div className="flex items-center gap-1 text-yellow-500 text-lg">
+                {Array.from({ length: 5 }).map((_, starIdx) => (
+                  <span key={starIdx}>
+                    {starIdx < t.rating ? '★' : '☆'}
+                  </span>
+                ))}
+              </div>
+
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="absolute -bottom-3 left-8 rotate-90 fill-white text-white"
+                fill="white"
+                className="absolute -bottom-3 left-6 rotate-90"
               >
                 <path d="M13.73 4a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z" />
               </svg>

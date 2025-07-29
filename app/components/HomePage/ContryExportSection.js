@@ -22,7 +22,7 @@ export default function CountryStatsSection() {
       name: "Russia",
       flag: "https://flagcdn.com/ru.svg",
       content:
-        "Gain insights from Russia's customs data. Discover top imports/exports, Russian buyers & suppliers, and build a strong presence with 2023-24 market intelligence.",
+        "Get Verified Mexico import export data based on Global trade data reported by other countries. Monitor Mexico&apos;s total import export shipments, top buyers, top sellers, Importers list, and exporters list from our Mexico Import Export Database.",
     },
     {
       name: "Panama",

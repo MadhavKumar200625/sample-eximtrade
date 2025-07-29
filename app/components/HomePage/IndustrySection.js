@@ -1,38 +1,30 @@
 'use client'
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const industries = [
   {
-    name: "Agribusiness",
-    desc: "Track crop trade, fertilizers, and more to optimize global agribusiness strategies.",
-    img: "https://eximtrade-new.vercel.app/images/agribusiness_md_banner.webp",
-  },
-  {
-    name: "Automotive",
-    desc: "Explore trends in parts, vehicles, and supply chains shaping the auto industry.",
-    img: "https://eximtrade-new.vercel.app/images/automative_md_banner.webp",
-  },
-  {
     name: "Importers",
     desc: "Leading Trade Intelligence Platform for Global Importers",
-    img: "https://eximtrade-new.vercel.app/images/importer_md_banner1.webp",
+    img: "https://eximtradedata.com/images/importer_md_banner1.webp",
   },
   {
-    name: "Supply Chain & Logistics",
-    desc: "The Leading Trade Intelligence Platform for Supply Chain & Logistics Companies",
-    img: "https://eximtrade-new.vercel.app/images/logistic_md_banner.webp",
+    name: "Exporters",
+    desc: "Enhance Your Sales Potential with Our Global Exporters Database",
+    img: "https://eximtradedata.com/images/exporters_md_banner1.webp",
   },
   {
-    name: "Importers",
-    desc: "Leading Trade Intelligence Platform for Global Importers",
-    img: "https://eximtrade-new.vercel.app/images/importer_md_banner1.webp",
+    name: "Corporation",
+    desc: "Best Market Intelligence Platform for Corporate Companies",
+    img: "https://eximtradedata.com/images/corporation_md_banner1.webp",
   },
   {
-    name: "Supply Chain & Logistics",
-    desc: "The Leading Trade Intelligence Platform for Supply Chain & Logistics Companies",
-    img: "https://eximtrade-new.vercel.app/images/logistic_md_banner.webp",
+    name: "Automative",
+    desc: "Identify the Current Market Trends & Demands in the Automotive Market",
+    img: "https://eximtradedata.com/images/automative_md_banner1.webp",
   },
+  
   
   
 ];
@@ -104,11 +96,14 @@ export default function IndustrySlider() {
     <div className="absolute inset-0 bg-black/40 z-10 transition-all duration-300 group-hover:bg-black/60" />
 
     {/* Read More Button - Top Right */}
+    <Link href={industry.name.toLowerCase()}>
     <button
   className="absolute top-4 right-4 z-30 text-sm text-white bg-gradient-to-l from-indigo-500 via-purple-500 to-pink-500 px-4 py-1.5 rounded-full opacity-0 group-hover:opacity-100 translate-x-6 group-hover:translate-x-0 transition-all duration-100 shadow-md"
 >
   Read More →
 </button>
+    </Link>
+
 
     {/* Content */}
     <div className="relative z-20 h-full flex flex-col justify-end p-5 text-white">

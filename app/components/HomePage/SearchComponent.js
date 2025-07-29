@@ -1,56 +1,16 @@
 'use client'
 import { useState } from "react";
 import { ChevronDown, Search } from "lucide-react";
+import { countries } from "@/app/data";
 
 export default function SearchComponent() {
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState(null);
 
-  const countries = {
-  "Bangladesh": "🇧🇩",
-  "India": "🇮🇳",
-  "Brazil": "🇧🇷",
-  "Indonesia": "🇮🇩",
-  "Mexico": "🇲🇽",
-  "Pakistan": "🇵🇰",
-  "Philippines": "🇵🇭",
-  "Russia": "🇷🇺",
-  "Sri Lanka": "🇱🇰",
-  "Tanzania": "🇹🇿",
-  "Turkey": "🇹🇷",
-  "Vietnam": "🇻🇳",
-  "Argentina": "🇦🇷",
-  "Bolivia": "🇧🇴",
-  "Botswana": "🇧🇼",
-  "Chile": "🇨🇱",
-  "Nigeria": "🇳🇬",
-  "Colombia": "🇨🇴",
-  "CostaRica": "🇨🇷",
-  "DR Congo": "🇨🇩",
-  "Kazakhstan": "🇰🇿",
-  "Kenya": "🇰🇪",
-  "Moldova": "🇲🇩",
-  "Uganda": "🇺🇬",
-  "Ukraine": "🇺🇦",
-  "Uzbekistan": "🇺🇿",
-  "Australia": "🇦🇺",
-  "Spain": "🇪🇸",
-  "United Kingdom": "🇬🇧",
-  "Netherland": "🇳🇱",
-  "Germany": "🇩🇪",
-  "United Arab Emirates": "🇦🇪",
-  "Saudi Arabia": "🇸🇦",
-  "Oman": "🇴🇲",
-  "Singapore": "🇸🇬",
-  "Canada": "🇨🇦",
-  "China": "🇨🇳",
-  "USA": "🇺🇸"
-}
 
   return (
     <section className="w-full px-6 py-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-fadeIn">
       <div className="max-w-7xl mx-auto bg-white shadow-2xl rounded-3xl p-8 transition-all duration-500">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-6 animate-fadeUp">Product Search</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 animate-fadeUp delay-100">
           <input

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const CustomsSection = () => {
   return (
@@ -8,10 +8,10 @@ const CustomsSection = () => {
     >
       <div className="max-w-7xl mx-auto text-center mb-20 animate-fadeUp">
         <h2 className="text-4xl md:text-5xl font-bold text-indigo-700 mb-4">
-          ✨ Global Import Export Database
+          ✨ Empower Your Market Research
         </h2>
         <p className="text-gray-600 max-w-2xl mx-auto">
-          Discover country-wise statistics from our exclusive global customs database. Find leads from buyers, suppliers, importers, and exporters globally.
+          With Global Import Export Data
         </p>
       </div>
 
@@ -27,7 +27,11 @@ const CustomsSection = () => {
             Actionable Insights
           </h3>
           <p className="text-gray-600 text-center">
-Discover potential sales opportunities in the US market with our impressive US import export data reports. Get a wide overview of the USA market through Exim Global Trade Intelligence System. Find accurate analytics and forecasts of the USA&apos;s top product imports, exports, importer, and exporter companies through US trade intelligence reports based on US customs data. Plan a successful marketing strategy by utilizing US trade data 2023-24 and double your business revenue.          </p>
+            We combine the years of accumulated expertise of our data scientists
+            and business intelligence tools to discover meaningful insights from
+            the global customs data. All categories to make data-driven current
+            market opportunities.
+          </p>
         </div>
 
         {/* Card 2 */}
@@ -41,7 +45,11 @@ Discover potential sales opportunities in the US market with our impressive US i
             Know Your Market
           </h3>
           <p className="text-gray-600 text-center">
-For any business, the main challenge is to find buyers for their products. Our well researched global shipment data helps you to evaluate and develop your marketing strategy to grab new buyers in the foreign market.          </p>
+            For any business, the main challenge is to find buyers for their
+            products. Our well researched global shipment data helps you to
+            evaluate and develop your marketing strategy to grab new buyers in
+            the foreign market.
+          </p>
         </div>
 
         {/* Card 3 */}
@@ -55,8 +63,10 @@ For any business, the main challenge is to find buyers for their products. Our w
             Streamline Your Business
           </h3>
           <p className="text-gray-600 text-center">
-Streamline all your trading operations and pave the way for top-line growth for your business. With a precise overview of every business activity, discover the inefficient process and optimize your business operation through our global import export trade data.
-
+            Streamline all your trading operations and pave the way for top-line
+            growth for your business. With a precise overview of every business
+            activity, discover the inefficient process and optimize your
+            business operation through our global import export trade data.
           </p>
         </div>
       </div>
