@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Link from "next/link";
 import {
   Tractor,
   Car,
@@ -92,12 +93,13 @@ const Header = () => {
           <a href="#" className="hover:text-blue-600 transition">
             Home
           </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          <Link href="/about" className="hover:text-blue-600 transition">
             About
-          </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          </Link>
+          
+          <Link href="/services" className="hover:text-blue-600 transition">
             Services
-          </a>
+          </Link>
 
           {/* Solutions dropdown */}
           <div
@@ -159,9 +161,9 @@ const Header = () => {
           <a href="#" className="hover:text-blue-600 transition">
             Pricing
           </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          <Link href="/contact" className="hover:text-blue-600 transition">
             Contact Us
-          </a>
+          </Link>
         </nav>
 
         <div className="hidden md:block">
@@ -185,12 +187,13 @@ const Header = () => {
           <a href="#" className="block text-gray-800 hover:text-blue-600">
             Home
           </a>
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          <Link href="/about" className="block text-gray-800 hover:text-blue-600">
             About
-          </a>
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          </Link>
+
+          <Link href="/services" className="block text-gray-800 hover:text-blue-600">
             Services
-          </a>
+          </Link>
           <div className="text-gray-800 text-left">
   <button
     onClick={() => setSolutionsOpen(!solutionsOpen)}
@@ -242,9 +245,9 @@ const Header = () => {
           <a href="#" className="block text-gray-800 hover:text-blue-600">
             Pricing
           </a>
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          <Link href="/contact" className="block text-gray-800 hover:text-blue-600">
             Contact Us
-          </a>
+          </Link>
           <button className="mt-4 w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-2 rounded-full font-semibold shadow-lg transition-all active:scale-95">
             Get A Demo
           </button>
