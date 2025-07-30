@@ -158,9 +158,11 @@ const Header = () => {
           <a href="#" className="hover:text-blue-600 transition">
             API
           </a>
-          <a href="#" className="hover:text-blue-600 transition">
+
+          <Link href="/pricing" className="hover:text-blue-600 transition">
             Pricing
-          </a>
+          </Link>
+
           <Link href="/contact" className="hover:text-blue-600 transition">
             Contact Us
           </Link>
@@ -242,9 +244,11 @@ const Header = () => {
           <a href="#" className="block text-gray-800 hover:text-blue-600">
             API
           </a>
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          
+          <Link href="/pricing" className="block text-gray-800 hover:text-blue-600">
             Pricing
-          </a>
+          </Link>
+
           <Link href="/contact" className="block text-gray-800 hover:text-blue-600">
             Contact Us
           </Link>
