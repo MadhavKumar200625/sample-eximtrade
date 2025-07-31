@@ -94,7 +94,7 @@ const page = () => {
             applicable Terms of Service, including investigation of potential
             violations, detect, prevent, or otherwise address fraud, security or
             technical issues, to protect and defend the rights or property of
-            Exim Trade Data, or in an emergency threatening an individual’s
+            Exim Trade Data, or in an emergency threatening an individual&posa;s
             life, health, or security.
           </p>
           <p className="text-gray-700 mt-3 leading-relaxed">

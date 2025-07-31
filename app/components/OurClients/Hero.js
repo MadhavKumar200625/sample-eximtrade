@@ -14,9 +14,9 @@ const Hero = () => {
   <div className="space-y-6">
     <div className="bg-white/50 backdrop-blur-sm border-l-4 border-blue-500 p-5 rounded-xl shadow-md hover:shadow-xl transition duration-300">
       <p className="text-gray-800 text-lg leading-relaxed">
-        In business, it's all about building connections and sharing healthy business relationships.
+        In business, it&apos;s all about building connections and sharing healthy business relationships.
         At <strong>Exim Trade Data</strong>, we believe in growing along with our customers.
-        Customer Satisfaction is our utmost priority. That is why, we provide solutions that are crafted to our client's needs.
+        Customer Satisfaction is our utmost priority. That is why, we provide solutions that are crafted to our client&apos;s needs.
       </p>
     </div>
 

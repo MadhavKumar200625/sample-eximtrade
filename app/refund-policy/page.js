@@ -15,7 +15,7 @@ const page = () => {
           We are dedicated to providing our customers with genuine and precise
           global import export data. If you find inaccuracies in our global
           trade reports within <span className="font-semibold">48 hours</span>,
-          we'll fix them and process your refund—whatever your payment
+          we&apos;ll fix them and process your refund—whatever your payment
           mode—within <span className="font-semibold">48 hours</span>!
         </p>
 
