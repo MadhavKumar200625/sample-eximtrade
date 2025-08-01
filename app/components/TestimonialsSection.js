@@ -9,13 +9,13 @@ const testimonials = [
   {
     name: 'Maya Sharma',
     content:
-"We just started our new export business, and the guidance on the import-export trade reports of the Exim Trade Data is very helpful to get the buyers' insights.Their salespeople are also good in terms of knowledge, guidance, and services.",
+"We just started our new export business, and the guidance on the import-export trade reports of the Exim Trade Data is very helpful to get the buyers&apos; insights.Their salespeople are also good in terms of knowledge, guidance, and services.",
     rating: 4,
   },
   {
     name: 'Divya Varshney',
     content:
-      "We've been using Exim Trade Data for updated Global import-export data, and the experience has been outstanding. Their data is accurate and up-to-date, which has significantly improved our decision-making. The team is professional, responsive, and always ready to assist with any queries. I highly recommend Exim Trade Data for reliable import export data and excellent customer service.",
+      "We&apos;ve been using Exim Trade Data for updated Global import-export data, and the experience has been outstanding. Their data is accurate and up-to-date, which has significantly improved our decision-making. The team is professional, responsive, and always ready to assist with any queries. I highly recommend Exim Trade Data for reliable import export data and excellent customer service.",
     rating: 5,
   },
   {
