@@ -85,10 +85,12 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-2 text-blue-400">Important Links</h4>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-300">
-              <a href="#">Get TrialNew</a>
+              <a href="#">Get Trial</a>
               <a href="#">Countries Covered</a>
-              <a href="#">Global Companies</a>
-              <a href="#">Global Ports</a>
+              <a href="#">Global Companies</a> 
+
+              <Link href="/global-ports">Global Ports</Link> 
+
               <a href="#">Industries Covered</a>
               <a href="#">Global Trade Database</a>
               <a href="#">Global Products</a>

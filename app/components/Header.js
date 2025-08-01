@@ -90,9 +90,10 @@ const Header = () => {
 <img src="/logo.png" alt="Logo" className="h-10 w-auto flex-none" />
         {/* Desktop Nav */}
         <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
-          <a href="#" className="hover:text-blue-600 transition">
+          <Link href="/" className="hover:text-blue-600 transition">
             Home
-          </a>
+          </Link>
+
           <Link href="/about" className="hover:text-blue-600 transition">
             About
           </Link>
@@ -186,9 +187,10 @@ const Header = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden bg-white shadow-md px-4 pt-2 pb-6 space-y-3 text-center animate-fade-in">
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          <Link href="/" className="block text-gray-800 hover:text-blue-600">
             Home
-          </a>
+          </Link>
+          
           <Link href="/about" className="block text-gray-800 hover:text-blue-600">
             About
           </Link>
