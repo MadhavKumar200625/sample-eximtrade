@@ -39,7 +39,7 @@ const benefits = [
   {
     img: 'https://eximtradedata.com/images/ideal_match.svg',
     title: 'Find an Ideal Match to Meet Your Business',
-    desc: 'Target relevant and potential audiences and markets for your trade business with Exim’s import-export trade data and enhance the overall productivity of your trade business.',
+    desc: 'Target relevant and potential audiences and markets for your trade business with Exim&apos;s import-export trade data and enhance the overall productivity of your trade business.',
   },
 ];
 
