@@ -9,17 +9,17 @@ export default function ContactUs() {
   const [selectedCountry, setSelectedCountry] = useState(null);
 
   return (
-    <section className="relative w-full px-4 py-20 bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white overflow-hidden">
+    <section className="relative w-full px-4 py-12 bg-gradient-to-br from-[#0f172a] to-[#1e293b] text-white overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-[-100px] left-[-100px] w-[300px] h-[300px] bg-indigo-500 opacity-20 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-[-80px] right-[-80px] w-[200px] h-[200px] bg-purple-500 opacity-20 rounded-full blur-2xl animate-pulse"></div>
 
-      <div className="max-w-4xl mx-auto backdrop-blur-md bg-white/10 text-white rounded-3xl shadow-2xl p-8 md:p-14 border border-white/20">
+      <div className="max-w-6xl mx-auto backdrop-blur-md bg-white/10 text-white rounded-3xl shadow-2xl p-8 md:px-16  border border-white/20">
         <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center drop-shadow-md">
           Contact Us
         </h2>
 
-        <form className="grid grid-cols-1 md:grid-cols-2 gap-6 animate-fadeUp">
+        <form className="grid grid-cols-1 md:grid-cols-3 gap-6 animate-fadeUp">
           {/* Your Name */}
           <div>
             <label className="block text-sm font-medium mb-2">Your Name</label>
@@ -41,7 +41,7 @@ export default function ContactUs() {
           </div>
 
           {/* Country Dropdown */}
-          <div className="md:col-span-2">
+          <div className="">
             <label className="block text-sm font-medium mb-2">Select Country</label>
             <div className="relative w-full">
               <button
@@ -76,17 +76,17 @@ export default function ContactUs() {
           </div>
 
           {/* Message */}
-          <div className="md:col-span-2">
+          <div className="md:col-span-3">
             <label className="block text-sm font-medium mb-2">Message</label>
             <textarea
-              rows={5}
+              rows={3}
               placeholder="Write your message..."
               className="w-full rounded-xl bg-white/20 text-white placeholder-white/60 px-4 py-3 focus:ring-2 focus:ring-indigo-400 outline-none border border-white/20 shadow-sm resize-none"
             />
           </div>
 
           {/* Submit Button */}
-          <div className="md:col-span-2 flex justify-center mt-4">
+          <div className="md:col-span-3 flex justify-center mt-4">
             <button className="relative inline-flex items-center gap-2 px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-full font-medium shadow-xl hover:scale-105 transition-transform">
               <Send size={18} />
               Send Message

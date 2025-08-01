@@ -27,7 +27,7 @@ const benefits = [
 
 export default function EximBenefitsSection() {
   return (
-    <section className="py-16 bg-white">
+<section className="py-16 bg-[radial-gradient(circle_at_top_left,_#f0f9ff,_#ffffff)] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-4xl font-bold text-blue-700 mb-4">Unlock Unique Benefits of <span className="text-blue-900">Exim GTIS</span></h2>
         <p className="text-zinc-600 mb-10 max-w-3xl mx-auto">

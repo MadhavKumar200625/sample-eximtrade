@@ -55,33 +55,29 @@ export default function IndustrySlider() {
   };
 
   return (
-   <div className="relative px-4 py-20 =">
+   <div className="relative px-4 py-14 =">
   {/* Section Title */}
-  <div className="max-w-6xl mx-auto text-center mb-12">
+  <div className="max-w-6xl mx-auto text-center ">
     <h2 className="text-4xl font-bold text-indigo-800">✨ Industry</h2>
-    <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-      Gain a deeper understanding of the global market with our powerful trade intelligence platform, designed to deliver industry-specific insights that drive smarter business decisions.
-    </p>
+    
   </div>
 
   {/* Slider Container */}
   <div className="relative max-w-6xl mx-auto px-4 overflow-hidden">
     {/* Left Fade */}
-    <div className="absolute top-0 left-0 h-full w-24 bg-gradient-to-r from-white via-white/80 to-transparent z-10 pointer-events-none" />
-    {/* Right Fade */}
-    <div className="absolute top-0 right-0 h-full w-24 bg-gradient-to-l from-white via-white/80 to-transparent z-10 pointer-events-none" />
+   
 
     {/* Slider */}
     <div
-      ref={sliderRef}
-      className="flex gap-8 overflow-x-auto no-scrollbar scroll-smooth py-10 px-2"
+      
+      className="grid-cols-4 grid gap-8  no-scrollbar scroll-smooth py-10 px-2"
         style={{ scrollbarWidth: 'none' }}
 
     >
 {industries.map((industry, idx) => (
   <div
     key={idx}
-    className="group min-w-[270px] h-[370px] relative rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
+    className="group min-w-[270px] h-[300px] relative rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
   >
     {/* Background Image */}
     <Image
@@ -114,18 +110,7 @@ export default function IndustrySlider() {
 ))}
     </div>
 
-    {/* Dots */}
-    <div className="flex justify-center mt-8 gap-2">
-      {industries.map((_, idx) => (
-        <div
-          key={idx}
-          className={`w-4 h-2 rounded-full transition-all duration-300 cursor-pointer ${
-            activeIndex === idx ? "bg-indigo-600 scale-110" : "bg-gray-300"
-          }`}
-          onClick={() => scrollToIndex(idx)}
-        />
-      ))}
-    </div>
+    
   </div>
 </div>
   );

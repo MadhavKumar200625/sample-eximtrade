@@ -39,8 +39,8 @@ const Benifits = () => {
   ];
 
   return (
-    <section className="relative w-full py-20 px-4 sm:px-8 lg:px-20 bg-white text-gray-800">
-      <div className="max-w-7xl mx-auto space-y-16">
+<section className="bg-gradient-to-br from-blue-100 via-sky-100 to-white py-24 px-4 sm:px-8 lg:px-20 text-gray-900">
+        <div className="max-w-7xl mx-auto space-y-16">
     
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">

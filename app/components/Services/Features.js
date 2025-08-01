@@ -20,8 +20,8 @@ const features = [
 
 export default function FeaturesSection() {
   return (
-    <section className="w-full bg-white py-16 px-6 md:px-12 lg:px-24">
-      <div className="max-w-7xl mx-auto">
+<section className="w-full bg-gradient-to-b from-white to-blue-50 py-16 px-6 md:px-12 lg:px-24">
+        <div className="max-w-7xl mx-auto">
         {/* Gradient Title */}
         <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-16 bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 bg-clip-text text-transparent">
           Features of Import Export Data

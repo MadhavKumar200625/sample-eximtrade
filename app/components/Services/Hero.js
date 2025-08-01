@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-    <section className="bg-white pt-32 px-8 md:px-16 lg:px-24">
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-12">
+<section className="bg-gradient-to-br from-white via-blue-50 to-white pt-32 pb-8 px-8 md:px-16 lg:px-24">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-12">
         {/* Left Image */}
         <div className="w-full">
           <img

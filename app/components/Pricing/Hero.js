@@ -44,7 +44,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="pb-16 pt-32 bg-white text-gray-800">
+<section className="pb-20 pt-32 bg-gradient-to-tl from-blue-50 via-sky-100 to-white text-gray-800">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
     Welcome to the World&apos;s Largest <br />

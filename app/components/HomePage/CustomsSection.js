@@ -3,16 +3,18 @@ import React from "react";
 const CustomsSection = () => {
   return (
     <section
-      className="relative py-24 px-4 md:px-16 bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 overflow-hidden"
+      className="relative py-14 px-4 md:px-16 bg-gradient-to-br from-indigo-50 via-purple-50 to-blue-50 overflow-hidden"
       id="insights"
     >
-      <div className="max-w-7xl mx-auto text-center mb-20 animate-fadeUp">
-        <h2 className="text-4xl md:text-5xl font-bold text-indigo-700 mb-4">
-          ✨ Empower Your Market Research
+      <div className="max-w-8xl mx-auto text-center mb-20 animate-fadeUp">
+        <h2 className="text-3xl md:text-4xl font-bold text-indigo-700 mb-4">
+          ✨ Empower Your Market Research With
         </h2>
-        <p className="text-gray-600 max-w-2xl mx-auto">
-          With Global Import Export Data
-        </p>
+
+        <h2 className="text-3xl md:text-4xl font-bold text-indigo-700 mb-4">
+          Global Import Export Data
+        </h2>
+        
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 relative z-10">
@@ -21,12 +23,12 @@ const CustomsSection = () => {
           <img
             src="https://eximtrade-new.vercel.app/images/actionable_insight.svg"
             alt="Insights"
-            className="w-100 h-100 mx-auto"
+            className="px-2 pb-10 pt-2 mx-auto"
           />
-          <h3 className="text-2xl font-semibold text-blue-700 mb-3 text-center">
+          <h3 className="text-xl font-semibold text-blue-700 mb-3 text-center">
             Actionable Insights
           </h3>
-          <p className="text-gray-600 text-center">
+          <p className="text-gray-600 text-md text-center">
             We combine the years of accumulated expertise of our data scientists
             and business intelligence tools to discover meaningful insights from
             the global customs data. All categories to make data-driven current
@@ -39,12 +41,12 @@ const CustomsSection = () => {
           <img
             src="https://eximtrade-new.vercel.app/images/know_market.svg"
             alt="Market Knowledge"
-            className="w-100 h-100 mx-auto"
+            className="px-2 pb-10 pt-2 mx-auto"
           />
-          <h3 className="text-2xl font-semibold text-blue-700 mb-3 text-center">
+          <h3 className="text-xl font-semibold text-blue-700 mb-3 text-center">
             Know Your Market
           </h3>
-          <p className="text-gray-600 text-center">
+          <p className="text-gray-600 text-md text-center">
             For any business, the main challenge is to find buyers for their
             products. Our well researched global shipment data helps you to
             evaluate and develop your marketing strategy to grab new buyers in
@@ -57,12 +59,12 @@ const CustomsSection = () => {
           <img
             src="https://eximtrade-new.vercel.app/images/streamline_business.svg"
             alt="Streamline Business"
-            className="w-100 h-100 mx-auto"
+            className="px-2 pb-10 pt-2 mx-auto"
           />
-          <h3 className="text-2xl font-semibold text-blue-700 mb-3 text-center">
+          <h3 className="text-xl font-semibold text-blue-700 mb-3 text-center">
             Streamline Your Business
           </h3>
-          <p className="text-gray-600 text-center">
+          <p className="text-gray-600 text-md text-center">
             Streamline all your trading operations and pave the way for top-line
             growth for your business. With a precise overview of every business
             activity, discover the inefficient process and optimize your

@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactInfo = () => {
   return (
-   <section className="relative z-10 pb-32 py-36 px-4 md:px-8 bg-gradient-to-br from-white to-gray-50">
+   <section className="relative z-10 py-14 px-4 md:px-8 bg-white ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
         
         {/* Card 1: Support */}

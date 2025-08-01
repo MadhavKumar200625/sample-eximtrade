@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -36,25 +36,27 @@ export default function Footer() {
             <div>
               <h4 className="font-semibold mb-2 text-blue-400">Support</h4>
               <ul className="space-y-1 text-gray-300">
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Faqs</a></li>
-                <li><a href="#">Pricing</a></li>
+                <li><Link href="/contact">Contact Us</Link></li>
+
+                <li><Link href="/faq">Faqs</Link></li>
+
+                <li><Link href="/pricing">Pricing</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-2 text-blue-400">Legal</h4>
               <ul className="space-y-1 text-gray-300">
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Refunds Policy</a></li>
+                <li><Link href="/privacy">Privacy Policy</Link></li>
+                <li><Link href="/terms">Terms & Conditions</Link></li>
+                <li><Link href="/refund-policy">Refunds Policy</Link></li>
               </ul>
             </div>
             <div>
               <h4 className="font-semibold mb-2 text-blue-400">Company</h4>
               <ul className="space-y-1 text-gray-300">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Why Choose Us</a></li>
-                <li><a href="#">Our Clients</a></li>
+                <li><Link href="/about">About</Link></li>
+                <li><a href="/">Why Choose Us</a></li>
+                <li><Link href="/our-client">Our Clients</Link></li>
               </ul>
             </div>
           </div>

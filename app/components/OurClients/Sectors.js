@@ -36,7 +36,9 @@ const sectors = [
 
 export default function Sectors() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20">
+    <section className="bg-gray-50 py-14 px-6">
+
+    <div className="max-w-7xl bg-gray-50 mx-auto px-6">
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           Sectors We Work With
@@ -69,6 +71,7 @@ export default function Sectors() {
             </div>
           </Link>
         ))}
+      </div>
       </div>
     </section>
   );

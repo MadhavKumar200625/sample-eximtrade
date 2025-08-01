@@ -9,9 +9,11 @@ export default function SearchComponent() {
 
 
   return (
-    <section className="w-full px-6 py-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-fadeIn">
-      <div className="max-w-7xl mx-auto bg-white shadow-2xl rounded-3xl p-8 transition-all duration-500">
-
+    <section className="w-full px-6 pb-16 pt-8 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 animate-fadeIn">
+<h2 className="text-3xl md:text-3xl font-black text-white text-center mb-8 drop-shadow-lg tracking-wide">
+  Search Global Import Export Trade Data
+</h2>      <div className="max-w-7xl mx-auto bg-white shadow-2xl rounded-3xl p-8 transition-all duration-500">
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 animate-fadeUp delay-100">
           <input
             type="text"

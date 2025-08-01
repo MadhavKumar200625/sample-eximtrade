@@ -3,7 +3,6 @@ import Hero from "../components/Pricing/Hero";
 import CustomPlan from "../components/Pricing/CustomPlan";
 import UniqueBenefits from "../components/Pricing/UniqueBenefits";
 import ExclusiveFeatures from "../components/Pricing/ExclusiveFeatures";
-import Inclusions from "../components/Pricing/inclusions";
 import ClientsSection from "../components/ClientsSection";
 import FAQ from "../components/FAQ";
 import ContactUs from "../components/ContactUs";
@@ -144,7 +143,6 @@ const page = () => {
       <CustomPlan></CustomPlan>
       <UniqueBenefits></UniqueBenefits>
       <ExclusiveFeatures></ExclusiveFeatures>
-      <Inclusions></Inclusions>
       <ClientsSection></ClientsSection>
       <FAQ faqs={faqs}></FAQ>
       <ContactUs></ContactUs>

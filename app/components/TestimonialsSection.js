@@ -49,11 +49,11 @@ const TestimonialsSection = () => {
     <section className="bg-gradient-to-br from-sky-50 via-white to-gray-100 py-12 px-4">
       <div className="max-w-5xl mx-auto text-center mb-10">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
-          ✨ Testimonials
+          Our Client&apos;s Testimonials
+
         </h2>
-        <h3 className="text-2xl text-sky-700 mb-4">Our Clients Speak</h3>
         <p className="text-gray-600 text-lg">
-          We&apos;re proud of the work we do. See what our clients are saying about us.
+          We are known to deliver quality services to our clients. See what they are saying?
         </p>
       </div>
 

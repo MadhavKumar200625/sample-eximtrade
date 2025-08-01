@@ -32,8 +32,8 @@ const images = [
 
 export default function Reputation() {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-20">
-      <h2 className="text-4xl lg:text-5xl font-bold text-center text-gray-900 mb-12">
+    <section className="px-40 mx-auto  py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 ">
+      <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">
         Our reputation is built on{" "}
         <span className="text-blue-600 drop-shadow-md">
           creating great outcomes

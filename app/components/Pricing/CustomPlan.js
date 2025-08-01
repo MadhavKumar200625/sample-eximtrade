@@ -6,19 +6,23 @@ import Link from "next/link";
 
 export default function CustomPlan() {
   return (
-    <div className="bg-white  shadow-xl rounded-2xl mb-10 p-8 mx-auto max-w-6xl mt-12 border border-zinc-200 ">
+    <section className="bg-gradient-to-br from-blue-50 via-white to-zinc-100 py-20 px-4">
+
+    <div className="bg-white  shadow-xl rounded-2xl mb-10 p-8 mx-auto max-w-6xl  md:mt-8 border border-zinc-200 ">
   <h2 className="text-3xl font-bold text-center text-blue-600 mb-4">Customized Plan</h2>
   <p className="text-center text-zinc-600  mb-8 text-lg">Create Your Own Plan</p>
 
   {/* Feature Grid */}
-<div className="grid grid-cols-1 sm:text-left text-center sm:grid-cols-2 sm:translate-x-8 sm:gap-0 gap-8 mb-10 sm:max-w-xl max-w-3xl mx-auto">
+<div className="grid grid-cols-1 sm:text-left text-center sm:grid-cols-2 md:grid-cols-3 sm:translate-x-20 sm:gap-0 gap-8 mb-10">
         <ul className="space-y-3 text-zinc-700 ">
       <li>✅ Choose From 200+ Countries</li>
       <li>✅ Complete Historical Data Access</li>
-      <li>✅ Unlimited Searches</li>
     </ul>
     <ul className="space-y-3 max-w-xl text-zinc-700 ">
+      <li>✅ Unlimited Searches</li>
       <li>✅ Customizable Download Records</li>
+    </ul>
+    <ul className="space-y-3 max-w-xl text-zinc-700 ">
       <li>✅ Customized User Licence</li>
       <li>✅ Priority Customer Support</li>
     </ul>
@@ -93,5 +97,6 @@ export default function CustomPlan() {
     </a>
   </div>
 </div>
+</section>
   );
 }
