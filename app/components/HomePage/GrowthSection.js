@@ -38,7 +38,7 @@ const GrowthSection = () => {
             </button></Link>
 
             {/* Get API Access Button - Hover Sweep Gradient */}
-            <Link href="api-development-and-integration-company"><button className="relative overflow-hidden px-6 py-3 bg-gray-100 hover:text-white text-sm hover:scale-105 text-blue-700 border border-blue-500 rounded-full font-semibold shadow-md group">
+            <Link href="/api-development-and-integration-company"><button className="relative overflow-hidden px-6 py-3 bg-gray-100 hover:text-white text-sm hover:scale-105 text-blue-700 border border-blue-500 rounded-full font-semibold shadow-md group">
               <span className="relative z-10">Get API Access</span>
               <span className="absolute inset-0 w-full bg-gradient-to-l from-sky-400 via-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 transition-all duration-200 group-hover:translate-x-0 -translate-x-full rounded-full"></span>
             </button></Link>
