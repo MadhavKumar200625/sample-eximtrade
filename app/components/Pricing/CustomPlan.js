@@ -92,9 +92,9 @@ export default function CustomPlan() {
 
   {/* CTA */}
   <div className="text-center mt-10">
-    <a href="/get-free-trial" className="inline-block bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 text-white font-semibold py-3 px-6 rounded-xl shadow-md hover:shadow-lg transition">
+    <Link href="/get-free-trial" className="inline-block bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 text-white font-semibold py-3 px-6 rounded-xl shadow-md hover:shadow-lg transition">
       Get Free Trial
-    </a>
+    </Link>
   </div>
 </div>
 </section>
