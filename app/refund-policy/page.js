@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="bg-white px-4 pb-12 pt-32 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto bg-white p-8 shadow-xl rounded-2xl border border-zinc-200">
-        <h1 className="text-4xl font-extrabold text-center text-blue-600 mb-4">
+        <h1 className="text-4xl font-extrabold text-center text-black mb-4">
           Refund Policy
         </h1>
         <h2 className="text-xl font-semibold text-gray-700 mb-6 mt-10">
