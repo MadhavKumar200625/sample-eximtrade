@@ -6,13 +6,14 @@ export default function AddIndustryPage() {
   const [industries, setIndustries] = useState({});
   const [currentSlug, setCurrentSlug] = useState('');
   const [section1, setSection1] = useState({ title: '', description: '', image: '' });
-  const [section2, setSection2] = useState({ heading: '', points: [] });
+  const [section2, setSection2] = useState({ heading: '',subheading:'', points: [] });
   const [section3, setSection3] = useState({ heading: '', subheading: '', points: [] });
   const [section4, setSection4] = useState({ heading: '' });
   const [section5, setSection5] = useState({ industries: [] });
   const [jsonOutput, setJsonOutput] = useState('');
 
   const handleAddIndustry = () => {
+    setJsonOutput('')
     if (!currentSlug) return alert('Slug is required');
 
     const industryData = { section1 };
@@ -33,7 +34,7 @@ export default function AddIndustryPage() {
     // Reset form
     setCurrentSlug('');
     setSection1({ title: '', description: '', image: '' });
-    setSection2({ heading: '', points: [] });
+    setSection2({ heading: '', subheading:'', points: [] });
     setSection3({ heading: '', subheading: '', points: [] });
     setSection4({ heading: '' });
     setSection5({ industries: [] });
@@ -108,6 +109,14 @@ export default function AddIndustryPage() {
             value={section2.heading}
             onChange={(e) => setSection2({ ...section2, heading: e.target.value })}
           />
+
+          <input
+            placeholder="Sub Heading"
+            className="w-full mb-2 p-2 border rounded"
+            value={section2.subheading}
+            onChange={(e) => setSection2({ ...section2, subheading: e.target.value })}
+          />
+
           {section2.points.map((point, i) => (
             <div key={i} className="grid grid-cols-3 gap-2 mb-2">
               <input
