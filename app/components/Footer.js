@@ -91,11 +91,13 @@ export default function Footer() {
 
               <Link href="/global-ports">Global Ports</Link> 
 
-              <a href="#">Industries Covered</a>
+              <Link href="/industries-covered">Industries Covered</Link>
+
               <a href="#">Global Trade Database</a>
               <a href="#">Global Products</a>
               <a href="#">API Integration & Development</a>
               <a href="#">Global HSN Code List</a>
+              
               <a href="#">Referral Partners</a>
             </div>
           </div>

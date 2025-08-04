@@ -58,7 +58,7 @@ export default function IndustrySlider() {
    <div className="relative px-4 py-14 =">
   {/* Section Title */}
   <div className="max-w-6xl mx-auto text-center ">
-    <h2 className="text-4xl font-bold text-indigo-800">✨ Industry</h2>
+    <h2 className="text-4xl font-bold text-indigo-800">✨ Explore More Industries</h2>
     
   </div>
 
@@ -77,7 +77,7 @@ export default function IndustrySlider() {
 {industries.map((industry, idx) => (
   <div
     key={idx}
-    className="group min-w-[270px] h-[300px] relative rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
+    className="group min-w-[270px] h-[350px] relative rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300"
   >
     {/* Background Image */}
     <Image
