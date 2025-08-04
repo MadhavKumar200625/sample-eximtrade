@@ -1,5 +1,6 @@
 // components/Hero.jsx
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -19,12 +20,12 @@ export default function Hero() {
           </p>
 
           <div className="flex justify-center lg:justify-start">
-            <a
+            <Link
               href="/contact"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-full text-sm md:text-lg font-semibold shadow-lg transition duration-300 hover:scale-105 hover:from-purple-600 hover:to-blue-600"
             >
               Consult Our Expert
-            </a>
+            </Link>
           </div>
         </div>
 

@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Hero() {
   const [currency, setCurrency] = useState("INR");
@@ -107,12 +108,12 @@ export default function Hero() {
                 <li>✔️ {plan.validity} Validity</li>
               </ul>
 
-              <a
+              <Link
   href="/import-export-data-country-wise"
   className="inline-block mt-6 mx-auto bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 text-white font-semibold px-6 py-3 rounded-3xl shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 duration-300"
 >
   Explore More 
-</a>
+</Link>
             </div>
           ))}
         </div>
