@@ -3,51 +3,683 @@
 import { useState } from 'react';
 
 export default function CountryStatsSection() {
-  const continents = {
-    Americas: ['USA', 'Mexico', 'Panama'],
-    Africa: ['Tanzania'],
-    Europe: ['Russia'],
-  };
+  
 
-  const countries = [
-    {
-      name: 'USA',
-      continent: 'Americas',
-      flag: 'https://flagcdn.com/us.svg',
-      content:
-        'Discover potential sales opportunities in the US market with our impressive US import export data reports.',
-    },
-    {
-      name: 'Tanzania',
-      continent: 'Africa',
-      flag: 'https://flagcdn.com/tz.svg',
-      content:
-        'Generate leads from verified Tanzania data based on global trade.',
-    },
-    {
-      name: 'Mexico',
-      continent: 'Americas',
-      flag: 'https://flagcdn.com/mx.svg',
-      content:
-        'Get verified Mexico data based on global trade reported by other nations.',
-    },
-    {
-      name: 'Russia',
-      continent: 'Europe',
-      flag: 'https://flagcdn.com/ru.svg',
-      content:
-        'Get Verified Mexico import export data based on Global trade data reported by other countries.',
-    },
-    {
-      name: 'Panama',
-      continent: 'Americas',
-      flag: 'https://flagcdn.com/pa.svg',
-      content:
-        'Find detailed Panama data via customs data reported globally.',
-    },
-  ];
+const countries = [
+  {
+    name: 'Armenia',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/am.png',
+  },
+  {
+    name: 'Azerbaijan',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/az.png',
+  },
+  {
+    name: 'Bahrain',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/bh.png',
+  },
+  {
+    name: 'Bangladesh',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/bd.png',
+  },
+  {
+    name: 'Brunei',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/bn.png',
+  },
+  {
+    name: 'Cambodia',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/kh.png',
+  },
+  {
+    name: 'China',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/cn.png',
+  },
+  {
+    name: 'Hong Kong',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/hk.png',
+  },
+  {
+    name: 'India',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/in.png',
+  },
+  {
+    name: 'Indonesia',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/id.png',
+  },
+  {
+    name: 'Iran',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/ir.png',
+  },
+  {
+    name: 'Israel',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/il.png',
+  },
+  {
+    name: 'Japan',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/jp.png',
+  },
+  {
+    name: 'Jordan',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/jo.png',
+  },
+  {
+    name: 'Kazakhstan',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/kz.png',
+  },
+  {
+    name: 'Korea',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/kr.png',
+  },
+  {
+    name: 'Kuwait',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/kw.png',
+  },
+  {
+    name: 'Laos',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/la.png',
+  },
+  {
+    name: 'Lebanon',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/lb.png',
+  },
+  {
+    name: 'Maldives',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/mv.png',
+  },
+  {
+    name: 'Mongolia',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/mn.png',
+  },
+  {
+    name: 'Myanmar',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/mm.png',
+  },
+  {
+    name: 'Nepal',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/np.png',
+  },
+  {
+    name: 'Oman',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/om.png',
+  },
+  {
+    name: 'Pakistan',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/pk.png',
+  },
+  {
+    name: 'Philippines',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/ph.png',
+  },
+  {
+    name: 'Qatar',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/qa.png',
+  },
+  {
+    name: 'Russia',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/ru.png',
+  },
+  {
+    name: 'Saudi Arabia',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/sa.png',
+  },
+  {
+    name: 'Singapore',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/sg.png',
+  },
+  {
+    name: 'Sri Lanka',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/lk.png',
+  },
+  {
+    name: 'Syria',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/sy.png',
+  },
+  {
+    name: 'Taiwan',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/tw.png',
+  },
+  {
+    name: 'Thailand',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/th.png',
+  },
+  {
+    name: 'Turkey',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/tr.png',
+  },
+  {
+    name: 'UAE',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/ae.png',
+  },
+  {
+    name: 'Uzbekistan',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/uz.png',
+  },
+  {
+    name: 'Vietnam',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/vn.png',
+  },
+  {
+    name: 'Yemen',
+    continent: 'ASIA',
+    flag: 'https://flagcdn.com/w40/ye.png',
+  },
+  {
+    name: 'Algeria',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/dz.svg',
+  },
+  {
+    name: 'Angola',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ao.svg',
+  },
+  {
+    name: 'Botswana',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/bw.svg',
+  },
+  {
+    name: 'Burkina Faso',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/bf.svg',
+  },
+  {
+    name: 'Burundi',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/bi.svg',
+  },
+  {
+    name: 'Cameroon',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/cm.svg',
+  },
+  {
+    name: 'Chad',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/td.svg',
+  },
+  {
+    name: 'Congo',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/cg.svg',
+  },
+  {
+    name: "Cote D'Ivoire",
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ci.svg',
+  },
+  {
+    name: 'Egypt',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/eg.svg',
+  },
+  {
+    name: 'Ethiopia',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/et.svg',
+  },
+  {
+    name: 'Ghana',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/gh.svg',
+  },
+  {
+    name: 'Kenya',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ke.svg',
+  },
+  {
+    name: 'Lesotho',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ls.svg',
+  },
+  {
+    name: 'Liberia',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/lr.svg',
+  },
+  {
+    name: 'Libya',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ly.svg',
+  },
+  {
+    name: 'Madagascar',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/mg.svg',
+  },
+  {
+    name: 'Malawi',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/mw.svg',
+  },
+  {
+    name: 'Mali',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ml.svg',
+  },
+  {
+    name: 'Mauritania',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/mr.svg',
+  },
+  {
+    name: 'Mauritius',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/mu.svg',
+  },
+  {
+    name: 'Morocco',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ma.svg',
+  },
+  {
+    name: 'Mozambique',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/mz.svg',
+  },
+  {
+    name: 'Namibia',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/na.svg',
+  },
+  {
+    name: 'Nigeria',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ng.svg',
+  },
+  {
+    name: 'Rwanda',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/rw.svg',
+  },
+  {
+    name: 'Sao Tome and Principe',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/st.svg',
+  },
+  {
+    name: 'Sierra Leone',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/sl.svg',
+  },
+  {
+    name: 'South Africa',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/za.svg',
+  },
+  {
+    name: 'Tanzania',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/tz.svg',
+  },
+  {
+    name: 'Tunisia',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/tn.svg',
+  },
+  {
+    name: 'Uganda',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/ug.svg',
+  },
+  {
+    name: 'Zambia',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/zm.svg',
+  },
+  {
+    name: 'Zimbabwe',
+    continent: 'AFRICA',
+    flag: 'https://flagcdn.com/zw.svg',
+  },
+  {
+    name: 'Austria',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/at.svg',
+  },
+  {
+    name: 'Belgium',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/be.svg',
+  },
+  {
+    name: 'Bosnia and Herzegovina',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/ba.svg',
+  },
+  {
+    name: 'Bulgaria',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/bg.svg',
+  },
+  {
+    name: 'Croatia',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/hr.svg',
+  },
+  {
+    name: 'Cyprus',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/cy.svg',
+  },
+  {
+    name: 'Czech Republic',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/cz.svg',
+  },
+  {
+    name: 'Denmark',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/dk.svg',
+  },
+  {
+    name: 'Finland',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/fi.svg',
+  },
+  {
+    name: 'France',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/fr.svg',
+  },
+  {
+    name: 'Germany',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/de.svg',
+  },
+  {
+    name: 'Greece',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/gr.svg',
+  },
+  {
+    name: 'Hungary',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/hu.svg',
+  },
+  {
+    name: 'Iceland',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/is.svg',
+  },
+  {
+    name: 'Ireland',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/ie.svg',
+  },
+  {
+    name: 'Italy',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/it.svg',
+  },
+  {
+    name: 'Latvia',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/lv.svg',
+  },
+  {
+    name: 'Luxembourg',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/lu.svg',
+  },
+  {
+    name: 'Lithuania',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/lt.svg',
+  },
+  {
+    name: 'Malta',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/mt.svg',
+  },
+  {
+    name: 'Moldova',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/md.svg',
+  },
+  {
+    name: 'Netherlands',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/nl.svg',
+  },
+  {
+    name: 'North Macedonia',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/mk.svg',
+  },
+  {
+    name: 'Poland',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/pl.svg',
+  },
+  {
+    name: 'Portugal',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/pt.svg',
+  },
+  {
+    name: 'Romania',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/ro.svg',
+  },
+  {
+    name: 'Serbia',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/rs.svg',
+  },
+  {
+    name: 'Slovenia',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/si.svg',
+  },
+  {
+    name: 'Spain',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/es.svg',
+  },
+  {
+    name: 'Sweden',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/se.svg',
+  },
+  {
+    name: 'Switzerland',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/ch.svg',
+  },
+  {
+    name: 'UK',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/gb.svg',
+  },
+  {
+    name: 'Ukraine',
+    continent: 'EUROPE',
+    flag: 'https://flagcdn.com/ua.svg',
+  },
+  {
+    name: 'Canada',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/ca.svg',
+  },
+  {
+    name: 'Costa Rica',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/cr.svg',
+  },
+  {
+    name: 'Cuba',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/cu.svg',
+  },
+  {
+    name: 'Dominican Republic',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/do.svg',
+  },
+  {
+    name: 'El Salvador',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/sv.svg',
+  },
+  {
+    name: 'Guatemala',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/gt.svg',
+  },
+  {
+    name: 'Honduras',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/hn.svg',
+  },
+  {
+    name: 'Jamaica',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/jm.svg',
+  },
+  {
+    name: 'Mexico',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/mx.svg',
+  },
+  {
+    name: 'Nicaragua',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/ni.svg',
+  },
+  {
+    name: 'Panama',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/pa.svg',
+  },
+  {
+    name: 'US',
+    continent: 'NORTH AMERICA',
+    flag: 'https://flagcdn.com/us.svg',
+  },
+   {
+    name: 'Australia',
+    continent: 'OCEANIA',
+    flag: 'https://flagcdn.com/au.svg',
+  },
+  {
+    name: 'Fiji',
+    continent: 'OCEANIA',
+    flag: 'https://flagcdn.com/fj.svg',
+  },
+  {
+    name: 'New Zealand',
+    continent: 'OCEANIA',
+    flag: 'https://flagcdn.com/nz.svg',
+  },
+  {
+    name: 'Papua New Guinea',
+    continent: 'OCEANIA',
+    flag: 'https://flagcdn.com/pg.svg',
+  },
+  {
+    name: 'Argentina',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/ar.svg',
+  },
+  {
+    name: 'Bolivia',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/bo.svg',
+  },
+  {
+    name: 'Brazil',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/br.svg',
+  },
+  {
+    name: 'Chile',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/cl.svg',
+  },
+  {
+    name: 'Colombia',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/co.svg',
+  },
+  {
+    name: 'Ecuador',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/ec.svg',
+  },
+  {
+    name: 'Guyana',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/gy.svg',
+  },
+  {
+    name: 'Paraguay',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/py.svg',
+  },
+  {
+    name: 'Peru',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/pe.svg',
+  },
+  {
+    name: 'Suriname',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/sr.svg',
+  },
+  {
+    name: 'Venezuela',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/ve.svg',
+  },
+  {
+    name: 'Uruguay',
+    continent: 'SOUTH AMERICA',
+    flag: 'https://flagcdn.com/uy.svg',
+  }
+];
+const uniqueContinents = [...new Set(countries.map(c => c.continent))];
 
-  const [selectedContinent, setSelectedContinent] = useState('Americas');
+  const [selectedContinent, setSelectedContinent] = useState('ASIA');
 
   return (
     <section className="py-14 bg-gradient-to-br from-blue-200 via-white to-indigo-200 text-gray-900">
@@ -64,11 +696,11 @@ export default function CountryStatsSection() {
 
         <div className=" ">
           <div className="sticky top-24 ">
-            <ul className="space-y-4  text-lg font-medium">
-              {Object.keys(continents).map((continent) => (
+            <ul className="space-y-4 px-14 text-lg font-medium">
+              {uniqueContinents.map((continent) => (
                 <li
                   key={continent}
-                  className={`cursor-pointer px-14 py-2 text-center rounded-3xl transition-colors ${
+                  className={`cursor-pointer px-10 py-2  rounded-3xl transition-colors whitespace-nowrap ${
                     selectedContinent === continent
                       ? 'bg-blue-600 text-white'
                       : 'hover:bg-blue-100 text-blue-800'
@@ -83,7 +715,7 @@ export default function CountryStatsSection() {
         </div>
 
         {/* Country Cards */}
-        <div className="w-full pb-8  overflow-y-auto no-scrollbar">
+        <div className="w-full pb-10  overflow-y-auto " style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
           <div className="grid grid-cols-2 px-4 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {countries
               .filter((country) => country.continent === selectedContinent)
@@ -95,10 +727,9 @@ export default function CountryStatsSection() {
                   <img
                     src={country.flag}
                     alt={`${country.name} flag`}
-                    className="w-22  mx-auto  shadow"
+                    className="w-20  mx-auto  shadow-xl"
                   />
                   <h3 className="text-sm font-semibold text-blue-800">{country.name}</h3>
-                  <p className="text-xs text-gray-600 line-clamp-3">{country.content}</p>
                 </div>
               ))}
           </div>

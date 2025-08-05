@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import {
@@ -70,6 +70,8 @@ const solutions = [
 ];
 
 const Header = () => {
+  const [scrolled, setScrolled] = useState(false);
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [solutionsOpen, setSolutionsOpen] = useState(false);
   let closeTimer = null;
@@ -84,8 +86,19 @@ const Header = () => {
       setSolutionsOpen(false);
     }, 200); // short delay allows smooth movement
   };
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
   return (
-    <header className="w-full bg-white shadow-xl fixed z-50 font-sans ">
+    <header className={`w-full shadow-sm  fixed z-50 transition-all duration-300 font-sans ${
+        scrolled ? 'bg-white shadow-xl ' : 'bg-transparent border-b-1 py-1'
+      }`}>
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
 <img src="/logo.png" alt="Logo" className="h-10 w-auto flex-none" />
         {/* Desktop Nav */}

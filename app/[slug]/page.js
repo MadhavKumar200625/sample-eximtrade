@@ -132,7 +132,7 @@ const page = async ({params}) => {
       }
       
       {industry.section3 &&
-            <Points {...industry.section3} />
+            <Points {...industry.section3} peviousSection={industries.section2? true:false} />
       }
       <Section4 {...industry.section4} />
       <Section5 industries={industry.section5.industries}/>

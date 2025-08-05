@@ -12,9 +12,12 @@ import TestimonialsSection from "./components/TestimonialsSection";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
-      <Hero></Hero>
+    <div>
+      <div className="min-h-screen ">
+<Hero></Hero>
       <SearchComponent></SearchComponent>
+      </div>
+      
       <CountryExportSection></CountryExportSection>
       <GrowthSection></GrowthSection>
       <IndustrySection></IndustrySection>
