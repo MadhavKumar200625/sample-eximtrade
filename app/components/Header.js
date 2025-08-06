@@ -183,10 +183,10 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:block">
-          <button className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-semibold text-white transition-all duration-300 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full shadow-lg group hover:scale-105">
+          <Link href="/pricing#pricing_section" className="relative cursor-pointer inline-flex items-center justify-center px-6 py-2 overflow-hidden font-semibold text-white transition-all duration-300 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full shadow-lg group hover:scale-105">
             <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-700 via-purple-700 to-pink-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-full"></span>
             <span className="relative z-10">Get A Demo</span>
-          </button>
+          </Link>
         </div>
 
         {/* Mobile Menu Toggle */}

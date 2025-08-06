@@ -45,7 +45,7 @@ export default function Hero() {
   ];
 
   return (
-<section className="pb-20 pt-32 bg-gradient-to-tl from-blue-50 via-sky-100 to-white text-gray-800">
+<section id="pricing_section" className="pb-20 pt-32 bg-gradient-to-tl from-blue-50 via-sky-100 to-white text-gray-800">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
     Welcome to the World&apos;s Largest <br />
@@ -60,7 +60,6 @@ export default function Hero() {
     With the latest updated import export trade analysis, expand your reach to the most diverse markets. <br />
     Drive high-quality ROI leads from all over the globe.
   </p>
-        {/* Currency Toggle */}
         <div className="flex justify-center mb-10">
           <div className="flex border rounded-full bg-gray-100">
             <button
