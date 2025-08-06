@@ -25,10 +25,10 @@ const filteredCountries = Object.entries(countries).filter(([country]) =>
   }, []);
 
   return (
-    <section className="w-full px-6 pb-16 pt-8 bg-sky-500 ">
+    <section className="w-full px-6 pb-16 pt-8 bg-[#0067b8] ">
 <h2 className="text-3xl md:text-3xl font-black text-white text-center mb-8 drop-shadow-lg tracking-wide">
   Search Global Import Export Trade Data
-</h2>      <div className="max-w-7xl mx-auto bg-white shadow-2xl rounded-3xl p-8 transition-all duration-500">
+</h2>      <div className="max-w-7xl mx-auto bg-white shadow-2xl  p-8 transition-all duration-500">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 animate-fadeUp delay-100">
           <input
@@ -97,12 +97,11 @@ const filteredCountries = Object.entries(countries).filter(([country]) =>
           </select>
 
           
-<button className="relative mx-auto justify-center overflow-hidden px-10 py-3 bg-gray-100 hover:text-white hover:scale-105 text-blue-700 border border-blue-500 rounded-full font-semibold shadow-md group flex items-center">
+<button className="relative mx-auto justify-center overflow-hidden text-white px-10 py-3 bg-blue-600 rounded-full font-semibold shadow-md group flex items-center">
   <span className="relative z-10 flex items-center gap-1">
     <Search className="w-4 h-4" />
     Search
   </span>
-  <span className="absolute inset-0 w-full bg-gradient-to-l from-sky-400 via-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0 -translate-x-full rounded-full"></span>
 </button>
         </div>
 

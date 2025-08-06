@@ -48,7 +48,7 @@ const TestimonialsSection = () => {
   return (
     <section className="bg-gradient-to-br from-sky-50 via-white to-gray-100 py-12 px-4">
       <div className="max-w-5xl mx-auto text-center mb-10">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-black mb-4">
           Our Client&apos;s Testimonials
 
         </h2>
@@ -73,11 +73,11 @@ const TestimonialsSection = () => {
       >
         {testimonials.map((t, i) => (
           <SwiperSlide key={i}>
-            <div className="relative p-6 md:p-8 mb-16 bg-white rounded-3xl shadow-xl border border-gray-100 min-h-[320px] flex flex-col justify-between">
+            <div className="relative p-6 md:p-8 mb-16 mx bg-white  shadow-2xl  border border-gray-100 min-h-[320px] flex flex-col justify-between">
               {/* Name at top */}
-              <div className="text-lg font-bold text-sky-800 mb-2">{t.name}</div>
+              <div className="text-lg font-bold text-blue-600 mb-2">{t.name}</div>
 
-<p className="text-gray-700 text-base leading-relaxed mb-6 line-clamp-4 overflow-hidden text-ellipsis whitespace-pre-line">
+<p className="text-lg text-black leading-relaxed mb-6 line-clamp-4 overflow-hidden text-ellipsis whitespace-pre-line">
                 {t.content}
               </p>
 

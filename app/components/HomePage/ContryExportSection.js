@@ -682,12 +682,12 @@ const uniqueContinents = [...new Set(countries.map(c => c.continent))];
   const [selectedContinent, setSelectedContinent] = useState('ASIA');
 
   return (
-    <section className="py-14 bg-gradient-to-br from-blue-200 via-white to-indigo-200 text-gray-900">
+    <section className="py-14 bg-white text-gray-900">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-blue-900 mb-3">
-          ✨ Global Import Export Database
+        <h2 className="text-3xl md:text-4xl font-bold text-black mb-3">
+          Global Import Export Database
         </h2>
-        <p className="text-sm md:text-base text-gray-600 max-w-2xl mx-auto">
+        <p className="text-sm md:text-base text-black max-w-2xl mx-auto">
           Discover country-wise global import export data. Find top-performing products, buyers, suppliers & convert them into your leads.
         </p>
       </div>
@@ -715,21 +715,21 @@ const uniqueContinents = [...new Set(countries.map(c => c.continent))];
         </div>
 
         {/* Country Cards */}
-        <div className="w-full pb-10  overflow-y-auto " style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
-          <div className="grid grid-cols-2 px-4 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="w-full pb-10 h-94  overflow-y-auto ">
+          <div className="grid grid-cols-2 px-4 lg:grid-cols-3 xl:grid-cols-5 ">
             {countries
               .filter((country) => country.continent === selectedContinent)
               .map((country, idx) => (
                 <div
                   key={idx}
-                  className="cursor-pointer p-4 rounded-3xl bg-white shadow-xl hover:shadow-3xl hover:scale-[1.02] transition-all duration-300 text-center space-y-2"
+                  className="cursor-pointer  py-2 rounded-3xl  hover:shadow-3xl hover:scale-[1.02] transition-all duration-300 text-center space-y-2"
                 >
                   <img
                     src={country.flag}
                     alt={`${country.name} flag`}
-                    className="w-20  mx-auto  shadow-xl"
+                    className="w-18  mx-auto  shadow-xl"
                   />
-                  <h3 className="text-sm font-semibold text-blue-800">{country.name}</h3>
+                  <h3 className="text-sm font-semibold text-black">{country.name}</h3>
                 </div>
               ))}
           </div>

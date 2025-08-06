@@ -12,42 +12,42 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-12 px-6 md:px-20">
+    <footer className="bg-gray-200 text-white py-12 px-6 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-10">
         {/* Subscribe Section */}
         <div className="md:col-span-2  space-y-4">
-          <h3 className="text-xl font-semibold">Subscribe Newsletter</h3>
+          <h3 className="text-xl text-black font-semibold">Subscribe Newsletter</h3>
           <form className="flex flex-col items-center rounded w-full max-w-md">
   {/* Name Field */}
   <input
     type="text"
     placeholder="Your Name"
-    className="px-4 py-2 w-full rounded m-2 text-gray-800 focus:outline-none bg-white"
+    className="px-4 py-2 w-full rounded m-2 text-black focus:outline-none bg-white"
   />
 
   {/* Email Field */}
   <input
     type="email"
     placeholder="Enter your email"
-    className="px-4 py-2 w-full rounded m-2 text-gray-800 focus:outline-none bg-white"
+    className="px-4 py-2 w-full rounded m-2 text-black focus:outline-none bg-white"
   />
 
   {/* Mobile Number Field */}
   <input
     type="tel"
     placeholder="Mobile Number"
-    className="px-4 py-2 w-full rounded m-2 mb-4 text-gray-800 focus:outline-none bg-white"
+    className="px-4 py-2 w-full rounded m-2 mb-4 text-black focus:outline-none bg-white"
   />
 
   {/* Submit Button */}
   <button
     type="submit"
-    className="bg-gradient-to-r w-full cursor-pointer from-blue-600 to-purple-600 text-white px-5 py-2 rounded-full hover:scale-105 transition-transform duration-300 shadow-lg m-2"
+    className="bg-gradient-to-r w-full cursor-pointer bg-blue-600 px-5 py-2  hover:scale-105 transition-transform duration-300 shadow-lg m-2"
   >
     Subscribe
   </button>
 </form>
-          <div className="text-lg text-gray-300 mt-4">
+          <div className="text-lg text-black  mt-4">
             Shpere Eximia Research Pvt Ltd <br />
             G-232, Noida Sector-63, Uttar Pradesh - 201301, India
             <br /><br></br>
@@ -58,23 +58,23 @@ export default function Footer() {
           </div>
           <div className="mt-12 flex gap-5">
   <a href="https://www.facebook.com/eximtradedataofficial" target="_blank" rel="noopener noreferrer" className="group">
-    <Facebook className="w-6 h-6 text-gray-400 group-hover:text-blue-500 transition-all duration-300 group-hover:scale-110" />
+    <Facebook className="w-6 h-6 text-black  group-hover:text-blue-500 transition-all duration-300 group-hover:scale-110" />
   </a>
   <a href="https://www.instagram.com/eximtradedata/" target="_blank" rel="noopener noreferrer" className="group">
-    <Instagram className="w-6 h-6 text-gray-400 group-hover:text-pink-500 transition-all duration-300 group-hover:scale-110" />
+    <Instagram className="w-6 h-6 text-black  group-hover:text-pink-500 transition-all duration-300 group-hover:scale-110" />
   </a>
   <a href="https://x.com/eximtradedataa" target="_blank" rel="noopener noreferrer" className="group">
-    <div className="w-6 h-6 text-gray-400 group-hover:text-sky-400 transition-all duration-300 group-hover:scale-110">
+    <div className="w-6 h-6 text-black  group-hover:text-sky-400 transition-all duration-300 group-hover:scale-110">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="" viewBox="0 0 24 24">
   <path d="M21.5 2h-3.6l-5.4 7.2L6.7 2H2l7.9 10.5L2 22h3.6l5.8-7.8L17.3 22H22l-8.3-11L21.5 2z"/>
 </svg>
     </div>
   </a>
   <a href="https://www.linkedin.com/company/exim-trade-data" target="_blank" rel="noopener noreferrer" className="group">
-    <Linkedin className="w-6 h-6 text-gray-400 group-hover:text-blue-700 transition-all duration-300 group-hover:scale-110" />
+    <Linkedin className="w-6 h-6 text-black  group-hover:text-blue-700 transition-all duration-300 group-hover:scale-110" />
   </a>
   <a href="https://www.linkedin.com/company/exim-trade-data" target="_blank" rel="noopener noreferrer" className="group">
-    <div className="w-6 h-6 text-gray-400 group-hover:text-red-500 transition-all duration-300 group-hover:scale-110" >
+    <div className="w-6 h-6 text-black  group-hover:text-red-500 transition-all duration-300 group-hover:scale-110" >
       <svg
   xmlns="http://www.w3.org/2000/svg"
   role="img"
@@ -88,7 +88,7 @@ export default function Footer() {
     </div>
   </a>
   <a href="https://www.youtube.com/channel/UCsbKPsVwgAgqJi4EB20iBvg" target="_blank" rel="noopener noreferrer" className="group">
-    <Youtube className="w-6 h-6 text-gray-400 group-hover:text-red-600 transition-all duration-300 group-hover:scale-110" />
+    <Youtube className="w-6 h-6 text-black  group-hover:text-red-600 transition-all duration-300 group-hover:scale-110" />
   </a>
 </div>
         </div>
@@ -98,8 +98,8 @@ export default function Footer() {
         <div className="md:col-span-3 grid grid-cols-1 gap-8">
           <div className="grid grid-cols-3 gap-4 text-sm">
             <div>
-              <h4 className="font-semibold mb-2 text-blue-400 text-lg">Support</h4>
-              <ul className="space-y-1 text-gray-300">
+              <h4 className="font-semibold mb-2 text-black text-lg">Support</h4>
+              <ul className="space-y-1 text-black ">
                 <li><Link href="/contact">Contact Us</Link></li>
 
                 <li><Link href="/faq">Faqs</Link></li>
@@ -108,16 +108,16 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-2 text-blue-400 text-lg">Legal</h4>
-              <ul className="space-y-1 text-gray-300">
+              <h4 className="font-semibold mb-2 text-black text-lg">Legal</h4>
+              <ul className="space-y-1 text-black ">
                 <li><Link href="/privacy">Privacy Policy</Link></li>
                 <li><Link href="/terms">Terms & Conditions</Link></li>
                 <li><Link href="/refund-policy">Refunds Policy</Link></li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-2 text-blue-400 text-lg">Company</h4>
-              <ul className="space-y-1 text-gray-300">
+              <h4 className="font-semibold mb-2 text-black text-lg">Company</h4>
+              <ul className="space-y-1 text-black ">
                 <li><Link href="/about">About</Link></li>
                 <li><a href="#">Why Choose Us</a></li>
                 <li><Link href="/our-client">Our Clients</Link></li>
@@ -127,8 +127,8 @@ export default function Footer() {
 
           {/* Solutions Row */}
           <div>
-            <h4 className="font-semibold mb-2 text-blue-400 text-lg">Solutions</h4>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-300">
+            <h4 className="font-semibold mb-2 text-black text-lg">Solutions</h4>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-black ">
               <a href="#">Agribusiness</a>
               <a href="#">Asset Management</a>
               <a href="#">Academic and Education</a>
@@ -147,8 +147,8 @@ export default function Footer() {
 
           {/* Important Links Row */}
           <div>
-            <h4 className="font-semibold mb-2 text-blue-400 text-lg">Important Links</h4>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-300">
+            <h4 className="font-semibold mb-2 text-black text-lg">Important Links</h4>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-black ">
               <a href="#">Get Trial</a>
               <a href="#">Countries Covered</a>
               <a href="#">Global Companies</a> 
@@ -168,7 +168,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="mt-12 border-t border-gray-700 pt-6 text-sm text-gray-400 text-center">
+      <div className="mt-12 border-t border-gray-700 pt-6 text-sm text-black  text-center">
         &copy; {new Date().getFullYear()} Shpere Eximia Research Pvt Ltd. All rights reserved.
       </div>
     </footer>

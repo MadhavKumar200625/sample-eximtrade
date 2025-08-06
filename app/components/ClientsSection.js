@@ -17,10 +17,10 @@ const ClientsSection = () => {
         {/* LEFT TEXT */}
         <div className="z-10">
           <h2 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
-            ✨Our Clients
+          Our Clients
           </h2>
-          <h3 className="text-2xl text-blue-700 mb-4">Trusted By Top Brands</h3>
-          <p className="text-gray-600 text-lg leading-relaxed">
+          <h3 className="text-2xl text-black mb-4">Trusted By Top Brands</h3>
+          <p className="text-black text-lg leading-relaxed">
             We are privileged to work with some of the most prestigious clients
             in the industry. Our vision is to deliver fast, prompt & reliable
             information to our clients that adds value to their business.

@@ -47,7 +47,7 @@ const Card = ({ title, desc, image, index }) => {
       initial="hidden"
       animate={controls}
       variants={variants}
-      className="relative w-3/5 flex flex-col md:flex-row items-center gap-8 px-8 py-8 md:py-4 bg-white/80 backdrop-blur border border-blue-400/60 shadow-xl rounded-3xl max-w-6xl mx-auto my-8 group hover:scale-[1.02] transition-transform duration-200"
+      className="relative w-3/5 flex flex-col md:flex-row items-center gap-8 px-8 py-8 md:py-4  shadow-2xl  max-w-6xl mx-auto my-8 group hover:scale-[1.02] transition-transform duration-200"
     >
       <div className="w-full md:w-1/3">
         <img
@@ -57,23 +57,23 @@ const Card = ({ title, desc, image, index }) => {
         />
       </div>
       <div className="w-full md:w-2/3 text-left">
-        <h3 className="text-2xl font-bold text-black mb-4 group-hover:underline decoration-blue-400/60">
+        <h3 className="text-2xl font-bold text-black mb-4 group-hover:underline ">
           {title}
         </h3>
         <p className="text-black text-md leading-relaxed">{desc}</p>
       </div>
 
       {/* Neon border glow effect */}
-      <div className="absolute -inset-[2px] rounded-3xl bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-600 blur opacity-25  transition-opacity duration-400"></div>
+      <div className="absolute -inset-[2px] rounded-3xl  duration-400"></div>
     </motion.div>
   );
 };
 
 const WhyChooseUs = () => {
   return (
-    <section className="relative bg-gradient-to-b from-blue-50 via-white to-blue-100 py-14 px-6 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-blue-50 via-white to-blue-50 py-14 px-6 overflow-hidden">
       <div className="text-center mb-16">
-        <h2 className="text-2xl md:text-3xl font-extrabold text-blue-900">
+        <h2 className="text-2xl md:text-3xl font-extrabold text-black">
           Why Businesses Trust Exim Trade Data for Global Import Export Data?
         </h2>
       </div>
