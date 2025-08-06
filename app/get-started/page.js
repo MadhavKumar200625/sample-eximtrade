@@ -9,7 +9,7 @@ const Page = () => {
           Exim Global Trade Intelligence System
         </h1>
         <h2 className="mt-4 text-base sm:text-lg md:text-xl text-gray-700 font-medium">
-          World's largest <span className="text-blue-600 font-semibold">global trade database</span>. Connect with millions of international <span className="text-blue-600 font-semibold">buyers and suppliers</span> in one go.
+          World&apos;s largest <span className="text-blue-600 font-semibold">global trade database</span>. Connect with millions of international <span className="text-blue-600 font-semibold">buyers and suppliers</span> in one go.
         </h2>
       </div>
 
