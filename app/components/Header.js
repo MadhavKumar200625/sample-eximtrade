@@ -27,19 +27,19 @@ import {
 } from "lucide-react";
 
 const solutions = [
-  { title: "Agribusiness", link: "/agri-business", icon: Tractor },
-  { title: "Automotive", link: "/automotive", icon: Car },
-  { title: "Energy Sector", link: "/energy-sector", icon: Flame },
+  { title: "Agribusiness", link: "/agribusiness", icon: Tractor },
+  { title: "Automotive", link: "/automative", icon: Car },
+  { title: "Energy Sector", link: "/energy", icon: Flame },
   {
     title: "Research & Consulting",
-    link: "/research-consulting",
+    link: "/research-and-consulting",
     icon: BookOpen,
   },
   { title: "Insurance Companies", link: "/insurance-companies", icon: Shield },
-  { title: "Financial Sector", link: "/financial-sector", icon: Banknote },
+  { title: "Financial Sector", link: "/finance", icon: Banknote },
   {
     title: "Academic & Education",
-    link: "/academic-education",
+    link: "/academic-and-education",
     icon: GraduationCap,
   },
   { title: "Corporation", link: "/corporation", icon: Building2 },
@@ -54,19 +54,19 @@ const solutions = [
   { title: "Chemical", link: "/chemical", icon: FlaskConical },
   {
     title: "Aerospace & Defence",
-    link: "/aerospace-defence",
+    link: "/aerospace-and-defence",
     icon: ShieldHalf,
   },
   { title: "Importers", link: "/importers", icon: Truck },
   { title: "Exporters", link: "/exporters", icon: Truck },
   {
     title: "Supply Chain & Logistics",
-    link: "/supply-chain-logistics",
+    link: "/supply-chain-and-logistics",
     icon: PackageSearch,
   },
-  { title: "IT & Consulting", link: "/it-consulting", icon: MonitorSmartphone },
+  { title: "IT & Consulting", link: "/it-and-consulting", icon: MonitorSmartphone },
   { title: "Retail", link: "/retail", icon: ShoppingCart },
-  { title: "Sales & Marketing", link: "/sales-marketing", icon: Megaphone },
+  { title: "Sales & Marketing", link: "/sales-and-marketing", icon: Megaphone },
 ];
 
 const Header = () => {

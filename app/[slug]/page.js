@@ -5,6 +5,7 @@ import Points from "./Points";
 import Section4 from "./Section4";
 import Section5 from "./Section5";
 import { industries } from "./data";
+import { notFound } from "next/navigation";
 
 
 // const industry = {
@@ -120,8 +121,13 @@ const page = async ({params}) => {
     const {slug} = await params
 
     const industry = industries[slug];
+    
 
+if (!industry) {
+  notFound();
+}
   return (
+    
     <main>
       <Hero {...industry.section1} />
       {industry.section2 &&

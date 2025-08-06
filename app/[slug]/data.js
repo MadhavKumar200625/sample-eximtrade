@@ -1275,4 +1275,613 @@ export const industries = {
       ],
     },
   },
+  importers: {
+    section1: {
+      title: "Leading Trade Intelligence Platform for Global Importers",
+      description:
+        "Reach out to the leading suppliers, retailers and distributers across the globe through our global exporters’ database. Get in-depth visibility into their shipment activities and find out the potential business prospects. Expand your network to the international market by identifying the most profitable investment opportunities.",
+      image: "",
+    },
+    section2: {
+      heading:
+        "Boost Your Business in the Global Market with Our Market Intelligence Reports",
+      subheading: "",
+      points: [
+        {
+          heading: "Discover top suppliers",
+          description:
+            "Extend your reach to top performing markets by identifying the leading suppliers in that particular country. Get instant access to the millions of suppliers, distributors, retailers and exporters profiles at our platform. Through our global exporters’ directory, you can find buyers by product and country.",
+          icon: "",
+        },
+        {
+          heading: "Monitor Shipments",
+          description:
+            "Get into the shipment activities of the top suppliers in the world. Analyze their top selling products, pricing, markets and identify your competitors through our trade intelligence reports. Take all these parameters into your account and enhance your decision making process.",
+          icon: "",
+        },
+        {
+          heading: "Find your competitors",
+          description:
+            "Our interactive dashboard helps you perform in-depth competitor analysis. You can find a lot of your competitor profiles at our platform and monitor their shipments. Find loopholes in their marketing strategy and make improvements in your business accordingly.",
+          icon: "",
+        },
+        {
+          heading: "Make Profitable Decisions",
+          description:
+            "Through in-depth insight into the global market trends, demand, and risks, you can make more timely and profitable decisions. Our market intelligence reports help you enhance your production as per the current market demand. It boosts your sales and yield more revenue for your business.",
+          icon: "",
+        },
+      ],
+    },
+    section3: {
+      heading: "Find the Suppliers from Top 5 Export Industries",
+      subheading: "",
+      points: [
+        {
+          heading: "Mineral Fuels & Oils",
+          description:
+            "Mineral fuels and oils were the 3 most traded products. According to our global export-import trade data for 2021, the entire trade value for mineral fuels and oils amounted to about 1.46 trillion US dollars. China was the most considerable importer of mineral fuels and oils with a total import value of 227 billion US dollars. Conversely, Russia was the number one mineral fuels and oils exporter, with total exports worth 161 billion US dollars. We can connect you with trustworthy mineral fuels and oil suppliers from various locations through our global suppliers’ database.",
+        },
+        {
+          heading: "Motor Cars",
+          description:
+            "Moving on to 2021, automotive vehicles ranked 2nd in terms of traded products, amounting to 645 billion dollars in trade. The global import-export data provider following the US, with a total import value of 144 billion US dollars, was Germany, the largest importer of motor cars. In contrast, Germany was the main exporter of motor cars, with a total worth of exports of 123 billion US dollars. International import export data, come and explore the authentic motor car and parts suppliers that are factored into our global exporters' database.",
+        },
+        {
+          heading: "Electronic Integrated Circuits",
+          description:
+            "The global electronics import of 2021, the collective trade value for the electronics integrated circuits, was about 669 billion US dollars. It was the most traded product in the world overall. Hong Kong was the largest electronic integrated circuit importer, with a total import value of 162 billion US dollars. However, Taiwan was the first exporter of electron integrated circuits, with total exports valued at 138 billion US dollars. Speed up the implementation of high-tech IC solutions by checking the delivery of authentic electronic IC suppliers and cutting your production costs by importing quality items at a lower price.",
+        },
+        {
+          heading: "Smart phones",
+          description:
+            "Global phone trade data for 2021 shows that the total trade value of smartphones was around 125 billion US dollars. It was amongst the top 16 traded products. This trade is somewhat dominated by China as a major importer and one of the major exporters with a trade value of 70.6 billion US dollars. Source the companies that oversee the production of global cell phones and other segments relating to this through our global mobile phone exporters database. Our tools can help you identify your potential leads and progress with your business.",
+        },
+        {
+          heading: "Gold",
+          description:
+            "For 2021, gold, with a total trade value of 422 billion US dollars, was the 6th most traded product in the world. Switzerland was the top-selling country of gold (in unwrought form) with an import and export value of 155.9 billion US dollars. You can search for genuine gold suppliers from the database of our gold suppliers worldwide.",
+        },
+        {
+          heading: "Medicaments",
+          description:
+            "Medicaments with a total trade value of 410 billion US dollars, which was observed in 2021, were one of the most profitable products that were traded. It was the 7th most important among the top traded products. The United States was the greatest importer of medicaments, with a sum import value of 84 billion US dollars; however, Germany was the number one top exporter of medicaments, with total exports amounting to 32 billion US dollars. From the global import-export database of our global suppliers, you will find suppliers of medicaments who are genuine throughout the world.",
+        },
+      ],
+    },
+    section4: {
+      heading: "Get Access to the Leading Suppliers in the Industry",
+    },
+    section5: {
+      industries: [
+        {
+          image: "",
+          title: "Corporation",
+          heading: "Best Market Intelligence Platform for Corporate Companies",
+          description:
+            "Exim Trade Data provides the best market intelligence platform for corporate companies. Get in-depth insights into the international trade markets, industry specific trends, demand, and competitor analysis. Discover the best investment opportunities in the global market through our global companies’ portfolio. Drive more sales for your business in a cost-effective manner. Outrank your competitors in the international market through our impressive trade intelligence reports.",
+          link: "corporation",
+        },
+        {
+          image: "",
+          title: "Government Agencies",
+          heading: "Market Intelligence Platform for Government Agencies",
+          description:
+            "Exim Trade Data provides the best global market intelligence platform for government agencies. We help government bodies in analyzing the international market trends, demand, risks and trade forecasts. We provide comprehensive business reports that assist them in making accurate strategic decisions, framing trade policies, adding tariffs and generating more revenue on goods and services.",
+          link: "government-agencies",
+        },
+        {
+          image: "",
+          title: "Asset Management",
+          heading:
+            "Best Market Research Platform for Assets &amp; Investment Companies",
+          description:
+            "Exim Trade Data provides the best market research platform for assets and investment companies. Explore the tons of global import and export companies’ profiles. Get into their shipment activities, identify their top assets and evaluate their market share. Identify the most profitable opportunities for investment and enhance your company’s assets.",
+          link: "asset-mangement",
+        },
+        {
+          image: "",
+          title: "Exporters",
+          heading:
+            "Enhance Your Sales Potential with Our Global Importers Database",
+          description:
+            "Get more qualifying sales and leads for your business through our global importers database. Discover the verified buyers and importers related to your business. Identify the potential business prospects with high ROI. Find the most traded goods and commodities in the foreign market through our market research platform. And conclude the most profitable products for your business. Outrank your competition with a comprehensive marketing strategy based on accurate trade statistics.",
+          link: "exporters",
+        },
+      ],
+    },
+  },
+  exporters: {
+    section1: {
+      title: "Enhance Your Sales Potential with Our Global Exporters Database",
+      description:
+        "Get more qualifying sales and leads for your business through our global importers database. Discover the verified buyers and importers related to your business. Identify the potential business prospects with high ROI. Find the most traded goods and commodities in the foreign market through our market research platform. And conclude the most profitable products for your business. Outrank your competition with a comprehensive marketing strategy based on accurate trade statistics.",
+      image: "",
+    },
+    section2: {
+      heading:
+        "Generate more ROI for your business through our Global Buyers’ Directory",
+      subheading: "",
+      points: [
+        {
+          heading: "Discover top buyers",
+          description:
+            "Expand your business beyond boundaries. Find genuine buyers for your product. Through our global companies’ database, you could reach a wider audience in the international market. Explore the portfolios of top import companies by product and country.",
+          icon: "",
+        },
+        {
+          heading: "Monitor Shipments",
+          description:
+            "We provide comprehensive global importers shipment records that help you analyze their buying patterns, identify market demand and evaluate pricing for your product. With our expert market intelligence reports, you can make more profitable decisions for your business.",
+          icon: "",
+        },
+        {
+          heading: "Identify your competitors",
+          description:
+            "Discover who your competitors are and how they are performing well in the global market. Analyze their product and promotional strategy. Plan a more quality product based on detailed competitor analysis and promote your business with a more targeted marketing strategy.",
+          icon: "",
+        },
+        {
+          heading: "Improved Market Planning",
+          description:
+            "Our Expert Market Intelligence reports provide you with accurate market insights that help you analyze market demand, future risks, competitors, and highlights the most profitable opportunities for your business. A Data Driven Approach could take your business to new heights in the global market.",
+          icon: "",
+        },
+        {
+          heading: "",
+          description: "",
+          icon: "",
+        },
+      ],
+    },
+    section3: {
+      heading: "Find the Leading Buyers from Top 5 Import Industries",
+      subheading: "",
+      points: [
+        {
+          heading: "Electronic Integrated Circuits",
+          description:
+            "Electrical, Electronics Equipment is the most imported goods in the international market. In 2021, Electronic Integrated Circuits imports worth was around 1.16 Trillion US Dollars. Hong Kong, China, and Singapore were among the top 3 importers of Electronic Integrated Circuits across the globe. Get instant access to the genuine buyers of Electronic Integrated Circuits. That will help you generate quality leads at comparatively less cost.",
+        },
+        {
+          heading: "Mineral Fuels & Oils",
+          description:
+            "In 2021, Mineral Oils & fuels were the second most imported goods responsible for over 1.04 Trillion imports. The top 3 mineral oils & fuel importing countries are China, the United States and India. Oil market is a very tricky market. Oil prices vary everyday as per global market trends. Our market intelligence platform helps you analyze oil market risks, and keeps you versed with the latest trends in the oil market. Through our global oil importers directory, you can reach out to the genuine oil importer companies and convert them into your leads.",
+        },
+        {
+          heading: "Motor Cars",
+          description:
+            "In 2021, Motor Cars were the 3rd most imported goods with imports worth 718 Billion US Dollars. Germany was the leading exporter of cars worldwide. On the other hand, the United States, Germany and China were the top 3 car importing countries in the world. With our market intelligence platform, you could gain an edge over your competitors. You can explore the tons of motor car buyers and suppliers profiles from our global car importers database. Also, you can track your competitor shipments and plan a more quality product with better pricing.",
+        },
+        {
+          heading: "Smart phones",
+          description:
+            "As per our global mobile trade data of 2021, smartphones total trade value was around 125 Billion US Dollars. It was among the top 16 traded products. China was the largest importer and exporter of smartphones with a total trade value of 70.6 Billion US Dollars. Access the profiles of global mobile phones, parts and accessories supplier companies through our global mobile phone exporters database. Find the potential business prospects and achieve your business goals.",
+        },
+        {
+          heading: "Computers",
+          description:
+            "Computers & Its accessories are the 5th most imported products in the global market. As per 2021, computer import data, the total imports were worth 473 Billion US Dollars. The United States, Hong Kong, Germany, Netherlands and Japan are the top 5 computer importer countries in the world. With our global companies’ database, you can discover and monitor the shipments of top computer buyer companies in the world. That will help you increase your sales and generate more revenue for your business.",
+        },
+        {
+          heading: "Medicaments",
+          description:
+            "Ever Since the Co-vid Outbreak, the Pharma industry has seen rapid growth. The demand for quality medicines and vaccines increased significantly over the course of time. Medicines are the sixth most imported items in the global market. As per global trade data of 2021, the total import value for medicaments was around 446 Billion US Dollars. The United States, Germany and Switzerland were among the top 3 importer countries of Medicaments. We give you access to the tons of genuine buyers in the global pharma market. We provide in-depth insights into the medicine market that help you in planning effective strategies.",
+        },
+      ],
+    },
+    section4: {
+      heading: "Get Access to the Leading Importers in the Industry",
+    },
+    section5: {
+      industries: [
+        {
+          image: "",
+          title: "Corporation",
+          heading: "Best Market Intelligence Platform for Corporate Companies",
+          description:
+            "Exim Trade Data provides the best market intelligence platform for corporate companies. Get in-depth insights into the international trade markets, industry specific trends, demand, and competitor analysis. Discover the best investment opportunities in the global market through our global companies’ portfolio. Drive more sales for your business in a cost-effective manner. Outrank your competitors in the international market through our impressive trade intelligence reports.",
+          link: "corporation",
+        },
+        {
+          image: "",
+          title: "Government Agencies",
+          heading: "Market Intelligence Platform for Government Agencies",
+          description:
+            "Exim Trade Data provides the best global market intelligence platform for government agencies. We help government bodies in analyzing the international market trends, demand, risks and trade forecasts. We provide comprehensive business reports that assist them in making accurate strategic decisions, framing trade policies, adding tariffs and generating more revenue on goods and services.",
+          link: "government-agencies",
+        },
+        {
+          image: "",
+          title: "Asset Management",
+          heading:
+            "Best Market Research Platform for Assets &amp; Investment Companies",
+          description:
+            "Exim Trade Data provides the best market research platform for assets and investment companies. Explore the tons of global import and export companies’ profiles. Get into their shipment activities, identify their top assets and evaluate their market share. Identify the most profitable opportunities for investment and enhance your company’s assets.",
+          link: "asset-management",
+        },
+        {
+          image: "",
+          title: "Importers",
+          heading:
+            "Identify the Current Market Trends &amp; Demands in the Automotive Market",
+          description:
+            "The Automotive Market is a very fast paced market in which everyone wants to excel with each other. Through our impressive trade intelligence platform, you can stand out amongst your competitors. Our interactive business intelligence reports help you with the accurate forecasts of the latest market technology, trends, and demands.",
+          link: "importers",
+        },
+      ],
+    },
+  },
+  "supply-chain-and-logistics": {
+    section1: {
+      title:
+        "The Leading Trade Intelligence Platform for Supply Chain & Logistics Companies",
+      description:
+        "Exim Trade Data provides the best market research platform for supply chain & logistics companies. Get the detailed insights on global ports shipments, cargo volumes, and import-export companies along with product description, HS Code, quantity, price, unit, and country of origin. Identify the sales opportunities and increase profitability. Our data assists you with the procurement and sourcing process for your business. Ensure efficient supply chain operations and achieve your business goals.",
+      image: "",
+    },
+    section2: {
+      heading:
+        "Grab New Opportunities in the Global Market with Actionable Insights",
+      subheading:
+        "Discover business opportunities from over 60+ countries. Gain key insights of the top trading markets such as top imports, exports, buyers and suppliers shipments and build a successful marketing strategy.",
+      points: [
+        {
+          heading: "Targeted Marketing",
+          description:
+            "Our interactive dashboard helps you identify your target audience and segment customers. You can analyze customer sentiments, their expectations and develop a quality product as per the market demand. It gives you a competitive edge and increases the chances of more sales.",
+          icon: "",
+        },
+        {
+          heading: "Increased Productivity",
+          description:
+            "Discover the latest market trends, demand and risk in the global supply chain market. Mitigate financial risk through accurate global supply chain forecasts. Analyze current market situation, predict future growth, target the right audience and identify new sales prospects. Build an effective marketing strategy and achieve your business goals.",
+          icon: "",
+        },
+        {
+          heading: "Procurement & Sourcing",
+          description:
+            "We provide accurate trade statistics of ports shipments, cargo volume, buyer, and supplier information along with value. That helps you in making more sound decisions regarding the procurement process. Also, you can find sourcing for quality imports and exports of goods at better cost.",
+          icon: "",
+        },
+        {
+          heading: "Evaluate Production Quantity",
+          description:
+            "Our Trade Intelligence Platform helps you predict the accurate market demand. Evaluating production quantity is very essential for supply chain and logistics companies. If the production is more than the demand, you could get a significant loss. We provide accurate forecasts of product demand in our reports.",
+          icon: "",
+        },
+        {
+          heading: "New Business Opportunities",
+          description:
+            "Get access to the verified buyers and suppliers from the global market. Monitor their shipments, products, pricing and buying patterns. Analyze our shipments reports and identify the possible business prospects. Generate a lot of new business opportunities in the global market from our database.",
+          icon: "",
+        },
+        {
+          heading: "Smooth warehouse operations",
+          description:
+            "By analyzing our global trade intelligence reports, you can predict the demand of goods from your warehouses. Also, you can find genuine buyers for your stock products through our global companies’ directory. You can make better decisions based on data and ensure efficient warehouse operations.",
+          icon: "",
+        },
+      ],
+    },
+    section4: {
+      heading:
+        "Get Expert Supply Chain & Logistics Market Intelligence Reports",
+    },
+    section5: {
+      industries: [
+        {
+          image: "",
+          title: "Asset Management",
+          heading:
+            "Best Market Research Platform for Assets &amp; Investment Companies",
+          description:
+            "Exim Trade Data provides the best market research platform for assets and investment companies. Explore the tons of global import and export companies’ profiles. Get into their shipment activities, identify their top assets and evaluate their market share. Identify the most profitable opportunities for investment and enhance your company’s assets.",
+          link: "asset-management",
+        },
+        {
+          image: "",
+          title: "Agribusiness",
+          heading: "Get Expert Data Solutions for a Successful Agribusiness",
+          description:
+            "The Agribusiness Industry is a field of uncertainty and risk. Exim Trade Data provides expert market intelligence solutions that help you analyze financial risks involved in the agriculture sector.",
+          link: "agribusiness",
+        },
+        {
+          image: "",
+          title: "Corporation",
+          heading: "Best Market Intelligence Platform for Corporate Companies",
+          description:
+            "Exim Trade Data provides the best market intelligence platform for corporate companies. Get in-depth insights into the international trade markets, industry specific trends, demand, and competitor analysis. Discover the best investment opportunities in the global market through our global companies’ portfolio. Drive more sales for your business in a cost-effective manner. Outrank your competitors in the international market through our impressive trade intelligence reports.",
+          link: "corporation",
+        },
+        {
+          image: "",
+          title: "Government Agencies",
+          heading: "Market Intelligence Platform for Government Agencies",
+          description:
+            "Exim Trade Data provides the best global market intelligence platform for government agencies. We help government bodies in analyzing the international market trends, demand, risks and trade forecasts. We provide comprehensive business reports that assist them in making accurate strategic decisions, framing trade policies, adding tariffs and generating more revenue on goods and services.",
+          link: "government-agencies",
+        },
+      ],
+    },
+  },
+  "it-and-consulting": {
+    section1: {
+      title:
+        "Revolutionize your business through our Trade Intelligence Platform",
+      description:
+        "Transform your business through Exim Trade Data Market Intelligence Platform. Get in-depth insights into the global market trends, demand, and technologies. Utilize these valuable insights to refine your services and ensure seamless experience for your customers.",
+      image: "",
+    },
+    section2: {
+      heading:
+        "Gain More Visibility into the Global Market through Our Business Intelligence Reports",
+      subheading:
+        "Get versed with global market fluctuations, changing demands, product costs, consumer trends and new technologies through our business intelligence reports. Identify the customer’s requirement and work towards achieving the state of the art services.",
+      points: [
+        {
+          heading: "Extensive Market Research",
+          description:
+            "Perform an extensive market research through our trade intelligence platform. Explore the shipment records of over 60+ countries by HS Code, product description, quantity, value, country, and company name. Analyze these reports to integrate it in your company’s software.",
+          icon: "",
+        },
+        {
+          heading: "Identify Operational Issues",
+          description:
+            "We provide brief business intelligence reports indicating global market import export shipments, trading countries, companies, and consumer demand. Utilize these statistics to identify market requirements and identify loopholes in your operations. Make necessary improvements and ensure efficient company’s operations.",
+          icon: "",
+        },
+        {
+          heading: "Deliver Relevant Products",
+          description:
+            "Product Optimization is very important for a successful business. Stay abreast of the latest market changes, new technologies, product demand, pricing with our global trade intelligence platform. Analyze these insights to create a strategic roadmap to bring new innovations, features, services to develop a quality product.",
+          icon: "",
+        },
+        {
+          heading: "Create Personalized Services",
+          description:
+            "Create a personalized experience for your customers by analyzing accurate trade statistics of global import export companies. Develop a cutting edge technology based on the detailed analysis of the international buyers and suppliers. In return, generate the maximum ROI for your business.",
+          icon: "",
+        },
+        {
+          heading: "Meet Customer Expectations",
+          description:
+            "Customer Satisfaction is very essential for efficient business operations. Our shipment data helps you analyze customers' demand, buying patterns, and reviews. Based on these factors, you can create a rich experience for your customers and enhance your company’s revenue. This helps you achieve efficient business operations.",
+          icon: "",
+        },
+        {
+          heading: "Better Business Performance",
+          description:
+            "Our Trade Intelligence Platform helps you identify the most productive things you can add to your company’s system and software. We provide the key performance indicators through our business intelligence reports that help you streamline your business and set long term goals.",
+          icon: "",
+        },
+      ],
+    },
+    section4: {
+      heading: "Get Expert Intelligence for It and Consulting Companies",
+    },
+    section5: {
+      industries: [
+        {
+          image: "",
+          title: "Automative",
+          heading:
+            "Identify the Current Market Trends & Demands in the Automotive Market",
+          description:
+            "The Automotive Market is a very fast paced market in which everyone wants to excel with each other. Through our impressive trade intelligence platform, you can stand out amongst your competitors. Our interactive business intelligence reports help you with the accurate forecasts of the latest market technology, trends, and demands.",
+          link: "automative",
+        },
+        {
+          image: "",
+          title: "Agribusiness",
+          heading: "Get Expert Data Solutions for a Successful Agribusiness",
+          description:
+            "The Agribusiness Industry is a field of uncertainty and risk. Exim Trade Data provides expert market intelligence solutions that help you analyze financial risks involved in the agriculture sector.",
+          link: "agribusiness",
+        },
+        {
+          image: "",
+          title: "Energy",
+          heading:
+            "Become a Leader in the Energy Sector through Expert Market Intelligence",
+          description:
+            "The Energy Market is continuously striving for new innovations that offer a sustainable future and reasonable pricing. In order to keep pace with the challenging Energy market, you need to plan strategically. At Exim Trade Data, we provide expert energy market intelligence reports that help you predict the future risks, product pricing, production demand and discover the top buyers & suppliers in the Energy Market.",
+          link: "energy",
+        },
+        {
+          image: "",
+          title: "Importers",
+          heading:
+            "Identify the Current Market Trends & Demands in the Automotive Market",
+          description:
+            "The Automotive Market is a very fast paced market in which everyone wants to excel with each other. Through our impressive trade intelligence platform, you can stand out amongst your competitors. Our interactive business intelligence reports help you with the accurate forecasts of the latest market technology, trends, and demands.",
+          link: "importers",
+        },
+      ],
+    },
+  },
+  retail: {
+    section1: {
+      title: "Boost Your Company’s Sales through Our Market Research Platform",
+      description:
+        "Exim Trade Data provides the best market research platform for retail companies. We provide actionable data insights that help your business flourish in the global market. Our brief business intelligence reports assist you in analyzing your customer’s intent, market demand, product pricing, supply chain and identifying business growth opportunities.",
+      image: "",
+    },
+    section3: {
+      heading:
+        "Establish Your Business in the Global Market with Actionable Insights",
+      subheading:
+        "Leverage our market intelligence reports to identify the profitable investment opportunities and build valuable business partnerships. Make accurate and more profitable decisions based on accurate trade statistics.",
+      points: [
+        {
+          heading: "Targeted Marketing",
+          description:
+            "A happy customer ensures happy returns for your retail business. We provide various metrics and parameters that help identify your customers’ base and segment them by demographics, requirements, buying patterns and reviews. Refine your product and services as per customer’s needs and yield profitable results.",
+        },
+        {
+          heading: "Pricing Strategy",
+          description:
+            "Our trade intelligence platform helps businesses to build a comprehensive pricing strategy. We provide accurate trade statistics of top products imports, exports, and competitor shipment activities. It helps you to compare your business performance with your competitors and evaluate their pricing strategy. Based on these statistics, you can make more informed decisions regarding pricing and increase your sales profit.",
+        },
+        {
+          heading: "Analyze Customer Demand",
+          description:
+            "Analyze customer demand through in-depth insights into the global import export market. Discover the top traded products by HS Code, quantity, price, country and company name. Monitor the shopping patterns of global consumers and discover their requirements. Shift your focus towards the product's demand in the retail market and enhance your market share.",
+        },
+        {
+          heading: "Supply Chain Management",
+          description:
+            "An efficient supply chain and inventory management process is a very crucial aspect of a successful retail business. We provide detailed ports shipments reports that help you analyze the trade flow, and demand in the global market. It helps you fill up your stocks as per current market demand. Also, you can cut your costs by importing quality goods from genuine suppliers offering better pricing.",
+        },
+        {
+          heading: "Business Strategy",
+          description:
+            "Build a comprehensive business strategy based on our expert market intelligence reports. Get accurate forecasts of market trends, demand, future risk, and growth opportunities in the retail sector. Perform an extensive market research by utilizing our actionable data insights. Plan and implement a successful marketing strategy and take your retail business to new heights.",
+        },
+        {
+          heading: "Sales with high ROI",
+          description:
+            "Achieve your revenue goals through our global companies’ database. We help you to connect with the top import-export companies from the international market. Get in-depth insights into their shipment activities and identify the sales prospects with high ROI. You can generate a lot of quality business leads through our portal with minimal investment.",
+        },
+      ],
+    },
+    section4: {
+      heading: "Get Expert Market Intelligence Reports for Retail Sector",
+    },
+    section5: {
+      industries: [
+        {
+          image: "",
+          title: "Government Agencies",
+          heading: "Market Intelligence Platform for Government Agencies",
+          description:
+            "Exim Trade Data provides the best global market intelligence platform for government agencies. We help government bodies in analyzing the international market trends, demand, risks and trade forecasts. We provide comprehensive business reports that assist them in making accurate strategic decisions, framing trade policies, adding tariffs and generating more revenue on goods and services.",
+          link: "government-agencies",
+        },
+        {
+          image: "",
+          title: "Research & Consulting",
+          heading:
+            "Global Trade Intelligence Platform for Research & Consulting Companies",
+          description:
+            "Empower your market research through our global trade intelligence platform. Make more accurate decisions based on our business intelligence reports. Identify the most profitable markets by HSN Code, product details, quantity, price, port shipments, country, buyers, and supplier details. Reach to the top trading companies through our global companies list and discover the potential business growth opportunities.",
+          link: "research-and-consulting",
+        },
+        {
+          image: "",
+          title: "IT and Consulting",
+          heading:
+            "Revolutionize your business through our Trade Intelligence Platform",
+          description:
+            "Transform your business through Exim Trade Data Market Intelligence Platform. Get in-depth insights into the global market trends, demand, and technologies. Utilize these valuable insights to refine your services and ensure seamless experience for your customers.",
+          link: "it-and-consulting",
+        },
+        {
+          image: "",
+          title: "Law Firms",
+          heading:
+            "Expert Trade Data Solutions for Law Firms & Legal Professionals",
+          description:
+            "Exim Trade Data provides the expert data solutions for Law firms & legal professionals. Get a track of the global market trends, trade policies regarding goods through our comprehensive market intelligence reports. Discover the key performing factors through our reports and identify the growth opportunities to expand your relationships.",
+          link: "law-firms",
+        },
+      ],
+    },
+  },
+  "sales-and-marketing": {
+    section1: {
+      title:
+        "Boost your sales & Marketing Business with a Market Intelligence Report.",
+      description:
+        "Discover the business opportunities in the global trade market and facilitate your business growth through a research solution report of Exim Trade Data. Collect the in-depth international trade market insights report of top import-export commodities, top Buyers & suppliers, and top shipment data. for enhancing your Sales & Marketing Business.",
+      image: "",
+    },
+    section2: {
+      heading:
+        "Establish an emerging Brand image in the sale & Marketing sector.",
+      subheading:
+        "Identify the top import-export market trends and understand the actual market needs through the expert business intelligence report. Generate an efficacious marketing strategic plan based on a market research report.",
+      points: [
+        {
+          heading: "Identify market trends",
+          description:
+            "Our AI system keeps updating our database which helps you to stay up-to-date with the actual market trends. Our data solution report helps you in analyzing your competitors and build an effective strategic plan for boosting your sales.",
+          icon: "",
+        },
+        {
+          heading: "Generate Potential Leads",
+          description:
+            "Analyze the global trade market and build strong relationships with various businessmen, traders, and customers through business marketing intelligence reports of Exim Trade Data. Explore the Actual market trends and generate potential leads throughout the world.",
+          icon: "",
+        },
+        {
+          heading: "Targeted Market",
+          description:
+            "Our trade intelligence platform helps you to find potential buyers & suppliers in the global trade market. Our business intelligence report builds your target audience and boosts your sales to the next level of height.",
+          icon: "",
+        },
+        {
+          heading: "Analyze your competitors",
+          description:
+            "Our trade intelligence report helps you in monitoring other companies' performance with in-depth insights into the international import-export data. You always stay up-to-date with the customer's demand and accelerate your sales.",
+          icon: "",
+        },
+        {
+          heading: "Build Marketing Plan",
+          description:
+            "A Trade analysis intelligence report of Exim Trade Data build an effective marketing plan which helps you in finding an active customer base and generating potential leads in the global commerce market.",
+          icon: "",
+        },
+        {
+          heading: "Risk Management",
+          description:
+            "Minimize the monetary risk involved in the marketing sector with accurate facts & figures of the business intelligence report. We give you a real-time analysis of market trends, competitors' strategies, and customers' demands.",
+          icon: "",
+        },
+      ],
+    },
+    section4: {
+      heading: "Get expert sales & marketing intelligence reports",
+    },
+    section5: {
+      industries: [
+        {
+          image: "",
+          title: "Chemical",
+          heading: "Best Market Intelligence Platform for Chemical Industries",
+          description:
+            "Exim Trade Data provides the best market intelligence platform for chemical industries. Gain unique insights of the global chemical market such as top imports, exports, trading countries and chemical companies. Get versed with the latest trends, technologies and innovations in the chemical market through our quality business reports.",
+          link: "chemical",
+        },
+        {
+          image: "",
+          title: "Finance",
+          heading:
+            "Improve Your Decision Making With Our Impressive Financial Reports",
+          description:
+            "Finance market is a very complex and unpredictable market. Exim Trade Data provides detailed insights into the finance market that helps you make fast and accurate decisions regarding loans, insurance and investments. Our financial reports help you analyze the latest market trends, calculate risk and identify best investment opportunities.",
+          link: "finance",
+        },
+        {
+          image: "",
+          title: "Retail",
+          heading:
+            "Boost Your Company’s Sales through Our Market Research Platform",
+          description:
+            "Exim Trade Data provides the best market research platform for retail companies. We provide actionable data insights that help your business flourish in the global market. Our brief business intelligence reports assist you in analyzing your customer’s intent, market demand, product pricing, supply chain and identifying business growth opportunities.",
+          link: "retail",
+        },
+        {
+          image: "",
+          title: "Construction",
+          heading:
+            "Best Market Intelligence Platform for Construction Companies",
+          description:
+            "Analyze the global construction market of over 60+ countries through our market intelligence platform. Utilize the financial trade data of countries, companies and commodities for an efficient project planning. Eliminate market risks, overspending, project delays, workflaws and discover profitable investment opportunities.",
+          link: "construction",
+        },
+      ],
+    },
+  },
 };
