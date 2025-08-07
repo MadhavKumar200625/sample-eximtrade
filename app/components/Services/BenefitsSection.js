@@ -45,15 +45,15 @@ const benefits = [
 
 export default function BenefitsSection() {
   return (
-    <section className="py-16 bg-gradient-to-b from-white via-sky-50 to-sky-100">
+    <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 bg-clip-text text-transparent">
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">
           Benefits of Import Export Data
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {benefits.map((benefit, idx) => (
-            <div key={idx} className="bg-white shadow-md rounded-2xl border hover:shadow-lg transition duration-300 p-4 flex flex-col h-full">
-              <div className="w-full h-40 relative mb-4 rounded-lg overflow-hidden">
+            <div key={idx} className="bg-white shadow-md  border hover:shadow-lg transition duration-300 p-4 flex flex-col h-full">
+              <div className="w-full h-40 relative mb-4  overflow-hidden">
                 <Image
                   src={benefit.img}
                   alt={benefit.title}
@@ -61,8 +61,8 @@ export default function BenefitsSection() {
                   className="object-contain"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-2">{benefit.title}</h3>
-              <p className="text-sm text-gray-600">{benefit.desc}</p>
+              <h3 className="text-lg font-semibold text-black mb-2">{benefit.title}</h3>
+              <p className="text-sm text-black">{benefit.desc}</p>
             </div>
           ))}
         </div>

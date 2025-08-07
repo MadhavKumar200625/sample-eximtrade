@@ -40,7 +40,7 @@ export default function Sectors() {
 
     <div className="max-w-7xl bg-gray-50 mx-auto px-6">
       <div className="flex justify-between items-center mb-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+        <h2 className="text-3xl md:text-4xl font-bold text-black">
           Sectors We Work With
         </h2>
         <Link href="/country-ports">
@@ -53,7 +53,7 @@ export default function Sectors() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {sectors.map((sector, index) => (
           <Link href="/title" key={index} className="group">
-            <div className="bg-white rounded-2xl border border-zinc-200 overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 h-full flex flex-col">
+            <div className="bg-white  border border-zinc-200 overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 h-full flex flex-col">
               <div className="relative h-40 w-full">
                 <Image
                   src={sector.image}
@@ -64,9 +64,9 @@ export default function Sectors() {
                 />
               </div>
               <div className="p-5 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-gray-900 mb-1">{sector.title}</h3>
+                <h3 className="text-xl font-bold text-black mb-1">{sector.title}</h3>
                 <p className="text-blue-600 font-medium mb-2">{sector.subtitle}</p>
-                <p className="text-gray-600 text-sm line-clamp-3">{sector.description}</p>
+                <p className="text-black text-sm line-clamp-3">{sector.description}</p>
               </div>
             </div>
           </Link>

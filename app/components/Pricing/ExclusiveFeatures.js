@@ -2,16 +2,16 @@ import React from 'react'
 
 const ExclusiveFeatures = () => {
   return (
-<section className="bg-gradient-to-b from-[#f8fbff] via-white to-[#f1f5f9] py-20 px-4">  <div className="max-w-7xl mx-auto text-center">
-    <h2 className="text-3xl md:text-4xl font-bold text-blue-700 mb-12">
+<section className="bg-gray-50 py-20 px-4">  <div className="max-w-7xl mx-auto text-center">
+    <h2 className="text-3xl md:text-4xl font-bold text-black mb-12">
       Some Exclusive Features of our Global Trade Database
     </h2>
 
     <div className="grid md:grid-cols-3 gap-8">
       {/* Card 1 */}
-      <div className="rounded-3xl shadow-xl p-8 text-left bg-gradient-to-br from-[#f9f9ff] to-[#e6f0ff] border border-blue-100">
-        <h3 className="text-xl font-semibold text-blue-800 mb-4">Analyze Your Product Demand</h3>
-        <ul className="space-y-3 text-left text-blue-900">
+      <div className=" shadow-xl p-8 text-left bg-gradient-to-br from-[#f9f9ff] to-[#e6f0ff] border border-blue-100">
+        <h3 className="text-xl font-semibold text-black mb-4">Analyze Your Product Demand</h3>
+        <ul className="space-y-3 text-left text-black">
           <li className="flex items-start gap-2">
             <span className="text-blue-600 text-lg">➤</span> Real-time shipment records
           </li>
@@ -31,9 +31,9 @@ const ExclusiveFeatures = () => {
       </div>
 
       {/* Card 2 */}
-      <div className="rounded-3xl shadow-xl p-8 text-left bg-gradient-to-br from-[#fff8f5] to-[#ffeae0] border border-orange-100">
-        <h3 className="text-xl font-semibold text-blue-800 mb-4">Empower Your Research With</h3>
-        <ul className="space-y-3 text-left text-blue-900">
+      <div className=" shadow-xl p-8 text-left bg-gradient-to-br from-[#fff8f5] to-[#ffeae0] border border-orange-100">
+        <h3 className="text-xl font-semibold text-black mb-4">Empower Your Research With</h3>
+        <ul className="space-y-3 text-left text-black">
           <li className="flex items-start gap-2">
             <span className="text-blue-600 text-lg">✔</span> Global Trends Reports
           </li>
@@ -53,9 +53,9 @@ const ExclusiveFeatures = () => {
       </div>
 
       {/* Card 3 */}
-      <div className="rounded-3xl shadow-xl p-8 text-left bg-gradient-to-br from-[#f5fff9] to-[#e0ffee] border border-green-100">
-        <h3 className="text-xl font-semibold text-blue-800 mb-4">Find Quality Business Leads With</h3>
-        <ul className="space-y-3 text-left text-blue-900">
+      <div className=" shadow-xl p-8 text-left bg-gradient-to-br from-[#f5fff9] to-[#e0ffee] border border-green-100">
+        <h3 className="text-xl font-semibold text-black mb-4">Find Quality Business Leads With</h3>
+        <ul className="space-y-3 text-left text-black">
           <li className="flex items-start gap-2">
             <span className="text-blue-600 text-lg">★</span> Buyers Dashboard
           </li>
@@ -76,8 +76,8 @@ const ExclusiveFeatures = () => {
     </div>
   </div>
 
-  <div className="max-w-5xl mt-10 mx-4 md:mx-24  text-gray-800">
-    <h2 className="text-2xl md:text-3xl font-bold text-blue-600 mb-4">
+  <div className="max-w-5xl mt-10 mx-4 md:mx-24  text-black">
+    <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
       Our Plan Inclusions
     </h2>
     <p className="mb-4">
@@ -95,7 +95,7 @@ const ExclusiveFeatures = () => {
     <p className="font-semibold text-red-600 mb-4">
       The above pricing plans are exclusive of 18% GST.
     </p>
-    <p className="text-gray-700">
+    <p className="text-black">
       <span className="font-semibold">To check our plans and pricing for other countries,</span> please reach out to our support or browse the relevant country section.
     </p>
   </div>

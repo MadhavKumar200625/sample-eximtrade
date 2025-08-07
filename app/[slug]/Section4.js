@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Section4 = ({heading}) => {
   return (
-    <section className="w-full bg-sky-200 py-20 px-6 md:px-20">
+    <section className="w-full bg-sky-100 py-14 px-6 md:px-20">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
         {/* Left Image */}
         <motion.img
@@ -28,7 +28,7 @@ const Section4 = ({heading}) => {
           </motion.h2>
           <Link
   href="/search-global-trade-data"
-  className="inline-block bg-blue-600 text-white font-semibold text-md px-8 py-3 rounded-4xl shadow-md hover:bg-blue-700 transition-all duration-200 hover:scale-105"
+  className="inline-block bg-blue-600 text-white font-semibold text-md px-8 py-3 mt-3 shadow-md  transition-all duration-200 hover:scale-105"
 >
   Explore More →
 </Link>

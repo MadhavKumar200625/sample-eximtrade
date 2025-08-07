@@ -10,7 +10,7 @@ const Hero = () => {
           <img
             src="https://eximtradedata.com/images/global_ports.webp"
             alt="Global Ports Data"
-            className="w-full h-auto rounded-xl shadow-lg"
+            className="w-full h-auto shadow-lg"
           />
         </div>
     
@@ -25,15 +25,13 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 pt-2">
       <Link
         href="/pricing"
-        className="inline-block bg-gradient-to-tr from-blue-500 to-indigo-500 text-white font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out text-center"
-      >
+className="relative overflow-hidden px-6 mx-1 py-3 bg-blue-600 cursor-pointer  text-white text-md hover:scale-105  transition-all    font-semibold shadow-xl group"      >
         Schedule a Demo
       </Link>
       <Link
         href="/api-development-and-integration-company">
-        <button className="relative overflow-hidden px-6 py-3 bg-gray-100 cursor-pointer hover:text-white text-md hover:scale-105  text-blue-700 border border-blue-500 rounded-full font-semibold shadow-md group">
-                  <span className="relative z-10">Get API Access</span>
-                  <span className="absolute inset-0 w-full bg-gradient-to-l from-sky-400 via-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 transition-all duration-200 group-hover:translate-x-0 -translate-x-full rounded-full"></span>
+        <button className="relative overflow-hidden px-6 mx-1 py-3 bg-blue-600 cursor-pointer text-white text-md hover:scale-105  transition-all    font-semibold shadow-xl group">
+              Get API Access
                 </button>
       </Link>
     </div>

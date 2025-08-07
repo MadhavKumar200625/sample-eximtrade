@@ -5,10 +5,10 @@ const Page = () => {
     <div className="bg-gradient-to-br from-[#e8f0ff] to-[#f4fafe] px-6 pb-10 pt-24 md:px-12 min-h-screen overflow-auto">
       {/* Heading Section */}
       <div className="text-center max-w-4xl mx-auto mb-8">
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+        <h1 className="text-3xl md:text-4xl font-bold text-black">
           Exim Global Trade Intelligence System
         </h1>
-        <h2 className="mt-4 text-base sm:text-lg md:text-xl text-gray-700 font-medium">
+        <h2 className="mt-4 text-base sm:text-lg md:text-xl text-black font-medium">
           World&apos;s largest <span className="text-blue-600 font-semibold">global trade database</span>. Connect with millions of international <span className="text-blue-600 font-semibold">buyers and suppliers</span> in one go.
         </h2>
       </div>
@@ -16,8 +16,8 @@ const Page = () => {
       {/* Content Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto">
         {/* Form Section */}
-        <div className="bg-white shadow-xl rounded-2xl p-6 sm:p-8 md:p-10 border border-blue-100 overflow-y-auto max-h-[75vh]">
-          <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mb-6">
+        <div className="bg-white shadow-xl  p-6 sm:p-8 md:p-10 border border-blue-100 overflow-y-auto max-h-[75vh]">
+          <h2 className="text-xl md:text-2xl font-semibold text-black mb-6">
             Get Started With Exim GTIS Platform
           </h2>
 
@@ -25,7 +25,7 @@ const Page = () => {
             {/* Name + Company */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Customer Name</label>
+                <label className="block text-sm font-medium text-black mb-1">Customer Name</label>
                 <input
                   type="text"
                   placeholder="John Doe"
@@ -34,7 +34,7 @@ const Page = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Company Name</label>
+                <label className="block text-sm font-medium text-black mb-1">Company Name</label>
                 <input
                   type="text"
                   placeholder="Company Inc."
@@ -45,7 +45,7 @@ const Page = () => {
 
             {/* Phone */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Phone Number</label>
+              <label className="block text-sm font-medium text-black mb-1">Phone Number</label>
               <div className="flex">
                 <select className="border border-gray-300 rounded-l-lg px-3 py-2 bg-gray-50 text-sm focus:outline-none">
                   <option value="+91">🇮🇳 +91</option>
@@ -62,7 +62,7 @@ const Page = () => {
 
             {/* Email */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Email ID</label>
+              <label className="block text-sm font-medium text-black mb-1">Email ID</label>
               <input
                 type="email"
                 placeholder="you@example.com"
@@ -72,7 +72,7 @@ const Page = () => {
 
             {/* Requirement */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Requirement</label>
+              <label className="block text-sm font-medium text-black mb-1">Requirement</label>
               <textarea
                 rows={2}
                 placeholder="Briefly describe what you need"
@@ -83,7 +83,7 @@ const Page = () => {
             {/* Submit */}
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-blue-600 to-sky-600 hover:from-sky-700 hover:to-blue-700 text-white font-semibold py-3 rounded-xl shadow-md hover:shadow-lg transform hover:scale-105 transition duration-200"
+              className="w-full bg-blue-600 text-white font-semibold py-3  shadow-md hover:shadow-lg transform hover:scale-105 transition duration-200"
             >
               Get Started
             </button>

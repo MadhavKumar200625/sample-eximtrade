@@ -21,12 +21,12 @@ const benifits = [
 
 const BenifitsSection = () => {
   return (
-    <section className="bg-gradient-to-br from-[#1f2d5a] to-[#2d3f72] py-20 px-6 lg:px-24">
+    <section className="bg-[#f4f9ff] py-20 px-6 lg:px-24">
   <div className="max-w-7xl mx-auto text-center mb-14">
-    <h2 className="text-4xl lg:text-5xl font-extrabold text-white mb-6">
+    <h2 className="text-4xl lg:text-5xl font-extrabold text-black mb-6">
       Benefits of Import Export Data Analysis
     </h2>
-    <p className="text-lg text-blue-100 max-w-2xl mx-auto">
+    <p className="text-lg text-black max-w-2xl mx-auto">
       Unlock growth, mitigate risk, and gain a competitive edge with strategic data insights.
     </p>
   </div>
@@ -35,7 +35,7 @@ const BenifitsSection = () => {
     {benifits.map((card, index) => (
       <div
         key={index}
-        className="bg-white rounded-2xl shadow-xl p-6 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-200"
+        className="bg-white  shadow-xl p-6 text-center hover:-translate-y-2 hover:shadow-2xl transition duration-200"
       >
         <div className="w-20 h-20 mx-auto mb-5">
           <img
@@ -44,7 +44,7 @@ const BenifitsSection = () => {
             className="object-contain w-full h-full"
           />
         </div>
-        <p className="text-[#1f2d5a] text-base font-medium leading-relaxed">
+        <p className="text-black text-base font-medium leading-relaxed">
           {card.text}
         </p>
       </div>

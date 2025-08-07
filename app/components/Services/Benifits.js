@@ -39,7 +39,7 @@ const Benifits = () => {
   ];
 
   return (
-<section className="bg-gradient-to-br from-blue-100 via-sky-100 to-white py-24 px-4 sm:px-8 lg:px-20 text-gray-900">
+<section className="bg-blue-50 py-16 px-4 sm:px-8 lg:px-20 text-black">
         <div className="max-w-7xl mx-auto space-y-16">
     
 
@@ -47,9 +47,9 @@ const Benifits = () => {
           {points.map((point) => (
             <div
               key={point.id}
-              className="relative group bg-white/70 backdrop-blur-md border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300"
+              className="relative group bg-white/70 backdrop-blur-md border border-gray-200  p-6 shadow-md hover:shadow-xl transition duration-300"
             >
-              <div className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 mb-4">
+              <div className="text-5xl font-extrabold text-blue-600 mb-4">
                 {point.id}
               </div>
               <p className="text-lg font-medium leading-relaxed">

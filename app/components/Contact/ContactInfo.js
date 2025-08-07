@@ -2,18 +2,18 @@ import React from 'react'
 
 const ContactInfo = () => {
   return (
-   <section className="relative z-10 py-14 px-4 md:px-8 bg-white ">
+   <section className="relative z-10 bg-slate-100 py-12 mt-10 px-4 md:px-8 ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
         
         {/* Card 1: Support */}
-        <div className="group bg-white/70 backdrop-blur-lg border border-gray-200 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-200 hover:-translate-y-2">
+        <div className="group bg-white/70 backdrop-blur-lg border border-gray-200  p-8 shadow-2xl hover:shadow-3xl transition-all duration-200 hover:-translate-y-2">
           <div className="flex items-center gap-4 mb-6">
             <div className="h-14 w-14 bg-blue-100 text-blue-600 text-2xl flex items-center justify-center rounded-full">
               📞
             </div>
-            <h2 className="text-2xl font-bold text-gray-800">Support Enquiry</h2>
+            <h2 className="text-2xl font-bold text-black">Support Enquiry</h2>
           </div>
-          <div className="space-y-5 text-gray-700 text-base">
+          <div className="space-y-5 text-black text-base">
             <div className="flex gap-3">
               <span className="text-xl">📱</span>
               <div>
@@ -37,14 +37,14 @@ const ContactInfo = () => {
         </div>
 
         {/* Card 2: Visit Us */}
-        <div className="group bg-white/70 backdrop-blur-lg border border-gray-200 rounded-3xl p-8 shadow-2xl hover:shadow-3xl transition-all duration-200 hover:-translate-y-1">
+        <div className="group bg-white/70 backdrop-blur-lg border border-gray-200  p-8 shadow-2xl hover:shadow-3xl transition-all duration-200 hover:-translate-y-1">
           <div className="flex items-center gap-4 mb-6">
             <div className="h-14 w-14 bg-green-100 text-green-600 text-2xl flex items-center justify-center rounded-full">
               🏢
             </div>
-            <h2 className="text-2xl font-bold text-gray-800">Reach Us</h2>
+            <h2 className="text-2xl font-bold text-black">Reach Us</h2>
           </div>
-          <div className="space-y-5 text-gray-700 text-base">
+          <div className="space-y-5 text-black text-base">
             <div className="flex gap-3">
               <span className="text-xl">📌</span>
               <div>

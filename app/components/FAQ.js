@@ -13,15 +13,13 @@ export default function FAQSection({ faqs ,title }) {
 
   return (
     <section className="relative py-28 px-6 sm:px-10 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden">
-      {/* Gradient Orbs */}
-      <div className="absolute top-[-200px] right-[-200px] bg-blue-300/20 rounded-full blur-3xl w-[500px] h-[500px]" />
-      <div className="absolute bottom-[-150px] left-[-150px] bg-purple-300/20 rounded-full blur-3xl w-[400px] h-[400px]" />
+     
 
       <div className="mx-auto max-w-5xl relative z-10">
-        <h2 className="text-4xl font-extrabold text-center text-zinc-900 mb-16 leading-tight drop-shadow-md">
+        <h2 className="text-4xl font-extrabold text-center text-black mb-16 leading-tight drop-shadow-md">
           {title || (
             <>
-              Frequently Asked <span className="text-blue-600">Questions</span>
+              Frequently Asked <span className="text-black">Questions</span>
             </>
           )}
         </h2>
@@ -30,7 +28,7 @@ export default function FAQSection({ faqs ,title }) {
           {faqs.map((faq, index) => (
             <motion.div
               key={index}
-              className="bg-white/80 backdrop-blur-xl border border-zinc-200 rounded-3xl shadow-xl hover:shadow-blue-200 transition-all duration-300"
+              className="bg-white/80 backdrop-blur-xl border border-zinc-200  shadow-xl hover:shadow-blue-200 transition-all duration-300"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.01, duration: 0.1 }}
@@ -40,7 +38,7 @@ export default function FAQSection({ faqs ,title }) {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-8 py-6 text-left cursor-pointer flex justify-between items-center group"
               >
-                <span className="text-xl font-semibold  text-zinc-800 group-hover:text-blue-600 transition">
+                <span className="text-xl font-semibold  text-zinc-800  transition">
                   {faq.question}
                 </span>
                 <motion.div

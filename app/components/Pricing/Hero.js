@@ -45,18 +45,18 @@ export default function Hero() {
   ];
 
   return (
-<section id="pricing_section" className="pb-20 pt-32 bg-gradient-to-tl from-blue-50 via-sky-100 to-white text-gray-800">
+<section id="pricing_section" className="pb-20 pt-32 bg-white text-black">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+        <h2 className="text-4xl md:text-5xl font-extrabold text-black leading-tight mb-4">
     Welcome to the World&apos;s Largest <br />
-    <span className="bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 bg-clip-text text-transparent">
+    <span >
       Global Trade Analysis
     </span>
   </h2>
   <h3 className="text-xl md:text-2xl font-semibold text-blue-600 mb-4">
     Import Export Trade Analysis
   </h3>
-  <p className="text-gray-600 text-base md:text-lg">
+  <p className="text-black text-base md:text-lg">
     With the latest updated import export trade analysis, expand your reach to the most diverse markets. <br />
     Drive high-quality ROI leads from all over the globe.
   </p>
@@ -67,7 +67,7 @@ export default function Hero() {
               className={`px-6 py-2 rounded-full text-sm font-medium transition ${
                 currency === "INR"
                   ? "bg-blue-600 text-white"
-                  : "text-gray-700 hover:bg-gray-200"
+                  : "text-black hover:bg-gray-200"
               }`}
             >
               INR
@@ -77,7 +77,7 @@ export default function Hero() {
               className={`px-6 py-2 rounded-full text-sm font-medium transition ${
                 currency === "USD"
                   ? "bg-blue-600 text-white"
-                  : "text-gray-700 hover:bg-gray-200"
+                  : "text-black hover:bg-gray-200"
               }`}
             >
               USD
@@ -90,10 +90,10 @@ export default function Hero() {
           {plans.map((plan) => (
             <div
               key={plan.name}
-              className="border border-gray-200 rounded-2xl p-6 hover:shadow-xl transition bg-white text-black font-bold flex flex-col"
+              className="border border-gray-200  p-6 hover:shadow-xl transition bg-white text-black font-bold flex flex-col"
             >
               <h3 className="text-xl font-semibold mb-2">{plan.name}</h3>
-              <p className="text-sm text-gray-600 mb-4">{plan.description}</p>
+              <p className="text-sm text-black mb-4">{plan.description}</p>
 
               <div className="text-3xl font-bold text-blue-600 mb-4">
                 {currency === "INR"
@@ -101,7 +101,7 @@ export default function Hero() {
                   : `$${plan.usd}`}
               </div>
 
-              <ul className="text-sm text-gray-700 space-y-2 flex-1">
+              <ul className="text-sm text-black space-y-2 flex-1">
                 <li>✔️ Full Data Search</li>
                 <li>✔️ {plan.downloads} Download Credits</li>
                 <li>✔️ {plan.validity} Validity</li>
@@ -109,7 +109,7 @@ export default function Hero() {
 
               <Link
   href="/import-export-data-country-wise"
-  className="inline-block mt-6 mx-auto bg-gradient-to-r from-sky-500 via-blue-600 to-indigo-500 text-white font-semibold px-6 py-3 rounded-3xl shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1 duration-300"
+  className="relative cursor-pointer mt-6 mx-auto inline-flex items-center justify-center px-6 py-2 overflow-hidden font-semibold text-white transition-all duration-300  bg-blue-600  hover:scale-105"
 >
   Explore More 
 </Link>

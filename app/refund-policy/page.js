@@ -3,15 +3,15 @@ import React from 'react'
 const page = () => {
   return (
     <div className="bg-white px-4 pb-12 pt-32 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto bg-white p-8 shadow-xl rounded-2xl border border-zinc-200">
+      <div className="max-w-4xl mx-auto bg-white p-8 shadow-xl  border border-zinc-200">
         <h1 className="text-4xl font-extrabold text-center text-black mb-4">
           Refund Policy
         </h1>
-        <h2 className="text-xl font-semibold text-gray-700 mb-6 mt-10">
+        <h2 className="text-xl font-semibold text-black mb-6 mt-10">
           Refund Policy:
         </h2>
 
-        <p className="text-gray-700 text-lg mb-6">
+        <p className="text-black text-lg mb-6">
           We are dedicated to providing our customers with genuine and precise
           global import export data. If you find inaccuracies in our global
           trade reports within <span className="font-semibold">48 hours</span>,
@@ -19,7 +19,7 @@ const page = () => {
           mode—within <span className="font-semibold">48 hours</span>!
         </p>
 
-        <p className="text-gray-700 text-lg mb-6">
+        <p className="text-black text-lg mb-6">
           Please notify us via email at{" "}
           <a
             href="mailto:info@eximtradedata.com"
@@ -30,7 +30,7 @@ const page = () => {
           to clarify any inaccuracies in our data.
         </p>
 
-        <p className="text-gray-700 text-lg mb-8">
+        <p className="text-black text-lg mb-8">
           Your complete satisfaction is our priority, and we aim to grow
           together with our clients.
         </p>

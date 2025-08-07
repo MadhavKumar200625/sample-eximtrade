@@ -186,9 +186,9 @@ image:"https://eximtradedata.com/images/aerospace_and_defence_md_banner.webp",
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-sky-50 via-slate-100 to-blue-50 pt-32 pb-14 px-4 sm:px-10 lg:px-20">
+    <section className="bg-white pt-32 pb-14 px-4 sm:px-10 lg:px-20">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-extrabold text-gray-800 text-center mb-16">
+        <h2 className="text-4xl sm:text-5xl font-extrabold text-black text-center mb-16">
           Industries We Cover
         </h2>
 
@@ -196,7 +196,7 @@ const Hero = () => {
           {industries.map((industry) => (
             <div
               key={industry.id}
-              className="bg-white rounded-3xl overflow-hidden shadow-xl  hover:shadow-2xl transition-all  duration-300 border border-slate-200"
+              className="bg-white  overflow-hidden shadow-xl  hover:shadow-2xl transition-all  duration-300 border border-slate-200"
             >
               <Link href={industry.link}>
                 <div className="h-48 overflow-hidden cursor-pointer">
@@ -220,14 +220,14 @@ const Hero = () => {
                   </div>
                 </Link>
 
-<p className="text-gray-600 text-sm leading-relaxed h-16 overflow-hidden text-ellipsis line-clamp-4">
+<p className="text-black text-sm leading-relaxed h-16 overflow-hidden text-ellipsis line-clamp-4">
   {industry.description}
 </p>
                 <div className='w-full text-center'>
 
                 
                 <Link href={industry.link} >
-                  <span className="inline-flex text-md items-center mt-4  px-5 py-2 bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 hover:from-blue-700 hover:to-indigo-700 text-white rounded-full font-semibold transition-all duration-300 shadow-md group">
+                  <span className="inline-flex text-md items-center mt-4  px-5 py-2 bg-blue-600 text-white hover:scale-105  font-semibold transition-all duration-300 shadow-md group">
                     Gain Insight
                     <svg
                       className="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform duration-300"

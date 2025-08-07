@@ -32,7 +32,7 @@ const images = [
 
 export default function Reputation() {
   return (
-    <section className="px-40 mx-auto  py-20 bg-gradient-to-br from-blue-50 via-white to-blue-100 ">
+    <section className="px-40 mx-auto  py-20 bg-white  to-white ">
       <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">
         Our reputation is built on{" "}
         <span className="text-blue-600 drop-shadow-md">
@@ -45,7 +45,7 @@ export default function Reputation() {
         {images.map((src, i) => (
           <div
             key={i}
-            className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
+            className="bg-white shadow-lg overflow-hidden transform hover:scale-105 transition-all duration-300"
           >
             <Image
               src={src}

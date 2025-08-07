@@ -27,10 +27,10 @@ const benefits = [
 
 export default function EximBenefitsSection() {
   return (
-<section className="py-16 bg-[radial-gradient(circle_at_top_left,_#f0f9ff,_#ffffff)] relative overflow-hidden">
+<section className="py-16 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-4xl font-bold text-blue-700 mb-4">Unlock Unique Benefits of <span className="text-blue-900">Exim GTIS</span></h2>
-        <p className="text-zinc-600 mb-10 max-w-3xl mx-auto">
+        <h2 className="text-4xl font-bold text-black mb-4">Unlock Unique Benefits of Exim GTIS</h2>
+        <p className="text-black mb-10 max-w-3xl mx-auto">
           Gain unparalleled insights and elevate your business with our powerful analytics platform.
         </p>
 
@@ -38,7 +38,7 @@ export default function EximBenefitsSection() {
           {benefits.map((benefit, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-2xl shadow-xl border border-zinc-200 p-6 hover:shadow-2xl transition duration-300"
+              className="bg-white  shadow-xl border border-zinc-200 p-6 hover:shadow-2xl transition duration-300"
             >
               <div className="w-24 h-24 mx-auto mb-4">
                 <Image
@@ -46,11 +46,11 @@ export default function EximBenefitsSection() {
                   alt={benefit.title}
                   width={32}
                   height={32}
-                  className="rounded-full w-24 h-24 flex items-center justify-center bg-gradient-to-br from-blue-800 to-blue-600 shadow-md mb-4"
+                  className=" w-24 h-24 flex items-center justify-center bg-gradient-to-br from-blue-800 to-blue-600 shadow-md mb-4"
                 />
               </div>
-              <h3 className="text-lg font-semibold text-blue-800 mb-2">{benefit.title}</h3>
-              <p className="text-sm text-zinc-600 text-left">{benefit.desc}</p>
+              <h3 className="text-lg md:text-xl font-semibold text-black my-3">{benefit.title}</h3>
+              <p className="text-sm text-black text-left">{benefit.desc}</p>
             </div>
           ))}
         </div>

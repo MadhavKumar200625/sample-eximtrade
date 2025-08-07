@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const ContactQuestion = () => {
   return (
-<section className="bg-gradient-to-b from-blue-200 via-sky-100   to-sky-50 py-20 px-6 sm:px-10 lg:px-24">
+<section className="bg-slate-100 py-20 px-6 sm:px-10 lg:px-24">
   <div className="max-w-7xl mx-auto text-center space-y-6">
     <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-800">
       Need Industry Specific Insights?
@@ -14,7 +14,7 @@ const ContactQuestion = () => {
 
     <Link
       href="/contact"
-      className="inline-flex items-center justify-center gap-2 text-white bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 transition-all px-6 py-3 rounded-full text-sm sm:text-base font-semibold shadow-lg hover:scale-105 duration-300"
+      className="inline-flex items-center justify-center gap-2 text-white bg-blue-600 transition-all px-6 py-3  text-sm sm:text-base font-semibold shadow-lg hover:scale-105 duration-300"
     >
       Contact Us →
     </Link>
