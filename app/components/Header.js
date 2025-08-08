@@ -103,15 +103,15 @@ const Header = () => {
 <img src="/logo.png" alt="Logo" className="h-10 w-auto flex-none" />
         {/* Desktop Nav */}
         <nav className="hidden md:flex flex-1 items-center justify-center gap-6">
-          <Link href="/" className="hover:text-blue-600 transition">
+          <Link href="/" className="hover:text-blue-600 transition font-bold text-lg">
             Home
           </Link>
 
-          <Link href="/about" className="hover:text-blue-600 transition">
+          <Link href="/about" className="hover:text-blue-600 transition  font-bold text-lg">
             About
           </Link>
           
-          <Link href="/services" className="hover:text-blue-600 transition">
+          <Link href="/services" className="hover:text-blue-600 transition font-bold text-lg">
             Services
           </Link>
 
@@ -121,7 +121,7 @@ const Header = () => {
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
           >
-            <button className="hover:text-blue-600 transition">
+            <button className="hover:text-blue-600 transition font-bold text-lg">
               Solutions
             </button>
             {solutionsOpen && (
@@ -163,21 +163,21 @@ const Header = () => {
             )}
           </div>
 
-          <a href="#" className="hover:text-blue-600 transition">
+          <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
             Search Data
           </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
             Countries
           </a>
-          <a href="#" className="hover:text-blue-600 transition">
+          <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
             API
           </a>
 
-          <Link href="/pricing" className="hover:text-blue-600 transition">
+          <Link href="/pricing" className="hover:text-blue-600 transition font-bold text-lg">
             Pricing
           </Link>
 
-          <Link href="/contact" className="hover:text-blue-600 transition">
+          <Link href="/contact" className="hover:text-blue-600 transition font-bold text-lg">
             Contact Us
           </Link>
         </nav>

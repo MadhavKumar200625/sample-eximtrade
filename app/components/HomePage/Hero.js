@@ -30,10 +30,9 @@ export default function Hero() {
 </div>
         </div>
 
-        {/* Image Section */}
         <div className="flex-1">
           <Image
-            src="/planning-dashboard.png" // Place this image in /public/
+            src="/find-global-buyers-and-sellers.png" 
             alt="Enterprise Planning"
             width={500}
             height={300}

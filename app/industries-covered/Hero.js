@@ -211,7 +211,7 @@ const Hero = () => {
               <div className="p-6 space-y-3">
                 <Link href={industry.link}>
                   <div className="space-y-1 cursor-pointer">
-                    <h3 className="text-xl sm:text-2xl text-blue-600  font-extrabold  tracking-tight">
+                    <h3 className="text-xl sm:text-2xl text-black  font-extrabold  tracking-tight">
                       {industry.name}
                     </h3>
                     <h4 className="text-lg line-clamp-2 text-ellipsis font-semibold text-black">

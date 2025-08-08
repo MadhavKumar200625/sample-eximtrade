@@ -26,7 +26,7 @@ const HeroSection = () => {
       <p className="text-base md:text-lg text-black mb-4 leading-relaxed">
         At <span className="font-semibold text-blue-600">Exim Trade Data</span>, we provide cutting-edge insights into global trade activities, empowering businesses with precise, real-time export-import analytics tailored for growth.
       </p>
-      <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+      <p className="text-base md:text-lg text-black leading-relaxed">
         Backed by a highly skilled technical team with decades of expertise in data mining and analytics, we simplify global trade decisions with accurate, systematic intelligence across regions and commodities.
       </p>
     </div>

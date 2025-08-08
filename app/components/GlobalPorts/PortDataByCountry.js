@@ -29,19 +29,20 @@ const PortDataByCountry = () => {
                 </Link>
               </div>
               <ul className="text-sm text-black space-y-1">
-                {country.ports.map((port) => (
-                  <li key={port}>
-                    <Link
-                      href={`/ports-data/${country.name}/port-${port
-                        .toUpperCase()
-                        .replace(/[^A-Z0-9]/g, "-")}`}
-                      className="hover:text-blue-600 transition"
-                    >
-                      {port}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+  {country.ports.map((port) => (
+    <li key={port}>
+      <Link
+        href={`/ports-data/${country.name}/port-${port
+          .toUpperCase()
+          .replace(/[^A-Z0-9]/g, "-")}`}
+        className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 py-0.5 underline hover:scale-102 transition cursor-pointer"
+      >
+        {port}
+        <span className="text-xs">↗</span>
+      </Link>
+    </li>
+  ))}
+</ul>
               <div className="mt-4 text-right">
                 <Link
                   href={`/ports-data/${country.name}/A-1`}

@@ -41,7 +41,7 @@ export default function Reputation() {
         for clients
       </h2>
 
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-6">
         {images.map((src, i) => (
           <div
             key={i}
@@ -50,8 +50,8 @@ export default function Reputation() {
             <Image
               src={src}
               alt={`Client ${i + 1}`}
-              width={500}
-              height={300}
+              width={200}
+              height={100}
               className="w-full px-5 py-2  object-cover"
             />
           </div>
