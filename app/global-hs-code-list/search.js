@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-const search = () => {
+const Search = () => {
 
   const [product, setProduct] = useState('');
   const [hsCode, setHsCode] = useState('');

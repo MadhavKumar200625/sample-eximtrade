@@ -1,5 +1,5 @@
 import React from 'react'
-import Search from '../search'
+import Search from '../Search'
 import { getConnection } from "@/libs/db";
 import Link from 'next/link';
 import FAQSection from '../../components/FAQ';
