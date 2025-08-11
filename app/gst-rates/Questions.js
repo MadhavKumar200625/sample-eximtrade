@@ -26,7 +26,7 @@ const Questions = () => {
           <li className='bg-white border p-1 border-black px-3 my-3 shadow-md text-lg '><strong>18%:</strong> Under this slab 18% tax is charged on the goods and services.</li>
           <li className='bg-white border p-1 border-black px-3 my-3 shadow-md text-lg '><strong>28%:</strong> Under this slab 28% tax is charged on the goods and services.</li>
         </ul>
-        <p className="mt-2"><strong>Important Note:</strong> Gold and other precious metals are excluded and put under 3% tax slab.</p>
+        <p className="mt-2"><strong className='text-blue-600'>Important Note:</strong> Gold and other precious metals are excluded and put under 3% tax slab.</p>
       </div>
 
       <div>
@@ -41,7 +41,7 @@ const Questions = () => {
         <p>
           HSN Codes held great significance in Import-Export Procedures of India. In India, it is called ITC (Indian Trade Clarification)-HS Code. An ITC HS Code is recognized from its Chapter, Heading, Subheading and Regional Tariff. It consists of 8 digits.
         </p>
-        <p className="mt-2">Let’s take an example: Suppose we are given an HS Code- <strong>6006840000</strong></p>
+        <p className="mt-2">Let&apos;s take an example: Suppose we are given an HS Code- <strong>6006840000</strong></p>
         <ul className=" mt-2 space-y-1">
           <li className='bg-white border p-1 border-black px-3 my-3 shadow-md text-lg '><strong>Chapter:</strong> The first two digits (60) denote chapter</li>
           <li className='bg-white border p-1 border-black px-3 my-3 shadow-md text-lg '><strong>Heading:</strong> Next two digits (06) denote heading</li>

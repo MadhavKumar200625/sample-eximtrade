@@ -56,7 +56,7 @@ export const industries = {
       industries: [
         {
           image: "",
-          title: "Automative",
+          title: "Automotive",
           heading:
             "Identify the Current Market Trends & Demands in the Automotive Market",
           description:
@@ -338,7 +338,7 @@ export const industries = {
       industries: [
         {
           image: "",
-          title: "Automative",
+          title: "Automotive",
           heading:
             "Identify the Current Market Trends & Demands in the Automotive Market",
           description:
@@ -792,7 +792,7 @@ export const industries = {
       industries: [
         {
           image: "",
-          title: "Automative",
+          title: "Automotive",
           heading:
             "Identify the Current Market Trends &amp; Demands in the Automotive Market",
           description:
@@ -879,7 +879,7 @@ export const industries = {
       industries: [
         {
           image: "",
-          title: "Automative",
+          title: "Automotive",
           heading:
             "Identify the Current Market Trends &amp; Demands in the Automotive Market",
           description:
@@ -1665,7 +1665,7 @@ export const industries = {
       industries: [
         {
           image: "",
-          title: "Automative",
+          title: "Automotive",
           heading:
             "Identify the Current Market Trends & Demands in the Automotive Market",
           description:

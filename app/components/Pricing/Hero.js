@@ -14,6 +14,8 @@ export default function Hero() {
       usd: 70,
       downloads: "5,000",
       validity: "6 Months",
+      gradient: "from-orange-400 to-yellow-400",
+      icon: "🌐",
     },
     {
       name: "Basic",
@@ -23,6 +25,8 @@ export default function Hero() {
       usd: 140,
       downloads: "10,000",
       validity: "12 Months",
+      gradient: "from-red-500 to-orange-400",
+      icon: "💼",
     },
     {
       name: "Plus",
@@ -32,6 +36,8 @@ export default function Hero() {
       usd: 300,
       downloads: "30,000",
       validity: "24 Months",
+      gradient: "from-purple-500 to-indigo-500",
+      icon: "🏆",
     },
     {
       name: "Premium",
@@ -41,6 +47,8 @@ export default function Hero() {
       usd: 350,
       downloads: "50,000",
       validity: "30 Months",
+      gradient: "from-cyan-400 to-blue-500",
+      icon: "💎",
     },
   ];
 
@@ -84,49 +92,44 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Pricing Cards */}
-        {/* Pricing Cards */}
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-  {plans.map((plan, i) => {
-    const bgColors = ['#fff8f5', '#f0faff', '#fefce8', '#f3e8ff'];
-
-    return (
-      <div
-        key={plan.name}
-        className={`rounded-2xl p-6 shadow-lg transition-transform duration-300 hover:-translate-y-1 border-2 ${
-          
-            'text-black'
-        }`}
-        style={{ backgroundColor: bgColors[i] }}
-      >
-        <h3 className="text-2xl font-bold mb-3">{plan.name}</h3>
-        <p className={`text-sm mb-5 font-medium text-ellipsis line-clamp-2 ${ 'text-black'}`}>
-          {plan.description}
-        </p>
-
-        <div className={`text-4xl font-extrabold mb-6 ${'text-blue-700'}`}>
-          {currency === "INR" ? `₹${plan.inr}` : `$${plan.usd}`}
-        </div>
-
-        <ul className={`text-sm space-y-2 mb-6 font-medium ${ 'text-black'}`}>
-          <li>✔️ Full Data Search</li>
-          <li>✔️ {plan.downloads} Download Credits</li>
-          <li>✔️ {plan.validity} Validity</li>
-        </ul>
-
-        <Link
-          href="/import-export-data-country-wise"
-          className={`mt-auto inline-block w-full text-center font-semibold px-5 py-2 rounded-lg transition-all duration-300 ${
-            
-               'bg-blue-600 text-white hover:bg-blue-700'
-          }`}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      {plans.map((plan) => (
+        <div
+          key={plan.name}
+          className="bg-white rounded-2xl shadow-lg overflow-hidden flex flex-col"
         >
-          Explore More →
-        </Link>
-      </div>
-    );
-  })}
-</div>
+          {/* Top gradient header */}
+          <div
+            className={`bg-gradient-to-r ${plan.gradient} p-6 flex flex-col items-center text-white`}
+          >
+            <div className="w-14 h-14 flex items-center justify-center text-3xl bg-white/20 rounded-full mb-3">
+              {plan.icon}
+            </div>
+            <div className="text-3xl font-bold">
+              {currency === "INR" ? `₹${plan.inr}` : `$${plan.usd}`}
+            </div>
+            <div className="text-sm opacity-80">Per plan</div>
+          </div>
+
+          {/* Body */}
+          <div className="p-6 flex flex-col flex-1">
+            <h3 className="text-lg font-bold mb-2">{plan.name}</h3>
+            <p className="text-sm text-gray-600 mb-4">{plan.description}</p>
+            <ul className="space-y-2 text-sm mb-6 flex-1">
+              <li>✔️ Full Data Search</li>
+              <li>✔️ {plan.downloads} Download Credits</li>
+              <li>✔️ {plan.validity} Validity</li>
+            </ul>
+            <Link
+              href="/import-export-data-country-wise"
+              className="block text-center py-2 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition"
+            >
+              Explore More →
+            </Link>
+          </div>
+        </div>
+      ))}
+    </div>
       </div>
     </section>
   );

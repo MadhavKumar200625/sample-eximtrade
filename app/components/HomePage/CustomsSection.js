@@ -17,7 +17,7 @@ const CustomsSection = () => {
         {/* Card 1 */}
         <div className="bg-white  shadow-xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 transform animate-fadeUp delay-100">
           <img
-            src="https://eximtrade-new.vercel.app/images/actionable_insight.svg"
+            src="Actionable-Insights.png"
             alt="Insights"
             className="px-2 pb-10 pt-2 mx-auto"
           />
@@ -35,7 +35,7 @@ const CustomsSection = () => {
         {/* Card 2 */}
         <div className="bg-white shadow-xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 transform animate-fadeUp delay-200">
           <img
-            src="https://eximtrade-new.vercel.app/images/know_market.svg"
+            src="Know-Your-Market.png"
             alt="Market Knowledge"
             className="px-2 pb-10 pt-2 mx-auto"
           />
@@ -53,7 +53,7 @@ const CustomsSection = () => {
         {/* Card 3 */}
         <div className="bg-white  shadow-xl p-8 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 transform animate-fadeUp delay-300">
           <img
-            src="https://eximtrade-new.vercel.app/images/streamline_business.svg"
+            src="Streamline-Your-Business.png"
             alt="Streamline Business"
             className="px-2 pb-10 pt-2 mx-auto"
           />

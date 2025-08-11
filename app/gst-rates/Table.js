@@ -130,12 +130,12 @@ const Table = () => {
                   key={chapter}
                   className={`${rowColors[idx % 3]} hover:bg-gray-100 transition`}
                 >
-                  <td className="px-6 py-4 font-semibold border-b border-gray-200">
+                  <td className="px-6 py-4 text-blue-600 font-semibold border-b border-gray-200">
                     <Link href={`/gst-rates/chapter-${chapter}`} className="block w-full">
                       Chapter {chapter}
                     </Link>
                   </td>
-                  <td className="px-6 py-4 border-b border-gray-200 border-l">
+                  <td className="px-6  py-4 border-b border-gray-200 border-l">
                     <Link href={`/gst-rates/chapter-${chapter}`} className="block w-full">
                       {description}
                     </Link>

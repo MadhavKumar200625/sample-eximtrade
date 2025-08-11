@@ -48,7 +48,7 @@ const GrowthSection = () => {
         {/* Right Section - Image */}
         <div className="flex justify-center">
           <img
-            src="/market-research-platform.png"
+            src="/BEST-MARKET-RESEARCH-PLATFORM.png"
             alt="Market Research Illustration"
             className="max-w-[350px] w-full"
             loading="lazy"

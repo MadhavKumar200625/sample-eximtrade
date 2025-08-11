@@ -7,17 +7,17 @@ const cardData = [
   {
     title: "Comprehensive Guide",
     desc: "Get in-depth knowledge of existing market channels and consumer preferences around the globe. We provide a complete comprehensive guide of the global trade market that helps you to align your business with international trade with the help of our Global Import Export Trade Data.",
-    image: "https://eximtrade-new.vercel.app/images/comprehensive_guide.svg",
+    image: "Explore-foreign-market.png",
   },
   {
     title: "Explore Foreign Market",
     desc: "With our Global Export Import Trade Data, find overseas customers and discover the best match that adds better economic value to your product. Simplified and genuine trade data pave the way to successful overseas trade for your business.",
-    image: "https://eximtrade-new.vercel.app/images/explore_foreign.svg",
+    image: "Explore-foreign-market.png",
   },
   {
     title: "Build Valuable Partnership",
     desc: "With our fine tailored global import export trade data, assess your readiness for the target market and grow with your business. Understand the key aspects of international trade and associate with valuable industry peers.",
-    image: "https://eximtrade-new.vercel.app/images/valuable_partnership.svg",
+    image: "BUILD-VALUABLE-PARTNERSHIP.png",
   },
 ];
 

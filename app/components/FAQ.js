@@ -12,7 +12,7 @@ export default function FAQSection({ faqs ,title }) {
   };
 
   return (
-    <section className="relative py-28 px-6 sm:px-10 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden">
+    <section className="relative py-20 px-6 sm:px-10 bg-gradient-to-br from-blue-50 via-white to-blue-100 overflow-hidden">
      
 
       <div className="mx-auto max-w-5xl relative z-10">

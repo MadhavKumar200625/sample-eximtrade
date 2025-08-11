@@ -28,7 +28,7 @@ const GrowWithGlobalSection = () => {
       </div>
 
       <div>
-        <img src='https://eximtradedata.com/images/download_img.webp' className='w-80'></img>
+        <img src='GROW-WITH-GLOBAL-IMPORT-EXPORT-AND-SHIPMENT-RECORDS.png' className='w-80'></img>
       </div>
       
     </section>
