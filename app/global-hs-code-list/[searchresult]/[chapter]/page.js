@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Search from '../../search'
 import { getConnection } from "@/libs/db";
@@ -81,7 +82,7 @@ console.log(value); // "001"
   }
 
   if (!result.recordset.length) {
-    return <p className="p-8 text-gray-600">No results found for "{value}".</p>;
+    return <p className="p-8 text-gray-600">No results found for &quot;{value}&quot;.</p>;
   }
       const rowColors = ["bg-white", "bg-slate-50", "bg-slate-100"];
   return (
