@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation';
 
 const search = () => {
 
-   const [product, setProduct] = useState('');
+  const [product, setProduct] = useState('');
   const [hsCode, setHsCode] = useState('');
   const [error, setError] = useState('');
   const router = useRouter();
