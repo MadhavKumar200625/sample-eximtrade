@@ -53,7 +53,7 @@ export default function PricingSection() {
   ];
 
   return (
-    <section id="pricing_section" className="pt-14 pb-24 bg-gradient-to-t from-white to-blue-50 text-black">
+    <section id="pricing_section" className="pt-14 pb-12 bg-gradient-to-t from-white to-blue-50 text-black">
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-center mb-12">
           <div className="inline-flex border-2 border-blue-600 cursor-pointer rounded-full overflow-hidden shadow-lg">

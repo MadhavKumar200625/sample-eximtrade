@@ -12,7 +12,7 @@ const logos = [
 
 const ClientsSection = () => {
   return (
-    <section className="relative  py-24 px-6 overflow-hidden">
+    <section className="relative  py-14 px-6 overflow-hidden">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-10">
         {/* LEFT TEXT */}
         <div className="z-10">

@@ -49,7 +49,7 @@ const continentData = [
 
 export default function CountrySection() {
   return (
-    <section className="bg-gradient-to-r from-blue-50 via-white to-blue-50 py-16 px-4 md:px-20">
+    <section className="bg-gradient-to-r from-blue-50 via-white to-blue-50 py-12 px-4 md:px-20">
       <div className="bg-white shadow-lg border border-gray-200 rounded-none p-8">
     
 
