@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+/libs
+/app/gst-rates
+/app/global-hs-code-list

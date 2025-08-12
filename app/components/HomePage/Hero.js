@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-br bg-white py-20 px-6 md:px-12">
+    <section className="bg-gradient-to-br bg-white pt-32 pb-20 px-6 md:px-12">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12">
 
         {/* Text Section */}
@@ -34,9 +34,9 @@ export default function Hero() {
           <Image
             src="/find-global-buyers-and-sellers.png" 
             alt="Enterprise Planning"
-            width={500}
+            width={600}
             height={300}
-            className="w-full max-w-lg lg:max-w-sm mx-auto"
+            className="w-full max-w-lg  mx-auto"
           />
         </div>
       </div>
