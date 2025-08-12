@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const GrowWithGlobalSection = () => {
   return (
-    <section className="relative flex justify-between px-32 items-center bg-blue-100 py-14  text-center overflow-hidden">
+    <section className="relative flex justify-between px-32 items-center bg-blue-100 py-6  text-center overflow-hidden">
       <div>
 <motion.div
         className="max-w-4xl mx-auto relative z-10"
@@ -28,7 +28,7 @@ const GrowWithGlobalSection = () => {
       </div>
 
       <div>
-        <img src='GROW-WITH-GLOBAL-IMPORT-EXPORT-AND-SHIPMENT-RECORDS.png' className='w-80'></img>
+        <img src='GROW-WITH-GLOBAL-IMPORT-EXPORT-AND-SHIPMENT-RECORDS.png' className='max-w-md'></img>
       </div>
       
     </section>
