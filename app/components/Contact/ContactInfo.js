@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState } from "react";
 import { ChevronDown, Send } from "lucide-react";
@@ -7,11 +7,10 @@ import Image from "next/image";
 
 const ContactInfo = () => {
   const [showDropdown, setShowDropdown] = useState(false);
-    const [selectedCountry, setSelectedCountry] = useState(null);
+  const [selectedCountry, setSelectedCountry] = useState(null);
   return (
-   <section className="relative z-10 pb-20 bg-slate-100 grid md:grid-cols-2 py-12 mt-10 px-4 gap-16 md:px-20 ">
+    <section className="relative z-10 pb-20 bg-slate-100 grid md:grid-cols-2 py-12 mt-10 px-4 gap-16 md:px-20 ">
       <div className="  grid md:grid-cols-1 gap-10">
-        
         {/* Card 1: Support */}
         <div className="group bg-white/70 backdrop-blur-lg border border-gray-200  p-8 shadow-2xl hover:shadow-3xl transition-all duration-200 hover:-translate-y-2">
           <div className="flex items-center gap-4 mb-6">
@@ -25,7 +24,10 @@ const ContactInfo = () => {
               <span className="text-xl">📱</span>
               <div>
                 <p className="font-semibold">Phone</p>
-                <a href="tel:+919876543210" className="text-blue-600 hover:underline">
+                <a
+                  href="tel:+919876543210"
+                  className="text-blue-600 hover:underline"
+                >
                   +91 96258 12393
                 </a>
               </div>
@@ -35,8 +37,11 @@ const ContactInfo = () => {
               <span className="text-xl">✉️</span>
               <div>
                 <p className="font-semibold">Email</p>
-                <a href="mailto:support@yourdomain.com" className="text-blue-600 hover:underline">
-                   info@eximtradedata.com
+                <a
+                  href="mailto:support@yourdomain.com"
+                  className="text-blue-600 hover:underline"
+                >
+                  info@eximtradedata.com
                 </a>
               </div>
             </div>
@@ -67,12 +72,10 @@ const ContactInfo = () => {
                 <p>Monday - Friday: 9:00 am to 7:00 pm</p>
                 <p>Saturday: 9:00 am to 5:00 pm</p>
                 <p>Sunday: Closed</p>
-
               </div>
             </div>
           </div>
         </div>
-        
       </div>
 
       <div className="max-w-5xl mx-auto  bg-white  shadow-2xl hover:shadow-3xl p-8 md:p-12">
@@ -80,30 +83,50 @@ const ContactInfo = () => {
           Contact Us
         </h2>
 
-        <form className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <form className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Your Name */}
-          <div>
-            <label className="block text-sm font-medium text-black mb-1">Your Name</label>
-            <input
-              type="text"
-              placeholder="Enter your name"
-              className="w-full border border-gray-300  px-4 py-2 focus:ring-2 focus:ring-[#0067b8] outline-none"
-            />
-          </div>
+         <div>
+    <label className="block text-sm font-medium text-black mb-1">Your Name</label>
+    <input
+      type="text"
+      placeholder="Enter your name"
+      className="w-full border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-[#0067b8] outline-none"
+    />
+  </div>
 
-          {/* Company Name */}
-          <div>
-            <label className="block text-sm font-medium text-black mb-1">Company Name</label>
-            <input
-              type="text"
-              placeholder="Enter company name"
-              className="w-full border border-gray-300  px-4 py-2 focus:ring-2 focus:ring-[#0067b8] outline-none"
-            />
-          </div>
+  {/* Company Name */}
+  <div>
+    <label className="block text-sm font-medium text-black mb-1">Company Name</label>
+    <input
+      type="text"
+      placeholder="Enter company name"
+      className="w-full border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-[#0067b8] outline-none"
+    />
+  </div>
 
-          {/* Country Dropdown */}
-          <div>
-            <label className="block text-sm font-medium text-black mb-1">Select Country</label>
+  {/* Your Email */}
+  <div>
+    <label className="block text-sm font-medium text-black mb-1">Your Email</label>
+    <input
+      type="email"
+      placeholder="Enter your email"
+      className="w-full border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-[#0067b8] outline-none"
+    />
+  </div>
+
+  {/* Your Mobile Number */}
+  <div>
+    <label className="block text-sm font-medium text-black mb-1">Your Mobile Number</label>
+    <input
+      type="tel"
+      placeholder="Enter your mobile number"
+      className="w-full border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-[#0067b8] outline-none"
+    />
+  </div>
+          <div className="md:col-span-2">
+            <label className="block text-sm font-medium text-black mb-1">
+              Select Country
+            </label>
             <div className="relative">
               <button
                 onClick={(e) => {
@@ -117,8 +140,8 @@ const ContactInfo = () => {
               </button>
 
               {showDropdown && (
-                  <div className="absolute right-0 z-10 mt-2 w-[500px] max-h-60 overflow-y-scroll border border-gray-200 bg-white shadow-lg  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4">
-                    {Object.entries(countries).map(([country, flag], index) => (
+                <div className="absolute right-0 z-10 mt-2 w-[500px] max-h-60 overflow-y-scroll border border-gray-200 bg-white shadow-lg  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 p-4">
+                  {Object.entries(countries).map(([country, flag], index) => (
                     <div
                       key={index}
                       className="flex items-center gap-2 p-2  cursor-pointer hover:bg-gray-100 text-sm"
@@ -127,9 +150,12 @@ const ContactInfo = () => {
                         setShowDropdown(false);
                       }}
                     >
-                      <Image src={flag} height={10} width={10} alt={country}>
-
-                      </Image>
+                      <Image
+                        src={flag}
+                        height={10}
+                        width={10}
+                        alt={country}
+                      ></Image>
                       <span>{country}</span>
                     </div>
                   ))}
@@ -139,8 +165,10 @@ const ContactInfo = () => {
           </div>
 
           {/* Message */}
-          <div className="md:col-span-3">
-            <label className="block text-sm font-medium text-black mb-1">Message</label>
+          <div className="md:col-span-2">
+            <label className="block text-sm font-medium text-black mb-1">
+              Message
+            </label>
             <textarea
               rows={4}
               placeholder="Write your message..."
@@ -149,7 +177,7 @@ const ContactInfo = () => {
           </div>
 
           {/* Submit Button */}
-          <div className="md:col-span-3 flex justify-center mt-4">
+          <div className="md:col-span-2 flex justify-center mt-4">
             <button className="flex items-center gap-2 px-6 py-3 bg-blue-600 cursor-pointer hover:scale-105 text-white   transition-all duration-200">
               <Send size={18} />
               Send Message
@@ -158,7 +186,7 @@ const ContactInfo = () => {
         </form>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ContactInfo
+export default ContactInfo;

@@ -46,7 +46,7 @@ const PortDataByCountry = () => {
               <div className="mt-4 text-right">
                 <Link
                   href={`/ports-data/${country.name}/A-1`}
-                  className="text-sm text-blue-600 hover:underline font-medium"
+                  className="text-sm py-2 px-3 text-white bg-blue-600 hover:underline font-medium"
                 >
                   View all →
                 </Link>

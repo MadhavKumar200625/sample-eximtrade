@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="flex-1 text-center lg:text-left">
           <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight mb-4">
             Find <br className="hidden md:block" />
-            <span className="text-blue-600">Global Buyers & Sellers</span>
+            <span className="text-black">Global Buyers & Sellers</span>
           </h1>
           <p className="text-md md:text-lg text-gray-700 mb-8">
             Are you looking to expand globally? Get

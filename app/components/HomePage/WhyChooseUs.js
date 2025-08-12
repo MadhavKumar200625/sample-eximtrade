@@ -7,7 +7,7 @@ const cardData = [
   {
     title: "Comprehensive Guide",
     desc: "Get in-depth knowledge of existing market channels and consumer preferences around the globe. We provide a complete comprehensive guide of the global trade market that helps you to align your business with international trade with the help of our Global Import Export Trade Data.",
-    image: "Explore-foreign-market.png",
+    image: "Comprehensive-Guide.png",
   },
   {
     title: "Explore Foreign Market",

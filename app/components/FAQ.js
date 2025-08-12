@@ -38,14 +38,14 @@ export default function FAQSection({ faqs ,title }) {
                 onClick={() => toggleFAQ(index)}
                 className="w-full px-8 py-6 text-left cursor-pointer flex justify-between items-center group"
               >
-                <span className="text-xl font-semibold  text-zinc-800  transition">
+                <span className="text-xl font-semibold  text-black  transition">
                   {faq.question}
                 </span>
                 <motion.div
                   animate={{ rotate: openIndex === index ? 45 : 0 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <MessageSquarePlus className="w-7 h-7 text-zinc-500 group-hover:text-blue-600" />
+                  <MessageSquarePlus className="w-7 h-7 text-black group-hover:text-blue-600" />
                 </motion.div>
               </button>
 
@@ -58,7 +58,7 @@ export default function FAQSection({ faqs ,title }) {
                     transition={{ duration: 0.2 }}
                   >
                     <div
-                      className="px-8 pb-8 pt-2 text-md text-zinc-700 leading-relaxed space-y-4"
+                      className="px-8 pb-8 pt-2 text-md text-black leading-relaxed space-y-4"
                       dangerouslySetInnerHTML={{ __html: faq.answer }}
                     />
                   </motion.div>
