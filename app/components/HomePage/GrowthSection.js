@@ -50,7 +50,7 @@ const GrowthSection = () => {
           <img
             src="/BEST-MARKET-RESEARCH-PLATFORM.png"
             alt="Market Research Illustration"
-            className="max-w-[350px] w-full"
+            className="max-w-md w-full"
             loading="lazy"
           />
         </div>
