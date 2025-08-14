@@ -154,9 +154,9 @@ const Header = () => {
                       opportunities in the global market with our expert
                       intelligence reports.
                     </p>
-                    <button className="text-white bg-blue-600 px-4 py-2 text-sm rounded-full hover:bg-blue-700 transition">
+                    <Link href="/industries-covered" className="text-white bg-blue-600 px-4 py-2 text-sm rounded-full hover:bg-blue-700 transition">
                       View All Industries
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>

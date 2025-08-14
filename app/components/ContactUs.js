@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { ChevronDown, Send } from "lucide-react";
 import { countries } from "@/app/data";
+import Image from "next/image";
 
 export default function ContactUs() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -52,7 +53,7 @@ export default function ContactUs() {
               </button>
 
               {showDropdown && (
-                <div className="absolute z-10 mt-2 w-full max-h-60 overflow-y-scroll border border-gray-200 bg-white shadow-lg rounded-md grid grid-cols-2 md:grid-cols-3 gap-2 p-3">
+                <div className="absolute z-10 -right-20  mt-2 w-[150%] max-h-60 overflow-y-scroll border border-gray-200 bg-white shadow-lg rounded-md grid grid-cols-2 md:grid-cols-3 gap-2 p-3">
                   {Object.entries(countries).map(([country, flag], index) => (
                     <div
                       key={index}
@@ -62,7 +63,12 @@ export default function ContactUs() {
                         setShowDropdown(false);
                       }}
                     >
-                      <span>{flag}</span>
+                     <Image
+                                             src={flag}
+                                             height={10}
+                                             width={10}
+                                             alt={country}
+                                           ></Image>
                       <span>{country}</span>
                     </div>
                   ))}
