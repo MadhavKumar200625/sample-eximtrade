@@ -31,10 +31,10 @@ const What = () => {
             What does Armenia export?
           </h2>
           <p className="text-lg mb-4 text-black">
-            As per Armenia import shipment data, nuclear reactors were the top most exports by Armenia in FY 2022. In terms of export value, Armenia’s top 10 product exports were Natural or cultured ($991M), Ores, slag ($924M), Electrical machinery ($509M), Beverages, spirits ($357M), Tobacco ($341M), Vehicles ($307M), Iron and steel ($266M), Nuclear reactors ($190M), Aluminum and articles ($144M), Knitted or crocheted ($135M).
+            As per Armenia import shipment data, nuclear reactors were the top most exports by Armenia in FY 2022. In terms of export value, Armenia&apos;s top 10 product exports were Natural or cultured ($991M), Ores, slag ($924M), Electrical machinery ($509M), Beverages, spirits ($357M), Tobacco ($341M), Vehicles ($307M), Iron and steel ($266M), Nuclear reactors ($190M), Aluminum and articles ($144M), Knitted or crocheted ($135M).
           </p>
           <p className="text-lg mb-6 text-black">
-            The total export value for Armenia's top 10 export commodities value was recorded to be <strong>$4.164001 Billion</strong> along with <strong>78.57%</strong> share of Armenia's total exports during FY 2022. Here, we have provided detailed insights into Armenia exports by percentage.
+            The total export value for Armenia&apos;s top 10 export commodities value was recorded to be <strong>$4.164001 Billion</strong> along with <strong>78.57%</strong> share of Armenia&apos;s total exports during FY 2022. Here, we have provided detailed insights into Armenia exports by percentage.
           </p>
           
           {/* CTA placeholder */}
