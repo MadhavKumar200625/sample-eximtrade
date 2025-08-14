@@ -17,8 +17,8 @@ const Hero = () => {
 
         {/* Subheading */}
         <p className="text-lg leading-relaxed">
-          <strong>Armenia export data</strong> depicts rapid growth in the country's overall exports this year. 
-          Past year export data of Armenia suggests the country's total exports to be valued around $5.3B in FY 2022. 
+          <strong>Armenia export data</strong> depicts rapid growth in the country&apos;s overall exports this year. 
+          Past year export data of Armenia suggests the country&apos;s total exports to be valued around $5.3B in FY 2022. 
           Nuclear reactors, vehicles and Electrical machinery were responsible for the maximum product wise Armenia exports. 
           Germany and Italy accounted for the most volume for Armenia exports by country. Armenia export companies can gain quality leads 
           through global market intelligence reports.
