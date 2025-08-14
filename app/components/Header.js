@@ -166,9 +166,9 @@ const Header = () => {
           <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
             Search Data
           </a>
-          <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
+          <Link href="/import-export-data-country-wise" className="hover:text-blue-600 transition font-bold text-lg">
             Countries
-          </a>
+          </Link>
           <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
             API
           </a>
