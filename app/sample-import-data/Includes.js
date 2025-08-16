@@ -16,16 +16,16 @@ const Includes = () => {
       {/* Top Text */}
       <div className="max-w-7xl mx-auto px-4 text-center">
         <p className="uppercase tracking-wide text-sm font-semibold">
-          Armenia Export Trade Data
+          Armenia Import Trade Data
         </p>
         <h2 className="text-3xl font-bold mt-2">
-          What Does Armenia Export Data Include?
+          What Does Armenia Import Data Include
         </h2>
         <p
           className="mt-4 text-base leading-relaxed"
           dangerouslySetInnerHTML={{
-            __html: `Our Armenia export data contains all essential information that could help you spot verified buyers from the global market. You can find top exports of Armenia by hs code, price, quantity, country, Armenia suppliers, global buyers list, ports volume and competitor shipments for analysis.
-            We have 100% authentic information based on Armenia import customs data. You can opt for online, offline or customized plans at a reasonable price. You could find a detailed sample export data of Armenia by <strong>HS code, product, quantity, unit, value, country of origin/destination, supplier name, buyer name, port of loading/unloading and other shipping details, etc.</strong>`,
+            __html: `From historical to the latest, we have full import data of Armenia. Our Armenia import customs data will help you find top Armenia import commodities by HS code, price, country, Armenia buyers list, ports, competitor shipments for your market research. Utilize these key Armenia import statistics to your advantage and prepare an excellent marketing strategy to outclass your competition.
+            We provide both online and offline Armenia imports data access to our customers. Also, you can customize your requirements accordingly. You can request a full sample on Armenia import data <strong>HS Code, Product Description, Quantity, Unit, Price, Country of Origin/Destination, Importer Name, Exporter Name, Loading/Unloading Port, etc.</strong>`,
           }}
         />
       </div>
@@ -83,19 +83,19 @@ const Includes = () => {
             </thead>
             <tbody>
               {[
-                ["Date", "Mar 18 2016 12:00AM"],
-                ["HS Code", "90189099"],
+                ["Date", "Mar 31 2016 12:00AM"],
+                ["HS Code", "30049099"],
                 [
                   "Product Details",
-                  "QUARTZ GLASS REFLECTOR (MONOBLOCK) WITH SILVER COATING O.D:14.75MM;I.D:11.8MM;LENGTH:46.0MM (PARTS FOR N.D YAG LASER-OP)",
+                  "PHARMACEUTICAL PRODUCTS : ATRACURIUM BESYLATE INJECTION USP 10MG/ML 2.5 ML",
                 ],
-                ["Quantity", "48"],
-                ["Quantity Unit", "PCS"],
-                ["Value($)", "4752.63"],
-                ["Country of Origin", "Armenia"],
-                ["Country of Destination", "India"],
-                ["Importer", "APPASAMY ASSOCIATES"],
-                ["Exporter", "*****"],
+                ["Quantity", "9450"],
+                ["Quantity Unit", "NOS"],
+                ["Value($)", "8127"],
+                ["Country of Origin", "India"],
+                ["Country of Destination", "Armenia"],
+                ["Importer", "*****"],
+                ["Exporter", "SWISS PARENTERALS LIMITED"],
               ].map(([field, detail], idx) => (
                 <tr
                   key={idx}

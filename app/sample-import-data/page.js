@@ -4,7 +4,7 @@ import CountryLinksSection from "./CountryLinksSection"
 import Includes from './Includes'
 import What from './What'
 import Who from './Who'
-import Suppliers from './Suppliers'
+import Suppliers from './Buyers'
 import ClientsSection from '../components/ClientsSection'
 import GlobalImpact from './GlobalImpact'
 import ImportantLinks from './ImportantLinks'

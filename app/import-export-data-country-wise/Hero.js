@@ -13,8 +13,8 @@ const Hero = () => {
   const [counts, setCounts] = useState(stats.map(() => 0));
 
   useEffect(() => {
-    const duration = 2000; // animation duration in ms
-    const frameRate = 10; // update every 30ms
+    const duration = 2000; 
+    const frameRate = 10; 
     stats.forEach((stat, i) => {
       let current = 0;
       const increment = stat.value / (duration / frameRate);

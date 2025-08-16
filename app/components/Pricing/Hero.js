@@ -1,9 +1,12 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import AppointmentForm from "../AppointmentForm";
 
 export default function Hero() {
   const [currency, setCurrency] = useState("INR");
+      const [isOpen, setIsOpen] = useState(false);
+
 
   const plans = [
     {
@@ -145,17 +148,18 @@ export default function Hero() {
 
   {/* Button */}
   <div className="px-6 pb-6">
-    <Link
-      href="/import-export-data-country-wise"
-      className={`block text-center py-2 rounded-lg ${plan.gradient} text-white font-semibold hover:scale-105 transition`}
+    <button
+      onClick={()=>{setIsOpen(true)}}
+      className={`block text-center py-2 w-full cursor-pointer rounded-lg ${plan.gradient} text-white font-semibold hover:scale-105 transition`}
     >
       Explore More →
-    </Link>
+    </button>
   </div>
 </div>
           ))}
         </div>
       </div>
+      <AppointmentForm isOpen={isOpen} onClose={() => setIsOpen(false)} />
     </section>
   );
 }

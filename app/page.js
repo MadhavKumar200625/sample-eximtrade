@@ -3,7 +3,7 @@ import Hero from "./components/HomePage/Hero";
 import CountryExportSection from "./components/HomePage/ContryExportSection";
 import GrowthSection from "./components/HomePage/GrowthSection";
 import IndustrySection from "./components/HomePage/IndustrySection"
-import SearchComponent from "./components/HomePage/SearchComponent";
+import SearchComponent from "./components/SearchComponent";
 import CustomsSection from "./components/HomePage/CustomsSection";
 import GrowWithGloabalSection from "./components/HomePage/GrowWithGloabalSection";
 import WhyChooseUs from "./components/HomePage/WhyChooseUs";
@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <div className="min-h-screen ">
 <Hero></Hero>
-      <SearchComponent></SearchComponent>
+      <SearchComponent heading="Search Global Import Export Trade Data"></SearchComponent>
       </div>
       
       <CountryExportSection></CountryExportSection>

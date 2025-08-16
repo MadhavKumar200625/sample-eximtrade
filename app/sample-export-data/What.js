@@ -44,11 +44,7 @@ const What = () => {
                 href="/pricing"
                 className="bg-blue-600 text-lg text-white px-6 py-2 flex items-center justify-center shadow cursor-pointer hover:scale-105 transition"
               >
-                Check Pricing{" "}
-                <ArrowRight
-                  size={20}
-                  className="ml-2 mt-0.5 text-sm"
-                ></ArrowRight>
+                Download Full Sample
               </Link>
             </div>
           </div>

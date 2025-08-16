@@ -1,5 +1,8 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
+import SampleDataForm from "../SampleDataForm";
+import { useState } from "react";
 
 const features = [
   "Measure trade metrics and evaluate the market with a unique do-it-yourself alternative to cumbersome raw trade data that includes on-screen assistance from a professional business analyst for a low pay-per-record fee.",
@@ -19,6 +22,8 @@ const features = [
 ];
 
 export default function FeaturesSection() {
+    const [open, setOpen] = useState(false);
+
   return (
 <section className="w-full bg-gradient-to-b from-white to-blue-50 py-16 px-6 md:px-12 lg:px-24">
         <div className="max-w-7xl mx-auto">
@@ -56,9 +61,11 @@ export default function FeaturesSection() {
 
             {/* CTA */}
             <div className="mt-12 text-center lg:text-left">
-              <button className="relative cursor-pointer inline-flex items-center justify-center px-6 py-2 text-lg overflow-hidden font-semibold text-white transition-all duration-300  bg-blue-600  hover:scale-105">
+              <button onClick={() => setOpen(true)} className="relative cursor-pointer inline-flex items-center justify-center px-6 py-2 text-lg overflow-hidden font-semibold text-white transition-all duration-300  bg-blue-600  hover:scale-105">
                 Request Trade Data
               </button>
+              <SampleDataForm isOpen={open} onClose={() => setOpen(false)} />
+
             </div>
           </div>
         </div>
