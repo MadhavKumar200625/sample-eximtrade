@@ -29,7 +29,7 @@ const CustomizedData = () => {
             HS Code, Product, Buyer, and Supplier..
           </p>
           <p className="text-lg mb-8">
-            You can explore exclusive countries' trade data including Turkey,
+            You can explore exclusive countries&apos; trade data including Turkey,
             Bangladesh, Thailand, Ghana, Chad, Mexico, Tanzania etc. We provide
             data on demand and assure complete customer satisfaction. Our expert
             team of professionals is available 24*7 to assist our clients.

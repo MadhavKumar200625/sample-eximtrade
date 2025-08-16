@@ -67,7 +67,7 @@ const Who = () => {
 
         <div>
           <p className="text-sm font-semibold text-black uppercase tracking-wider mb-2">
-Armenia's Top 10 Import Partners
+Armenia&apos;s Top 10 Import Partners
           </p>
           <h2 className="text-3xl font-bold text-black mb-4">
             Who does Armenia import from?

@@ -40,7 +40,7 @@ const Hero = () => {
             risk involved in the business. Our analysts and industry
             professionals give our customers a fuller, more integrated
             perspective of their environment by linking data across variables.
-            That is The New Intelligence's advantage. We can now identify cause
+            That is The New Intelligence&apos;s advantage. We can now identify cause
             and effect, risk, and opportunity in new ways, allowing our clients
             to make more confident decisions based on market intelligence
             reports of world trade data by country.
