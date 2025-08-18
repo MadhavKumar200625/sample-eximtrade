@@ -692,15 +692,15 @@ const uniqueContinents = [...new Set(countries.map(c => c.continent))];
         </p>
       </div>
 
-      <div className="flex px-6 md:px-12 gap-6">
+      <div className="flex flex-col md:flex-row px-6 md:px-12 gap-6">
 
         <div className=" ">
           <div className="sticky top-24 ">
-            <ul className="space-y-4 px-14 text-lg font-medium">
+            <ul className="px-14 grid md:grid-cols-1 grid-cols-2 text-lg font-medium">
               {uniqueContinents.map((continent) => (
                 <li
                   key={continent}
-                  className={`cursor-pointer px-10 py-2  rounded-3xl transition-colors whitespace-nowrap ${
+                  className={`cursor-pointer mt-2 px-10 py-2 flex justify-center items-center  rounded-3xl transition-colors whitespace-nowrap ${
                     selectedContinent === continent
                       ? 'bg-blue-600 text-white'
                       : 'hover:bg-blue-100 text-blue-800'

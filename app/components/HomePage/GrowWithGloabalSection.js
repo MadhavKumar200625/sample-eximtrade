@@ -5,16 +5,16 @@ import Link from 'next/link';
 
 const GrowWithGlobalSection = () => {
   return (
-    <section className="relative flex justify-between px-32 items-center bg-blue-100 py-6  text-center overflow-hidden">
+    <section className="relative flex md:flex-row flex-col justify-between md:px-32 px-0 items-center bg-blue-100 py-6  text-center overflow-hidden">
       <div>
 <motion.div
-        className="max-w-4xl mx-auto relative z-10"
+        className="   z-10"
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}
       >
-        <h2 className="text-3xl md:text-4xl max-w-2xl font-extrabold text-black mb-12 tracking-tight">
+        <h2 className="text-3xl md:text-4xl md:max-w-2xl w-full font-extrabold text-black mb-12 tracking-tight">
           GROW WITH GLOBAL IMPORT EXPORT AND SHIPMENT RECORDS
         </h2>
         
@@ -28,7 +28,7 @@ const GrowWithGlobalSection = () => {
       </div>
 
       <div>
-        <img src='GROW-WITH-GLOBAL-IMPORT-EXPORT-AND-SHIPMENT-RECORDS.png' className='max-w-md'></img>
+        <img src='GROW-WITH-GLOBAL-IMPORT-EXPORT-AND-SHIPMENT-RECORDS.png' className=' max-w-xs md:mt-0 mt-5 md:max-w-md'></img>
       </div>
       
     </section>

@@ -88,12 +88,15 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const onScroll = () => {
-      setScrolled(window.scrollY > 10);
-    };
-    window.addEventListener('scroll', onScroll);
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+  const onScroll = () => {
+    setScrolled(window.scrollY > 10);
+  };
+
+  onScroll();
+
+  window.addEventListener('scroll', onScroll);
+  return () => window.removeEventListener('scroll', onScroll);
+}, []);
 
   return (
     <header className={`w-full shadow-sm  fixed z-50 transition-all duration-300 font-sans ${

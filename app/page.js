@@ -13,10 +13,8 @@ import TestimonialsSection from "./components/TestimonialsSection";
 export default function Home() {
   return (
     <div>
-      <div className="min-h-screen ">
-<Hero></Hero>
+      <Hero></Hero>
       <SearchComponent heading="Search Global Import Export Trade Data"></SearchComponent>
-      </div>
       
       <CountryExportSection></CountryExportSection>
       <GrowthSection></GrowthSection>
