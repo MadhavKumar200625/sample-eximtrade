@@ -133,7 +133,7 @@ const Header = () => {
                   {/* Left 3-column grid */}
                   <div className="col-span-3 grid grid-cols-3 gap-x-6 gap-y-4 pr-4">
                     {solutions.map(({ title, link, icon: Icon }) => (
-                      <a
+                      <Link
                         key={title}
                         href={link}
                         className="flex items-center gap-3 p-3 rounded-lg transition hover:bg-blue-100"
@@ -142,7 +142,7 @@ const Header = () => {
                         <span className="text-gray-800 text-sm font-medium">
                           {title}
                         </span>
-                      </a>
+                      </Link>
                     ))}
                   </div>
 
@@ -166,15 +166,15 @@ const Header = () => {
             )}
           </div>
 
-          <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
+          <Link href="/search-global-trade-data" className="hover:text-blue-600 transition font-bold text-lg">
             Search Data
-          </a>
+          </Link>
           <Link href="/import-export-data-country-wise" className="hover:text-blue-600 transition font-bold text-lg">
             Countries
           </Link>
-          <a href="#" className="hover:text-blue-600 transition font-bold text-lg">
+          <Link href="/api-development-and-integration-company" className="hover:text-blue-600 transition font-bold text-lg">
             API
-          </a>
+          </Link>
 
           <Link href="/pricing" className="hover:text-blue-600 transition font-bold text-lg">
             Pricing
@@ -241,27 +241,27 @@ const Header = () => {
   {solutionsOpen && (
     <div className="pl-4 space-y-2">
       {solutions.map(({ title, link, icon: Icon }) => (
-        <a
+        <Link
           key={title}
           href={link}
           className="flex items-center justify-center gap-2 text-sm text-gray-700 hover:text-blue-600"
         >
           <Icon className="w-4 h-4 text-blue-500" />
           {title}
-        </a>
+        </Link>
       ))}
     </div>
   )}
 </div>
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          <Link href="/search-global-trade-data" className="block text-gray-800 hover:text-blue-600">
             Search Data
-          </a>
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          </Link>
+          <Link href="/import-export-data-country-wise" className="block text-gray-800 hover:text-blue-600">
             Countries
-          </a>
-          <a href="#" className="block text-gray-800 hover:text-blue-600">
+          </Link>
+          <Link href="/api-development-and-integration-company" className="block text-gray-800 hover:text-blue-600">
             API
-          </a>
+          </Link>
           
           <Link href="/pricing" className="block text-gray-800 hover:text-blue-600">
             Pricing

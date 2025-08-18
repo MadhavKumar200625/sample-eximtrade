@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import React from 'react'
 import { useState } from "react";
+import { ArrowUpRight } from "lucide-react";
+
 
 const countries = [
   {
@@ -731,9 +733,14 @@ className="flex items-center gap-4 p-4  text-white border border-blue-300 rounde
 
             {/* Country Info */}
             <div className="flex flex-col">
-              <Link  href={`country-wise-${country.name.replace(" ","-")}-import-and-export-data`} className="font-semibold md:text-xl text-lg text-black">{country.name} Import Export Data</Link>
-              
-              <div className="flex gap-2 mt-1">
+<Link
+  href={`country-wise-${country.name.replace(" ", "-")}-import-and-export-data`}
+  className="flex items-center gap-1 font-semibold md:text-xl text-lg underline text-black"
+>
+  {country.name} Import Export Data
+  <ArrowUpRight className="w-5 h-5" />
+</Link>              
+              <div className="flex gap-2 mt-2">
                 <Link href={`country-wise-${country.name.replace(" ","-")}-import-data`} className="text-sm px-3 py-1 bg-transparent shadow-md text-black border border-blue-600 hover:text-white hover:bg-blue-600  hover:scale-108 transition">
                   Import Data
                 </Link>
