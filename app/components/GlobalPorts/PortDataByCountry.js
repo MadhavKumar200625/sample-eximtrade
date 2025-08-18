@@ -32,7 +32,7 @@ const PortDataByCountry = () => {
   {country.ports.map((port) => (
     <li key={port}>
       <Link
-        href={`/ports-data/${country.name}/port-${port
+        href={`/global-ports/${country.name}/${port
           .toUpperCase()
           .replace(/[^A-Z0-9]/g, "-")}`}
         className="inline-flex items-center gap-1 text-sm font-medium text-blue-600 py-0.5 underline hover:scale-102 transition cursor-pointer"

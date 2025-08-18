@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import Countries from './Countries'
 import { ArrowRight } from "lucide-react";
+import Link from 'next/link';
 
 
 const page = () => {
@@ -9,7 +10,7 @@ const page = () => {
     <main>
         <Hero></Hero>
         <Countries></Countries>
-        <section className="w-full bg-gradient-to-r from-sky-300 to-sky-100 text-black py-8 px-6">
+        <section className="w-full bg-gradient-to-r from-blue-200 to-blue-50 text-black py-8 px-6">
       <div className="w-full  flex flex-col md:flex-row items-center justify-between px-32">
         
         {/* Left Content */}
@@ -18,10 +19,10 @@ const page = () => {
           </h2>
 
           {/* CTA Button */}
-          <button className="flex items-center gap-3 bg-blue-600 text-white text-xl px-6 py-3 cursor-pointer font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200">
+          <Link href="/contact" className="flex items-center gap-3 bg-blue-600 text-white text-xl px-6 py-3 cursor-pointer font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-200">
             Schedule a Demo
             <ArrowRight size={20} />
-          </button>
+          </Link>
 
       </div>
     </section>

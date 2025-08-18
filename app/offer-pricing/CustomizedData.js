@@ -19,16 +19,16 @@ const CustomizedData = () => {
           <p className="text-blue-600 font-semibold uppercase tracking-wide mb-3">
             Only Pay for Your Need
           </p>
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+          <h2 className=" md:text-4xl font-extrabold leading-tight mb-6">
             Customized Import Export Data
           </h2>
-          <p className="text-lg mb-4">
+          <p className="text-xl mb-4">
             Through our customized data plans, you can pay accordingly as per
             your budget and requirements. Our Market Research Platform assists
             you in saving and downloading the import export shipment records by
             HS Code, Product, Buyer, and Supplier..
           </p>
-          <p className="text-lg mb-8">
+          <p className="text-xl mb-8">
             You can explore exclusive countries&apos; trade data including Turkey,
             Bangladesh, Thailand, Ghana, Chad, Mexico, Tanzania etc. We provide
             data on demand and assure complete customer satisfaction. Our expert

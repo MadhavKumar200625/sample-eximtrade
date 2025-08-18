@@ -723,18 +723,21 @@ const Countries = () => {
         {filteredCountries.map((country, idx) => (
           <div
             key={idx}
-className="flex items-center gap-4 p-4 bg-gradient-to-br from-blue-100 via-sky-100 to-blue-50 text-white border border-blue-300 rounded-xl shadow hover:shadow-lg transition"          >
+className="flex items-center gap-4 p-4  text-white border border-blue-300 rounded-xl shadow hover:shadow-lg transition">
             {/* Flag */}
             <Link  href={`country-wise-${country.name.replace(" ","-")}-import-data`}><img src={country.flag} alt={country.name} className="w-18 h-auto " /></Link>
 
+            
+
             {/* Country Info */}
             <div className="flex flex-col">
-              <Link  href={`country-wise-${country.name.replace(" ","-")}-import-and-export-data`} className="font-semibold md:text-xl text-lg text-black">{country.name}</Link>
+              <Link  href={`country-wise-${country.name.replace(" ","-")}-import-and-export-data`} className="font-semibold md:text-xl text-lg text-black">{country.name} Import Export Data</Link>
+              
               <div className="flex gap-2 mt-1">
-                <Link href={`country-wise-${country.name.replace(" ","-")}-import-data`} className="text-sm px-3 py-1 bg-blue-600 shadow-md text-white  hover:scale-104 transition">
+                <Link href={`country-wise-${country.name.replace(" ","-")}-import-data`} className="text-sm px-3 py-1 bg-transparent shadow-md text-black border border-blue-600 hover:text-white hover:bg-blue-600  hover:scale-108 transition">
                   Import Data
                 </Link>
-                <Link href={`country-wise-${country.name.replace(" ","-")}-export-data`} className="text-sm px-3 py-1 bg-transparent shadow-md text-black border border-blue-600  hover:scle-104 transition">
+                <Link href={`country-wise-${country.name.replace(" ","-")}-export-data`} className="text-sm px-3 py-1 bg-transparent shadow-md text-black border border-blue-600  hover:text-white hover:bg-blue-600  hover:scale-108 transition">
                   Export Data
                 </Link>
               </div>

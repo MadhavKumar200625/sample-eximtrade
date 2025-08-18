@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const ExclusiveFeatures = () => {
@@ -96,7 +97,7 @@ const ExclusiveFeatures = () => {
       The above pricing plans are exclusive of 18% GST.
     </p>
     <p className="text-black">
-      <span className="font-semibold">To check our plans and pricing for other countries,</span> please reach out to our support or browse the relevant country section.
+      <span className="font-semibold">To check our plans and pricing for other countries-</span> <Link href="/offer-pricing" className='cursor-pointer bg-blue-600 px-3 py-2 text-white font-bold'>Click Here</Link>
     </p>
   </div>
 </section>
