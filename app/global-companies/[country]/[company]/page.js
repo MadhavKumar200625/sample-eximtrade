@@ -300,7 +300,7 @@ const page = async({params}) => {
       <MarketIntel companyName={data.companyName} importData={data.section4.import} exportData={data.section4.export}></MarketIntel>
       <DetailedTable companyName={data.companyName} importData={data.section5.importData} exportData={data.section5.importData}></DetailedTable>
       <CtaImage></CtaImage>
-      <FAQSection faqs={data.section7}></FAQSection>
+      <FAQSection faqs={data.section7.faqs}></FAQSection>
     </main>
   )
 }
