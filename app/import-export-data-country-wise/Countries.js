@@ -735,16 +735,16 @@ className="flex items-center gap-4 p-4  text-white border border-blue-300 rounde
             <div className="flex flex-col">
 <Link
   href={`country-wise-${country.name.replace(" ", "-")}-import-and-export-data`}
-  className="flex items-center gap-1 font-semibold md:text-xl text-lg underline text-black"
+  // className="flex items-center gap-1 font-semibold md:text-xl text-lg underline text-blue-600"
+  className="flex items-center gap-1 font-semibold md:text-xl text-lg hover:underline text-black hover:text-blue-600"
 >
   {country.name} Import Export Data
-  <ArrowUpRight className="w-5 h-5" />
 </Link>              
               <div className="flex gap-2 mt-2">
                 <Link href={`country-wise-${country.name.replace(" ","-")}-import-data`} className="text-sm px-3 py-1 bg-transparent shadow-md text-black border border-blue-600 hover:text-white hover:bg-blue-600  hover:scale-108 transition">
                   Import Data
                 </Link>
-                <Link href={`country-wise-${country.name.replace(" ","-")}-export-data`} className="text-sm px-3 py-1 bg-transparent shadow-md text-black border border-blue-600  hover:text-white hover:bg-blue-600  hover:scale-108 transition">
+                <Link href={`country-wise-${country.name.replace(" ","-")}-export-data`} className="text-sm px-3 py-1 bg-transparent shadow-md text-black border border-blue-600 hover:border-0 hover:text-white hover:bg-orange-500  hover:scale-108 transition">
                   Export Data
                 </Link>
               </div>
