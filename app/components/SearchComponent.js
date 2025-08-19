@@ -5,7 +5,7 @@ import { countries } from "@/app/data";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-export default function SearchComponent({ heading }) {
+export default function SearchComponent({ heading , subHeading }) {
   const [showDropdown, setShowDropdown] = useState(false);
   const [selectedCountry, setSelectedCountry] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
@@ -34,17 +34,30 @@ const router = useRouter();
 
   return (
     <section
-      className={`w-full px-6  pt-8  ${
-        heading ? "pb-16 bg-[#0067b8]" : "pb-8"
-      }`}
+      className={`w-full px-6 pt-8 ${
+  heading && subHeading
+    ? "pb-8"
+    : heading
+    ? "pb-16 bg-[#0067b8]"
+    : "pb-8"
+}`}
     >
       <h2
-        className={`text-3xl md:text-3xl font-black text-white text-center mb-8 drop-shadow-lg tracking-wide ${
-          heading ? "block" : "hidden"
-        }`}
+        className={`text-3xl md:text-3xl font-black  text-center  drop-shadow-lg tracking-wide ${subHeading?"text-black mb-4 x" : "mb-8 "}${
+          heading && !subHeading? "block text-white" : "hidden"
+        } `}
       >
         {heading}
       </h2>{" "}
+
+        <h2
+        className={` md:text-xl md:px-40 font-medium text-black text-center mb-8  tracking-wide ${
+          subHeading ? "block" : "hidden"
+        }`}
+      >
+        {subHeading}
+      </h2>
+
       <div className="max-w-7xl mx-auto bg-white shadow-2xl  p-8 transition-all duration-500">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 animate-fadeUp delay-100">
           <input
