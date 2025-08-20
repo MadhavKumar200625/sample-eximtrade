@@ -71,7 +71,7 @@ const IndustriesWeCover = () => {
               <div className="absolute -top-16 left-6 w-30 h-30 rounded-full bg-sky-100 flex items-center justify-center shadow-md">
                 <div className="w-18 h-18 relative">
                   <Image
-                    src={industry.icon}
+                    src={`/search-global-trade-data/${industry.title.replace(/ /g,"-").replace("&","and").toLowerCase()}.webp`}
                     alt={industry.title}
                     fill
                     className="object-contain"

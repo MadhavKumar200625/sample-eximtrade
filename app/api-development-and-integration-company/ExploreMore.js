@@ -43,27 +43,30 @@ const industries = [
 
 const ExploreMore = () => {
   return (
-    <section className="w-full bg-white py-20 px-4 md:px-20">
-      <div className=" mx-20">
+    <section className="w-full bg-white py-20 px-4">
+      <div className="mx-auto max-w-7xl">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-14">
           Explore More Industries
         </h2>
 
-        <div className="grid lg:grid-cols-2  gap-10">
+        <div className="grid lg:grid-cols-2 gap-10">
           {industries.map((industry, idx) => (
             <div
               key={idx}
-              className="flex items-center bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all border border-gray-200 p-5 group hover:-translate-y-1"
+              className="flex flex-col sm:flex-row items-center bg-white rounded-3xl shadow-xl hover:shadow-2xl transition-all border border-gray-200 p-5 group hover:-translate-y-1"
             >
-              <div className="w-44 h-24 md:w-48 md:h-28 relative rounded-xl overflow-hidden shadow-sm border border-gray-200 bg-gray-50">
+              {/* Image Container */}
+              <div className="relative w-full sm:w-40 md:w-48 lg:w-60 aspect-[4/3] border border-gray-200 bg-gray-50 flex-shrink-0">
                 <Image
-                  src={industry.image}
+                  src={`/solutions/${industry.title.toLowerCase().replace(/ /g, "-")}.webp`}
                   alt={industry.title}
                   fill
-                  className="object-cover"
+                  className="object-cover "
                 />
               </div>
-              <div className="ml-4 flex flex-col justify-between">
+
+              {/* Text Content */}
+              <div className="mt-4 sm:mt-0 sm:ml-4 flex flex-col justify-between text-center sm:text-left">
                 <h4 className="text-md uppercase tracking-wide text-black font-semibold">
                   {industry.title}
                 </h4>
@@ -75,7 +78,7 @@ const ExploreMore = () => {
                 </p>
                 <Link
                   href={industry.link || "/industries-covered"}
-                  className="mt-3 inline-block text-sm font-medium text-blue-600  transition"
+                  className="mt-3 inline-block text-sm font-medium text-blue-600 transition"
                 >
                   Learn more →
                 </Link>
@@ -87,7 +90,7 @@ const ExploreMore = () => {
         <div className="mt-16 text-center">
           <Link
             href="/industries-covered"
-            className="inline-block bg-blue-600 text-white font-semibold text-lg px-7 py-3 hover:scale-105 shadow-md  transition-all duration-300"
+            className="inline-block bg-blue-600 text-white font-semibold text-lg px-7 py-3 hover:scale-105 shadow-md transition-all duration-300"
           >
             Explore More
           </Link>

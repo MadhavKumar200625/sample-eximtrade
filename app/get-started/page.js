@@ -14,7 +14,7 @@ const Page = () => {
       </div>
 
       {/* Content Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8  max-w-7xl mx-auto">
         {/* Form Section */}
         <div className="bg-white shadow-xl  p-6 sm:p-8 md:p-10 border border-blue-100 overflow-y-auto max-h-[75vh]">
           <h2 className="text-xl md:text-2xl font-semibold text-black mb-6">
@@ -89,13 +89,14 @@ const Page = () => {
             </button>
           </form>
         </div>
+        
 
         {/* Image */}
-        <div className="flex justify-center md:justify-end">
+        <div className="flex justify-center md:justify-center">
           <img
-            src="https://eximtradedata.com/images/exim_data.png"
+            src="/get-started/get-trial.webp"
             alt="Global Trade"
-            className="w-full max-w-[500px] h-auto object-contain"
+            className="max-w-xs"
           />
         </div>
       </div>

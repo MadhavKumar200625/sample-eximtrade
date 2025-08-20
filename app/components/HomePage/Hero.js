@@ -32,7 +32,7 @@ export default function Hero() {
 
         <div className="flex-1">
           <Image
-            src="/find-global-buyers-and-sellers.png" 
+            src="/homepage/find-global-buyers-and-sellers.webp" 
             alt="Enterprise Planning"
             width={600}
             height={300}

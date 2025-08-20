@@ -2,16 +2,16 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="relative py-24 bg-white overflow-hidden">
+    <section className="relative pt-24 pb-8 bg-white overflow-hidden">
   <div className="  px-6 md:px-10 lg:px-20 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
     
     {/* Left: Image with soft gradient overlay */}
     <div className="relative w-full">
-      <div className=" overflow-hidden shadow-xl relative z-10">
+      <div className="flex justify-center">
         <img
-          src="https://eximtradedata.com/images/about_us.webp"
+          src="/about/about-us.webp"
           alt="About Exim Trade Data"
-          className="object-cover w-full h-96"
+          className="h-96"
         />
       </div>
       <div className="absolute top-[-40px] left-[-40px] w-40 h-40 bg-blue-200  blur-3xl opacity-30 z-0"></div>

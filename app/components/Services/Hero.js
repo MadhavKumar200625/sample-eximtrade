@@ -10,9 +10,9 @@ const Hero = () => {
         {/* Left Image */}
         <div className="w-full">
           <img
-            src="https://eximtradedata.com/images/our_services.webp"
+            src="/services/import-export-data-analysis-service.webp"
             alt="Global Trade Analysis"
-            className="w-full  shadow-xl object-cover"
+            className="w-full   object-cover"
           />
         </div>
 

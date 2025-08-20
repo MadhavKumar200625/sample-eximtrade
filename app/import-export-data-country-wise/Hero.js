@@ -2,6 +2,7 @@
 import React from 'react'
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
+import Link from 'next/link';
 
 const stats = [
   { value: 134002002, label: "Global Shipments" },
@@ -62,12 +63,12 @@ const Hero = () => {
 
       {/* Buttons */}
       <div className="flex justify-center gap-4 mb-12">
-        <button className="bg-blue-600 text-xl text-white px-6 py-2  shadow cursor-pointer hover:scale-105 transition">
+        <Link href="contact" className="bg-blue-600 text-xl text-white px-6 py-2  shadow cursor-pointer hover:scale-105 transition">
           Online Data
-        </button>
-        <button className="bg-green-600 text-xl text-white px-6 py-2  shadow cursor-pointer hover:scale-105 transition">
+        </Link>
+        <Link href="/contact" className="bg-green-600 text-xl text-white px-6 py-2  shadow cursor-pointer hover:scale-105 transition">
           Offline Data
-        </button>
+        </Link>
       </div>
 
       {/* Stats */}

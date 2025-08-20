@@ -129,7 +129,7 @@ if (!industry) {
   return (
     
     <main>
-      <Hero {...industry.section1} />
+      <Hero {...industry.section1} image={slug} />
       {industry.section2 &&
       <TabsSection
         heading={industry.section2.heading}

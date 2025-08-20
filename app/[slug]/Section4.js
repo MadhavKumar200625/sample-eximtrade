@@ -8,7 +8,7 @@ const Section4 = ({heading}) => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12">
         {/* Left Image */}
         <motion.img
-          src="https://eximtradedata.com/images/sector_report.png"
+          src="/solutions/common-icons/1.webp"
           alt="Suppliers Left"
           className="hidden md:block md:w-1/12 max-w-xs object-contain"
           initial={{ x: -40, opacity: 0 }}
@@ -36,7 +36,7 @@ const Section4 = ({heading}) => {
 
         {/* Right Image */}
         <motion.img
-          src="https://eximtradedata.com/images/sector_report1.png"
+          src="/solutions/common-icons/2.webp"
           alt="Suppliers Right"
           className="hidden md:block md:w-1/12 max-w-xs object-contain"
           initial={{ x: 40, opacity: 0 }}

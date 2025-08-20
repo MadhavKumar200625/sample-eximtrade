@@ -8,9 +8,9 @@ const CodeOfConductSection = () => {
     {/* Left Image */}
     <div className="w-full lg:w-1/3">
       <img
-        src="https://eximtradedata.com/images/code_of_conduct.svg"
+        src="/about/code-of-conduct.webp"
         alt="Code of Conduct"
-        className="shadow-2xl w-full object-cover"
+        className=" w-full object-cover"
       />
     </div>
 

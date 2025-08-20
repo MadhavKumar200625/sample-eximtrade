@@ -7,17 +7,17 @@ const cardData = [
   {
     title: "Comprehensive Guide",
     desc: "Get in-depth knowledge of existing market channels and consumer preferences around the globe. We provide a complete comprehensive guide of the global trade market that helps you to align your business with international trade with the help of our Global Import Export Trade Data.",
-    image: "Comprehensive-Guide.png",
+    image: "comprehensive-guide.webp",
   },
   {
     title: "Explore Foreign Market",
     desc: "With our Global Export Import Trade Data, find overseas customers and discover the best match that adds better economic value to your product. Simplified and genuine trade data pave the way to successful overseas trade for your business.",
-    image: "Explore-foreign-market.png",
+    image: "explore-foreign-market.webp",
   },
   {
     title: "Build Valuable Partnership",
     desc: "With our fine tailored global import export trade data, assess your readiness for the target market and grow with your business. Understand the key aspects of international trade and associate with valuable industry peers.",
-    image: "BUILD-VALUABLE-PARTNERSHIP.png",
+    image: "build-valuable-partnership.webp",
   },
 ];
 
@@ -51,7 +51,7 @@ const Card = ({ title, desc, image, index }) => {
     >
       <div className="w-full md:w-1/3">
         <img
-          src={image}
+          src={"/homepage/"+image}
           alt={title}
           className="rounded-2xl shadow-lg object-cover"
         />

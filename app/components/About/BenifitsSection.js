@@ -2,19 +2,19 @@ import React from 'react'
 
 const benifits = [
       {
-        img: "https://eximtradedata.com/images/accelerate_About.svg",
+        img: "accelerate-your-export-import.webp",
         text: "Accelerate your export-import trade by data-analysis-based decision & avoid risk."
       },
       {
-        img: "https://eximtradedata.com/images/planning_about.svg",
+        img: "align-your-business-model.webp",
         text: "Align your business model with global strategic planning & stay ahead."
       },
       {
-        img: "https://eximtradedata.com/images/monitor_about.svg",
+        img: "monitor-and-track-competition.webp",
         text: "Monitor and track competition & grab the upcoming business opportunity."
       },
       {
-        img: "https://eximtradedata.com/images/tools_about.svg",
+        img: "bi.webp",
         text: "Exim trade data is equipped with the latest BI tools to uncover hidden insights."
       }
     ]
@@ -39,7 +39,7 @@ const BenifitsSection = () => {
       >
         <div className="w-20 h-20 mx-auto mb-5">
           <img
-            src={card.img}
+            src={"/about/"+card.img}
             alt="Benefit icon"
             className="object-contain w-full h-full"
           />

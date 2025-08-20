@@ -8,9 +8,9 @@ const Hero = () => {
         
         <div className="w-full">
           <img
-            src="https://eximtradedata.com/images/global_ports.webp"
+            src="/global-ports/global-ports-data.webp"
             alt="Global Ports Data"
-            className="w-full h-auto shadow-lg"
+            className="w-full h-auto "
           />
         </div>
     

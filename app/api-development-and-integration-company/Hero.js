@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-50 via-white to-blue-50 pb-8 pt-32 px-4 md:px-20">
+    <section className="bg-gradient-to-r from-blue-50 via-white to-blue-50 pb-8 pt-10 px-4 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold text-black leading-tight mb-4">
@@ -26,10 +26,10 @@ const Hero = () => {
         </div>
 
         <div className="p-10">
-<div className="w-full aspect-video   ">
+<div className="w-   ">
           <img
             className="w-full rounded-lg h-full"
-            src="/Actionable-Insights.png"
+            src="/api/best-api-development-services.webp"
             
           ></img>
         </div>

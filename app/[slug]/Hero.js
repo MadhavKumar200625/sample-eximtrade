@@ -26,11 +26,11 @@ const Hero = ({ title, description, image }) => {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end">
           <Image
-            src={image}
+            src={`/solutions/${image.toLowerCase().replace(/ /g,"").replace("automative","automotive") }.webp`}
             alt="Hero image"
             width={500}
             height={400}
-            className="shadow-xl object-contain"
+            className="md:min-w-xl"
           />
         </div>
       </div>

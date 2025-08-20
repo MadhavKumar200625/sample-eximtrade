@@ -65,7 +65,7 @@ export default function CustomPlan() {
         {/* CTA */}
         <div className="text-center mt-12">
           <Link
-            href="/get-free-trial"
+            href="/get-started"
             className="inline-block px-6 py-3 text-lg font-semibold text-white bg-[#0067b8] hover:scale-105 transition duration-300"
           >
             Get Free Trial

@@ -51,7 +51,8 @@ const HowToGetStarted = () => {
                 } md:justify-between`}
               >
                 {/* Image placeholder */}
-                <img src={point.image} className="w-full md:w-5/12 h-56 bg-gray-200 rounded-xl shadow-md"></img>
+                <div>  </div>
+                <img src={`/api/${point.title.toLowerCase().replace(/ /g,"-")}.webp`} className="h-56 flex justify-start"></img>
   
                 {/* Connector dot */}
                 <div className="hidden md:flex absolute left-1/2 transform -translate-x-1/2 w-12 h-12 items-center justify-center text-white bg-gradient-to-r font-black text-xl from-blue-600 to-sky-500 rounded-full shadow-lg">0{index+1}</div>

@@ -50,12 +50,12 @@ const Advantages = () => {
       className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition max-w-sm w-full sm:w-[48%] lg:w-[30%]"
     >
       {/* Icon placeholder */}
-      <div className="mb-4 w-30 h-20 flex justify-center items-center text-blue-600">
+      <div className="mb-4 w-30 h-20 flex justify-center items-center">
         <Image
-            src={image}
+            src={`/api/${title.toLowerCase().replace(/ /g,"-").replace("&","and")}.webp`}
             width={30}
             height={20}
-          className="w-30 h-20"
+          className="w-25 "
         >
         </Image>
       </div>

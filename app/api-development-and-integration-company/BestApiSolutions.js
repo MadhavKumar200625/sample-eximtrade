@@ -87,11 +87,11 @@ const BestApiSolutions = () => {
                 >
                   <div className="w-24 h-24 mx-auto mb-4">
                     <Image
-                      src={benefit.image}
+                      src={`/api/${benefit.title.toLowerCase().replace(/ /g,"-").replace("&","and")}.webp`}
                       alt={benefit.title}
                       width={32}
                       height={32}
-                      className=" w-24 h-24 flex items-center justify-center bg-gradient-to-br from-blue-800 to-blue-600 shadow-md mb-4"
+                      className=" w-24 h-24 flex items-center justify-center "
                     />
                   </div>
                   <h3 className="text-lg md:text-xl min-h-14 flex items-center justify-center font-semibold text-black my-3">{benefit.title}</h3>

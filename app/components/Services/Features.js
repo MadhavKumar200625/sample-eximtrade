@@ -35,12 +35,12 @@ export default function FeaturesSection() {
         {/* Image + Content Row */}
         <div className="flex flex-col lg:flex-row items-stretch gap-12">
           {/* Image */}
-          <div className="relative w-full lg:w-1/2 min-h-[500px]  overflow-hidden shadow-xl">
+          <div className="relative w-full lg:w-1/2">
             <Image
-              src="https://eximtradedata.com/images/services.svg"
+              src="/services/features-of-import-export-data.webp"
               alt="Features Image"
               fill
-              className="object-cover"
+              className=""
             />
           </div>
 
