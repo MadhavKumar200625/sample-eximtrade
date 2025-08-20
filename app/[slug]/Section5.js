@@ -19,7 +19,7 @@ const Section5 = ({ industries }) => {
               {/* Image Container */}
               <div className="relative w-full sm:w-40 md:w-48 lg:w-60 aspect-[4/3] border border-gray-200 bg-gray-50 flex-shrink-0">
                 <Image
-                  src={`/solutions/${industry.title.toLowerCase().replace(/ /g, "-")}.webp`}
+                  src={`/solutions/${industry.title.toLowerCase().replace(/ /g, "-").replace("&","and")}.webp`}
                   alt={industry.title}
                   fill
                   className="object-cover "
