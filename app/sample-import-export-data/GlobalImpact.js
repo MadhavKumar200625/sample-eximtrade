@@ -18,15 +18,14 @@ const GlobalImpact = () => {
         
         {/* Left Image */}
         <div className="flex justify-center">
-          <div className="w-full max-w-sm">
-            <Image
-              src="https://eximtradedata.com/images/dash_image.png"
-              alt="Global Trade Intelligence"
-              width={500}
-              height={500}
-              className="rounded-lg shadow-md object-contain w-full h-auto"
-            />
-          </div>
+                <div className="relative w-full  h-96"> 
+              <Image
+                src="/countries/common-dashboard.webp"
+                alt="Global Trade Intelligence"
+                fill
+                className=" "
+              />
+            </div>
         </div>
 
         {/* Right Content */}

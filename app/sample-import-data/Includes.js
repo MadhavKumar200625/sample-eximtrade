@@ -9,6 +9,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Includes = () => {
   return (
@@ -46,8 +47,21 @@ const Includes = () => {
               key={idx}
               className="flex flex-col items-center p-4 bg-gradient-to-tr from-gray-100 to-gray-50 rounded-xl shadow hover:shadow-lg transition"
             >
-              <item.icon size={28} className="mb-2 text-black" />
-              <p className="text-sm font-medium text-black text-center">
+              <div className="w-full h-40 relative mb-4  overflow-hidden">
+                <Image
+                  src={`/countries/${item.text
+                    .replace(/ /g, "-")
+                    .toLowerCase()
+                    .replace("&", "and")}.webp`}
+                  alt={`/countries/${item.text
+                    .replace(/ /g, "-")
+                    .toLowerCase()
+                    .replace("&", "and")}.webp`}
+                  fill
+                  className="object-contain"
+                />
+              </div>{" "}
+              <p className="text-xl font-medium text-black text-center">
                 {item.text}
               </p>
             </div>

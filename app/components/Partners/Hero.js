@@ -4,14 +4,14 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" pt-32 pb-14 bg-white">
+    <section className=" pt-24 pb-14 bg-white">
       <div className="max-full mx-4 lg:mx-20 px-4 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Image */}
-        <div className="relative w-full h-80">
+        <div className="relative">
           <img
-            src="https://eximtradedata.com/images/partner_image.jpg"
+            src="/partners/be-a-profitable-partner-with-us.webp"
             alt="Global Ports Data"
-            className="w-full h-[100%]  shadow-lg"
+            className=""
           />
         </div>
 

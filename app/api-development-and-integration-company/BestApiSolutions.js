@@ -85,13 +85,12 @@ const BestApiSolutions = () => {
                   key={idx}
                   className="bg-white  shadow-xl border border-zinc-200 p-6 hover:shadow-2xl transition duration-300"
                 >
-                  <div className="w-24 h-24 mx-auto mb-4">
+                  <div className="h-34 w-[55%] mx-auto relative   overflow-hidden">
                     <Image
                       src={`/api/${benefit.title.toLowerCase().replace(/ /g,"-").replace("&","and")}.webp`}
                       alt={benefit.title}
-                      width={32}
-                      height={32}
-                      className=" w-24 h-24 flex items-center justify-center "
+                      fill
+                      className="flex justify-center items-center"
                     />
                   </div>
                   <h3 className="text-lg md:text-xl min-h-14 flex items-center justify-center font-semibold text-black my-3">{benefit.title}</h3>
