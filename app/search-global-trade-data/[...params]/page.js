@@ -378,22 +378,22 @@ data.section5 = {
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
     
     <div className="flex flex-col items-center p-6 rounded-2xl shadow-md bg-white hover:shadow-xl transition">
-      <img src="https://eximtradedata.com/images/business_network.svg" alt="Expand Your Business Network" className="w-16 h-16 mb-4" />
+      <img src="/search-data-results/expand-your-business-network.webp" alt="Expand Your Business Network" className="w-16 h-16 mb-4" />
       <h3 className="text-lg font-semibold text-gray-800 text-center">Expand Your Business Network</h3>
     </div>
 
     <div className="flex flex-col items-center p-6 rounded-2xl shadow-md bg-white hover:shadow-xl transition">
-      <img src="https://eximtradedata.com/images/market_strategy.svg" alt="Risk Free Market Entry Strategy" className="w-16 h-16 mb-4" />
+      <img src="/search-data-results/risk-free-market-entry-strategy.webp" alt="Risk Free Market Entry Strategy" className="w-16 h-16 mb-4" />
       <h3 className="text-lg font-semibold text-gray-800 text-center">Risk Free Market Entry Strategy</h3>
     </div>
 
     <div className="flex flex-col items-center p-6 rounded-2xl shadow-md bg-white hover:shadow-xl transition">
-      <img src="https://eximtradedata.com/images/import_export_data.svg" alt="Authentic Export-Import Trade Data" className="w-16 h-16 mb-4" />
+      <img src="/search-data-results/authentic-export-import-trade-data.webp" alt="Authentic Export-Import Trade Data" className="w-16 h-16 mb-4" />
       <h3 className="text-lg font-semibold text-gray-800 text-center">Authentic Export-Import Trade Data</h3>
     </div>
 
     <div className="flex flex-col items-center p-6 rounded-2xl shadow-md bg-white hover:shadow-xl transition">
-      <img src="https://eximtradedata.com/images/realiable_data.svg" alt="Import-Export Trade Data" className="w-16 h-16 mb-4" />
+      <img src="/search-data-results/import-export-trade-data.webp" alt="Import-Export Trade Data" className="w-16 h-16 mb-4" />
       <h3 className="text-lg font-semibold text-gray-800 text-center">Import-Export Trade Data</h3>
     </div>
 

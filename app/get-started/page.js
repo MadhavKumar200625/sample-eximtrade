@@ -96,7 +96,7 @@ const Page = () => {
           <img
             src="/get-started/get-trial.webp"
             alt="Global Trade"
-            className="max-w-xs"
+            className=""
           />
         </div>
       </div>

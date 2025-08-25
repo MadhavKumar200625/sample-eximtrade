@@ -63,12 +63,10 @@ Some Exclusive Features of our Global Trade Database
               className="bg-white  shadow-xl border border-zinc-200 p-6 hover:shadow-2xl transition duration-300"
             >
               <div className="w-24 h-24 mx-auto mb-4">
-                <Image
+                <img
                   src={`/global-trade-database/${benefit.title.toLowerCase().replace(/ /g,"-").replace("+","")}.webp`}
                   alt={benefit.title}
-                  width={32}
-                  height={32}
-                  className=" w-24 h-24 flex items-center justify-center "
+                  className=" w-24 h-24   justify-center "
                 />
               </div>
               <h3 className="text-lg md:text-xl min-h-14 flex items-center justify-center font-semibold text-black my-3">{benefit.title}</h3>

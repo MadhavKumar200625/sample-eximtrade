@@ -41,66 +41,69 @@ const MainSection = ({ data , appliedFilters}) => {
   return (
     <section className="w-full  grid grid-cols-1 md:grid-cols-12 gap-6 mt-10">
       {/* Left Filters */}
-      <aside className="col-span-2 bg-white shadow-md rounded-2xl p-4 text-center space-y-6">
-        <h3 className="text-xl font-semibold text-black">Filters</h3>
+      <aside className="col-span-2 bg-white shadow-sm rounded-xl p-6 space-y-8 border border-gray-200">
+  <h3 className="text-lg font-semibold text-gray-900">Filters</h3>
 
-        {/* HS Code Filter */}
-        <div>
-          <h4 className="text-xs font-semibold text-black uppercase mb-2">
-            HS Code
-          </h4>
-          <ul className="flex flex-col gap-2">
-            {filters.hsCodes.map((code, i) => (
-              <li key={i}>
-                <Link
-                  href={getFilterHref("hscode", code)}
-                  className="inline-block px-3 py-1.5 rounded-full text-xs font-medium bg-blue-50 text-blue-700 hover:bg-blue-100 transition"
-                >
-                  {code}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+  {/* HS Code Filter */}
+  <div>
+    <h4 className="text-xs font-medium text-blue-600 uppercase mb-3 tracking-wide">
+      HS Code
+    </h4>
+    <ul className="flex flex-col gap-2">
+      {filters.hsCodes.map((code, i) => (
+        <li key={i}>
+          <Link
+            href={getFilterHref("hscode", code)}
+            className="inline-block px-3 py-1.5 rounded-md text-sm font-medium 
+                       text-blue-700 bg-blue-50 hover:bg-blue-100 transition"
+          >
+            {code}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
 
-        {/* Country Filter */}
-        <div>
-          <h4 className="text-xs font-semibold text-black uppercase mb-2">
-            Country
-          </h4>
-          <ul className="flex flex-col gap-2">
-            {filters.countries.map((country, i) => (
-              <li key={i}>
-                <Link
-                  href={getFilterHref("countryin", country)}
-                  className="inline-block px-3 py-1.5 rounded-full text-xs font-medium bg-green-50 text-green-700 hover:bg-green-100 transition"
-                >
-                  {country}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+  {/* Country Filter */}
+  <div>
+    <h4 className="text-xs font-medium text-green-600 uppercase mb-3 tracking-wide">
+      Country
+    </h4>
+    <ul className="flex flex-col gap-2">
+      {filters.countries.map((country, i) => (
+        <li key={i}>
+          <Link
+            href={getFilterHref("countryin", country)}
+            className="inline-block px-3 py-1.5 rounded-md text-sm font-medium 
+                       text-green-700 bg-green-50 hover:bg-green-100 transition"
+          >
+            {country}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
 
-        {/* Port of Unloading Filter */}
-        <div>
-          <h4 className="text-xs font-semibold text-black uppercase mb-2">
-            Port of Unloading
-          </h4>
-          <ul className="flex flex-col gap-2">
-            {filters.ports.map((port, i) => (
-              <li key={i}>
-                <Link
-                  href={getFilterHref("port", port)}
-                  className="inline-block px-3 py-1.5 rounded-full text-xs font-medium bg-purple-50 text-purple-700 hover:bg-purple-100 transition"
-                >
-                  {port}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </aside>
+  {/* Port of Unloading Filter */}
+  <div>
+    <h4 className="text-xs font-medium text-purple-600 uppercase mb-3 tracking-wide">
+      Port of Unloading
+    </h4>
+    <ul className="flex flex-col gap-2">
+      {filters.ports.map((port, i) => (
+        <li key={i}>
+          <Link
+            href={getFilterHref("port", port)}
+            className="inline-block px-3 py-1.5 rounded-md text-sm font-medium 
+                       text-purple-700 bg-purple-50 hover:bg-purple-100 transition"
+          >
+            {port}
+          </Link>
+        </li>
+      ))}
+    </ul>
+  </div>
+</aside>
 
       {/* Right Table */}
       <div className="col-span-10 bg-white shadow-md rounded-2xl p-6">
@@ -138,9 +141,14 @@ const MainSection = ({ data , appliedFilters}) => {
                 >
                   <td className="px-3 py-2">{row.date}</td>
                   <td className="px-3 py-2">{row.hsCode}</td>
-                  <td className="px-3 py-2">
-                    <p className="line-clamp-2">{row.product}</p>
-                  </td>
+                  <td className="px-3 py-2 max-w-xs">
+  <p
+    className="truncate overflow-hidden whitespace-nowrap"
+    title={row.product}
+  >
+    {row.product}
+  </p>
+</td>
                   <td className="px-3 py-2">{row.exporter}</td>
                   <td className="px-3 py-2 text-center">{row.qty}</td>
                   <td className="px-3 py-2">{row.unit}</td>

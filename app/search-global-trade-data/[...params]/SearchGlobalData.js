@@ -8,9 +8,9 @@ const SearchGlobalData = ({ data }) => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* Left Image */}
         <div className="w-full flex justify-center">
-          <div className="relative w-full max-w-lg md:h-96  overflow-hidden shadow-lg">
+          <div className="relative w-full max-w-md md:h-96   ">
             <Image
-              src="https://eximtradedata.com/images/search_global_data.svg"
+              src="/search-data-results/search-global-export-import-trade-data.webp"
               alt={data.heading}
               fill
               className="object-cover"
