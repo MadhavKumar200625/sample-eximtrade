@@ -41,12 +41,12 @@ const MainSection = ({ data , appliedFilters}) => {
   return (
     <section className="w-full  grid grid-cols-1 md:grid-cols-12 gap-6 mt-10">
       {/* Left Filters */}
-      <aside className="col-span-2 bg-white shadow-sm rounded-xl p-6 space-y-8 border border-gray-200">
-  <h3 className="text-lg font-semibold text-gray-900">Filters</h3>
+      <aside className="col-span-2 bg-gradient-to-b from-gray-50 to-white shadow-md rounded-2xl p-6 space-y-8 border border-gray-200">
+  <h3 className="text-lg font-semibold text-gray-900 border-b pb-3">Filters</h3>
 
   {/* HS Code Filter */}
   <div>
-    <h4 className="text-xs font-medium text-blue-600 uppercase mb-3 tracking-wide">
+    <h4 className="text-sm font-medium text-gray-700 mb-3 tracking-wide">
       HS Code
     </h4>
     <ul className="flex flex-col gap-2">
@@ -54,8 +54,9 @@ const MainSection = ({ data , appliedFilters}) => {
         <li key={i}>
           <Link
             href={getFilterHref("hscode", code)}
-            className="inline-block px-3 py-1.5 rounded-md text-sm font-medium 
-                       text-blue-700 bg-blue-50 hover:bg-blue-100 transition"
+            className="block px-4 py-2 rounded-lg text-sm font-medium 
+                       text-gray-700 bg-gray-100 hover:bg-blue-600 hover:text-white 
+                       transition duration-200"
           >
             {code}
           </Link>
@@ -66,7 +67,7 @@ const MainSection = ({ data , appliedFilters}) => {
 
   {/* Country Filter */}
   <div>
-    <h4 className="text-xs font-medium text-green-600 uppercase mb-3 tracking-wide">
+    <h4 className="text-sm font-medium text-gray-700 mb-3 tracking-wide">
       Country
     </h4>
     <ul className="flex flex-col gap-2">
@@ -74,8 +75,9 @@ const MainSection = ({ data , appliedFilters}) => {
         <li key={i}>
           <Link
             href={getFilterHref("countryin", country)}
-            className="inline-block px-3 py-1.5 rounded-md text-sm font-medium 
-                       text-green-700 bg-green-50 hover:bg-green-100 transition"
+            className="block px-4 py-2 rounded-lg text-sm font-medium 
+                       text-gray-700 bg-gray-100 hover:bg-green-600 hover:text-white 
+                       transition duration-200"
           >
             {country}
           </Link>
@@ -86,7 +88,7 @@ const MainSection = ({ data , appliedFilters}) => {
 
   {/* Port of Unloading Filter */}
   <div>
-    <h4 className="text-xs font-medium text-purple-600 uppercase mb-3 tracking-wide">
+    <h4 className="text-sm font-medium text-gray-700 mb-3 tracking-wide">
       Port of Unloading
     </h4>
     <ul className="flex flex-col gap-2">
@@ -94,8 +96,9 @@ const MainSection = ({ data , appliedFilters}) => {
         <li key={i}>
           <Link
             href={getFilterHref("port", port)}
-            className="inline-block px-3 py-1.5 rounded-md text-sm font-medium 
-                       text-purple-700 bg-purple-50 hover:bg-purple-100 transition"
+            className="block px-4 py-2 rounded-lg text-sm font-medium 
+                       text-gray-700 bg-gray-100 hover:bg-purple-600 hover:text-white 
+                       transition duration-200"
           >
             {port}
           </Link>
