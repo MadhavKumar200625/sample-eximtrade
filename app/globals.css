@@ -19,7 +19,9 @@
   }
 }
 
-
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
 
 @layer utilities {
   @keyframes slide-left {
