@@ -38,13 +38,13 @@ const router = useRouter();
   heading && subHeading
     ? "pb-8"
     : heading
-    ? "pb-16 bg-[#0067b8]"
+    ? "pb-16 bg-gradient-to-br from-sky-200 via-sky-50 to-sky-200"
     : "pb-8"
 }`}
     >
       <h2
-        className={`text-3xl md:text-3xl font-black  text-center  drop-shadow-lg tracking-wide ${subHeading?"text-black mb-4 x" : "mb-8 "}${
-          heading && !subHeading? "block text-white" : "hidden"
+        className={`text-3xl md:text-3xl font-black  text-center  drop-shadow-sm tracking-wide ${subHeading?"text-black mb-4 x" : "mb-8 "}${
+          heading && !subHeading? "block text-black" : "hidden"
         } `}
       >
         {heading}

@@ -5,9 +5,7 @@ export const content = [
 ];
 export const theme = {
   extend: {
-      fontFamily: {
-        microsoft: ['"Segoe UI"', 'system-ui', 'sans-serif'],
-      },
+      
     },
 };
 export const plugins = [];
